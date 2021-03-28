@@ -1,0 +1,481 @@
+2021-02-25 00:48:52 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-02-25 16:42:41 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-25 17:07:34 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-25 17:22:17 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-25 17:28:16 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-25 20:15:22 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-25 20:31:09 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-25 20:33:40 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-25 20:37:07 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-25 20:54:02 INFO  Main:13 - hjhj
+2021-02-25 21:15:51 INFO  Main:13 - hjhj
+2021-02-25 21:15:57 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-25 21:19:31 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-25 21:19:47 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-25 21:40:00 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-26 00:31:43 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-26 00:31:43 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-26 00:31:43 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-02-26 00:31:43 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-02-26 00:33:16 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-26 00:33:17 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-26 00:33:17 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-02-26 00:33:17 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-02-26 02:15:42 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-26 02:15:43 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-26 02:15:43 INFO  HibernateMetaDataProvider:47 - Get tables type size 188
+2021-02-26 02:15:44 INFO  HibernateMetaDataProvider:47 - Get tables type size 188
+2021-02-26 02:15:44 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-02-26 02:15:44 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-02-26 02:30:57 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-26 02:30:57 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-26 02:30:58 INFO  HibernateMetaDataProvider:47 - Get tables type size 188
+2021-02-26 02:31:00 INFO  HibernateMetaDataProvider:57 - Get tables engine size 1488
+2021-02-26 02:31:00 INFO  HibernateMetaDataProvider:47 - Get tables type size 188
+2021-02-26 02:31:00 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-02-26 02:31:00 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-02-26 02:31:01 INFO  HibernateMetaDataProvider:57 - Get tables engine size 1488
+2021-02-26 02:34:06 INFO  HibernateMetaDataProvider:57 - Get tables engine size 1488
+2021-02-26 02:34:07 INFO  HibernateMetaDataProvider:57 - Get tables engine size 1488
+2021-02-26 02:34:07 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-26 02:34:07 INFO  HibernateMetaDataProvider:37 - Get tables size 188
+2021-02-26 02:34:07 INFO  HibernateMetaDataProvider:47 - Get tables type size 188
+2021-02-26 02:34:08 INFO  HibernateMetaDataProvider:47 - Get tables type size 188
+2021-02-26 02:34:08 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-02-26 02:34:08 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-02-26 19:00:46 INFO  TestEntityProviderTest:34 - ru.sfedu.hiber.lab2.models.TestEntity@11c581a0
+2021-02-26 19:03:31 INFO  TestEntityProviderTest:34 - ru.sfedu.hiber.lab2.models.TestEntity@87f501f
+2021-02-26 19:05:11 INFO  TestEntityProviderTest:34 - ru.sfedu.hiber.lab2.models.TestEntity@4409cae6
+2021-02-26 19:06:33 INFO  TestEntityProviderTest:34 - ru.sfedu.hiber.lab2.models.TestEntity@1e56bc9b
+2021-02-26 21:00:41 INFO  TestEntityProviderTest:33 - ru.sfedu.hiber.lab2.models.TestEntity@1fe8f5e8
+2021-02-26 23:55:13 INFO  TestEntityProviderTest:37 - ru.sfedu.hiber.lab2.models.TestEntity@39449465
+2021-02-27 00:45:59 INFO  TestEntityProviderTest:37 - ru.sfedu.hiber.lab2.models.TestEntity@3b57dba4
+2021-02-27 02:47:54 INFO  TestEntityProviderTest:39 - ru.sfedu.hiber.lab2.models.TestEntity@5b066c33
+2021-02-27 02:55:56 INFO  TestEntityProviderTest:44 - ru.sfedu.hiber.lab2.models.TestEntity@aa1bb14
+2021-02-27 02:55:56 INFO  TestEntityProviderTest:25 - ru.sfedu.hiber.lab2.models.TestEntity@787d1f9c
+2021-02-27 03:09:52 INFO  TestEntityProviderTest:44 - ru.sfedu.hiber.lab2.models.TestEntity@2d22d3b1
+2021-02-27 03:09:52 INFO  TestEntityProviderTest:25 - ru.sfedu.hiber.lab2.models.TestEntity@3b57dba4
+2021-02-27 03:20:16 INFO  TestEntityProviderTest:44 - ru.sfedu.hiber.lab2.models.TestEntity@10ed037a
+2021-02-27 03:20:16 INFO  TestEntityProviderTest:25 - ru.sfedu.hiber.lab2.models.TestEntity@26c7b1c6
+2021-02-27 03:24:51 INFO  TestEntityProviderTest:44 - ru.sfedu.hiber.lab2.models.TestEntity@4245bf68
+2021-02-27 03:24:51 INFO  TestEntityProviderTest:57 - java.lang.NullPointerException
+2021-02-27 03:24:52 INFO  TestEntityProviderTest:25 - ru.sfedu.hiber.lab2.models.TestEntity@1b46392c
+2021-02-27 18:02:01 INFO  TestEntityProviderTest:44 - ru.sfedu.hiber.lab2.models.TestEntity@7a3f08b6
+2021-02-27 18:02:01 INFO  TestEntityProviderTest:57 - java.lang.NullPointerException
+2021-02-27 18:02:01 INFO  TestEntityProviderTest:25 - ru.sfedu.hiber.lab2.models.TestEntity@79e10fb4
+2021-02-27 18:48:10 INFO  TestEntityProviderTest:44 - ru.sfedu.hiber.lab2.models.TestEntity@79add732
+2021-02-27 18:48:10 INFO  TestEntityProviderTest:57 - java.lang.NullPointerException
+2021-02-27 18:48:10 INFO  TestEntityProviderTest:25 - ru.sfedu.hiber.lab2.models.TestEntity@4b93dd6a
+2021-02-27 18:55:29 INFO  TestEntityProviderTest:44 - ru.sfedu.hiber.lab2.models.TestEntity@204d9edf
+2021-02-27 18:55:29 INFO  TestEntityProviderTest:55 - ru.sfedu.hiber.lab2.models.TestEntity@626c569b
+2021-02-27 18:55:29 INFO  TestEntityProviderTest:25 - ru.sfedu.hiber.lab2.models.TestEntity@6e685e6c
+2021-02-27 18:57:18 INFO  TestEntityProviderTest:57 - java.lang.NullPointerException
+2021-02-27 19:17:19 ERROR TestEntityProvider:70 - java.lang.NullPointerException
+2021-02-27 19:19:24 ERROR TestEntityProvider:70 - java.lang.NullPointerException
+2021-02-27 19:22:02 ERROR TestEntityProvider:70 - java.lang.NullPointerException
+2021-02-27 19:22:02 ERROR TestEntityProviderTest:85 - java.lang.NullPointerException
+2021-02-27 20:42:51 ERROR TestEntityProviderTest:98 - java.lang.NullPointerException
+2021-02-27 22:49:55 ERROR TestEntityProvider:89 - java.lang.NullPointerException
+2021-02-27 22:56:11 ERROR TestEntityProvider:89 - java.lang.NullPointerException
+2021-02-27 22:58:12 ERROR TestEntityProvider:89 - java.lang.NullPointerException
+2021-02-27 22:58:12 ERROR TestEntityProviderTest:111 - java.lang.NullPointerException
+2021-02-27 23:12:01 INFO  TestEntityProviderTest:45 - ru.sfedu.hiber.lab2.models.TestEntity@5e905f2c
+2021-02-27 23:37:29 ERROR TestEntityProvider:53 - java.lang.NullPointerException
+2021-02-28 00:12:23 INFO  TestEntityProviderTest:58 - TestEntity{id=5, name='Name1', description='test', dateCreated=2021-02-28 00:12:15.325, check=true}
+2021-03-01 00:57:51 ERROR Strategy1Provider:75 - java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: Account is not mapped [SELECT bd FROM Account bd]
+2021-03-01 01:00:38 ERROR Strategy1Provider:75 - java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: Account is not mapped [SELECT bd FROM Account bd]
+2021-03-01 01:01:46 ERROR Strategy1Provider:75 - java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: Account is not mapped [SELECT bd FROM Account bd]
+2021-03-01 01:02:39 ERROR Strategy1Provider:75 - java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: Account is not mapped [SELECT bd FROM Account bd]
+2021-03-01 02:45:57 ERROR Strategy2Provider:62 - java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: Account is not mapped [SELECT bd FROM Account bd]
+2021-03-01 02:55:02 ERROR Strategy2Provider:62 - java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: Account is not mapped [SELECT bd FROM Account bd]
+2021-03-01 15:03:22 ERROR Strategy2Provider:62 - java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: Account is not mapped [SELECT bd FROM Account bd]
+2021-03-01 15:13:58 ERROR Strategy2Provider:63 - java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: Account is not mapped [SELECT bd FROM Account bd]
+2021-03-01 15:38:10 ERROR Strategy2Provider:63 - java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: Account is not mapped [SELECT bd FROM Account bd]
+2021-03-01 18:52:19 INFO  Strategy2ProviderTest:52 - [CreditAccount1{creditLimit=10.00}, DebitAccount1{overdraftFee=10.00}]
+2021-03-01 18:54:43 INFO  Strategy2ProviderTest:52 - [CreditAccount1{creditLimit=10.00}, DebitAccount1{overdraftFee=10.00}]
+2021-03-01 18:54:43 INFO  Strategy2ProviderTest:56 - [CreditAccount1{creditLimit=10}, DebitAccount1{overdraftFee=10}]
+2021-03-01 18:56:26 INFO  Strategy2ProviderTest:52 - [CreditAccount1{creditLimit=10.00}, DebitAccount1{overdraftFee=10.00}]
+2021-03-01 18:56:26 INFO  Strategy2ProviderTest:56 - [CreditAccount1{creditLimit=10.00}, DebitAccount1{overdraftFee=10.00}]
+2021-03-01 19:01:13 INFO  Strategy2ProviderTest:52 - [CreditAccount1{creditLimit=10.00}, DebitAccount1{overdraftFee=10.00}]
+2021-03-01 19:01:13 INFO  Strategy2ProviderTest:56 - [CreditAccount1{creditLimit=10.00}, DebitAccount1{overdraftFee=10.00}]
+2021-03-01 19:10:54 INFO  Strategy2ProviderTest:53 - [CreditAccount1{creditLimit=10.00}, DebitAccount1{overdraftFee=10.00}]
+2021-03-01 19:10:54 INFO  Strategy2ProviderTest:57 - [CreditAccount1{creditLimit=10.00}, DebitAccount1{overdraftFee=10.00}]
+2021-03-01 22:05:38 ERROR Strategy2ProviderTest:74 - java.lang.NullPointerException
+2021-03-01 23:19:09 ERROR Strategy2Provider:108 - java.lang.ClassCastException: class java.util.Optional cannot be cast to class ru.sfedu.hiber.lab3.strategy2.model.CreditAccount1 (java.util.Optional is in module java.base of loader 'bootstrap'; ru.sfedu.hiber.lab3.strategy2.model.CreditAccount1 is in unnamed module of loader 'app')
+2021-03-01 23:22:00 ERROR Strategy2Provider:108 - java.lang.ClassCastException: class java.util.Optional cannot be cast to class ru.sfedu.hiber.lab3.strategy2.model.CreditAccount1 (java.util.Optional is in module java.base of loader 'bootstrap'; ru.sfedu.hiber.lab3.strategy2.model.CreditAccount1 is in unnamed module of loader 'app')
+2021-03-01 23:32:59 ERROR Strategy2Provider:108 - java.lang.NullPointerException
+2021-03-01 23:32:59 ERROR Strategy2ProviderTest:87 - java.lang.NullPointerException
+2021-03-01 23:42:03 INFO  Strategy2ProviderTest:49 - [5, 6]
+2021-03-01 23:50:01 ERROR Strategy2Provider:127 - java.lang.NullPointerException
+2021-03-02 00:42:12 INFO  TestEntityProviderTest:58 - TestEntity{id=7, name='Name1', description='test', dateCreated=2021-03-02 00:41:56.955, check=true}
+2021-03-02 00:50:03 ERROR Strategy1Provider:42 - java.lang.NullPointerException
+2021-03-02 00:53:30 ERROR Strategy1Provider:42 - java.lang.NullPointerException
+2021-03-02 01:14:56 INFO  Strategy1ProviderTest:71 - null
+2021-03-02 01:24:53 INFO  Strategy1ProviderTest:29 - [CreditAccount{creditLimit=10.00}, DebitAccount{overdraftFee=10.00}]
+2021-03-02 01:38:53 INFO  Strategy1ProviderTest:78 - CreditAccount{creditLimit=10.00}
+2021-03-02 01:40:08 ERROR Strategy1ProviderTest:89 - java.lang.NullPointerException
+2021-03-02 01:48:52 ERROR Strategy1Provider:103 - java.lang.NullPointerException
+2021-03-02 01:48:52 ERROR Strategy1ProviderTest:108 - java.lang.NullPointerException
+2021-03-02 01:56:11 INFO  Strategy1ProviderTest:50 - [8, 9]
+2021-03-02 01:59:24 ERROR Strategy1Provider:122 - java.lang.NullPointerException
+2021-03-02 09:07:20 INFO  Strategy1ProviderTest:68 - null
+2021-03-02 09:12:54 INFO  Main:19 - hh
+2021-03-02 09:49:55 INFO  Main:19 - hh
+2021-03-02 09:50:47 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-03-02 09:52:39 INFO  HibernateMetaDataProvider:57 - Get role tables grants size 1523
+2021-03-02 09:52:41 INFO  HibernateMetaDataProvider:57 - Get role tables grants size 1523
+2021-03-02 09:52:41 INFO  HibernateMetaDataProvider:37 - Get tables size 193
+2021-03-02 09:52:41 INFO  HibernateMetaDataProvider:37 - Get tables size 193
+2021-03-02 09:52:42 INFO  HibernateMetaDataProvider:47 - Get tables type size 193
+2021-03-02 09:52:42 INFO  HibernateMetaDataProvider:47 - Get tables type size 193
+2021-03-02 09:52:42 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-03-02 09:52:42 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-03-02 09:54:59 ERROR TestEntityProvider:92 - java.lang.NullPointerException
+2021-03-02 09:55:00 INFO  TestEntityProviderTest:58 - TestEntity{id=10, name='Name1', description='test', dateCreated=2021-03-02 09:54:59.863, check=true}
+2021-03-02 09:55:00 INFO  TestEntityProviderTest:38 - java.lang.NullPointerException
+2021-03-02 09:55:00 ERROR TestEntityProvider:92 - java.lang.NullPointerException
+2021-03-02 09:55:00 ERROR TestEntityProviderTest:123 - java.lang.NullPointerException
+2021-03-02 09:56:56 ERROR TestEntityProvider:92 - java.lang.NullPointerException
+2021-03-02 09:58:41 ERROR TestEntityProviderTest:110 - java.lang.NullPointerException
+2021-03-02 10:04:12 INFO  Strategy1ProviderTest:27 - [CreditAccount{creditLimit=10.00}, DebitAccount{overdraftFee=10.00}, DebitAccount{overdraftFee=10.00}]
+2021-03-02 10:05:31 INFO  Strategy1ProviderTest:48 - [11, 12]
+2021-03-02 10:07:24 INFO  Strategy2ProviderTest:49 - [13, 14]
+2021-03-03 00:18:11 INFO  Strategy3ProviderTest:37 - [15, 16]
+2021-03-03 02:34:58 INFO  Strategy3ProviderTest:60 - null
+2021-03-03 02:45:01 INFO  Strategy3ProviderTest:29 - [CreditAccount2{creditLimit=10.00}, DebitAccount2{overdraftFee=10.00}]
+2021-03-03 16:59:42 ERROR Strategy3Provider:56 - java.lang.IllegalArgumentException: Type specified for TypedQuery [ru.sfedu.hiber.lab3.strategy3.model.CreditAccount2] is incompatible with query return type [class ru.sfedu.hiber.lab3.strategy3.model.Account2]
+2021-03-03 17:53:17 ERROR Strategy3Provider:62 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-03-03 17:53:17 ERROR Strategy3ProviderTest:88 - java.lang.NullPointerException
+2021-03-03 17:59:37 ERROR Strategy3Provider:63 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-03-03 17:59:37 ERROR Strategy3Provider:111 - java.lang.NullPointerException
+2021-03-03 17:59:37 ERROR Strategy3ProviderTest:107 - java.lang.NullPointerException
+2021-03-03 18:02:25 INFO  Strategy3ProviderTest:50 - [17, 18]
+2021-03-03 18:30:47 ERROR Strategy3Provider:63 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-03-03 18:30:47 ERROR Strategy3Provider:130 - java.lang.NullPointerException
+2021-03-03 21:35:27 INFO  Strategy4ProviderTest:40 - [19, 20]
+2021-03-03 21:37:48 INFO  Strategy4ProviderTest:60 - null
+2021-03-03 21:42:54 INFO  Strategy4ProviderTest:28 - [DebitAccount2{overdraftFee=10.00}, CreditAccount2{creditLimit=10.00}, DebitAccount2{overdraftFee=10.00}]
+2021-03-03 21:44:28 INFO  Strategy4ProviderTest:28 - [CreditAccount3{creditLimit=10.00}, DebitAccount3{overdraftFee=10.00}]
+2021-03-03 21:57:32 INFO  Strategy4ProviderTest:76 - 105.00
+2021-03-03 22:00:32 ERROR Strategy4ProviderTest:87 - java.lang.NullPointerException
+2021-03-03 22:02:16 INFO  Strategy4ProviderTest:67 - null
+2021-03-03 22:10:49 ERROR Strategy4Provider:107 - java.lang.NullPointerException
+2021-03-03 22:10:49 ERROR Strategy4ProviderTest:105 - java.lang.NullPointerException
+2021-03-03 22:12:47 INFO  Strategy4ProviderTest:47 - [21, 22]
+2021-03-03 22:25:13 ERROR Strategy4Provider:126 - java.lang.NullPointerException
+2021-03-09 04:41:28 INFO  Main:33 - Name1
+2021-03-09 09:17:27 INFO  Strategy1ProviderTest:68 - null
+2021-03-09 09:17:47 ERROR Strategy1Provider:103 - java.lang.NullPointerException
+2021-03-09 09:17:47 ERROR Strategy1ProviderTest:106 - java.lang.NullPointerException
+2021-03-09 09:17:47 INFO  Strategy1ProviderTest:48 - [23, 24]
+2021-03-09 09:17:47 INFO  Strategy1ProviderTest:76 - CreditAccount{creditLimit=10.00}
+2021-03-09 09:17:47 ERROR Strategy1ProviderTest:87 - java.lang.NullPointerException
+2021-03-09 09:17:48 INFO  Strategy1ProviderTest:27 - [CreditAccount{creditLimit=10.00}, CreditAccount{creditLimit=10.00}, DebitAccount{overdraftFee=10.00}, DebitAccount{overdraftFee=10.00}, DebitAccount{overdraftFee=10.00}, DebitAccount{overdraftFee=10.00}]
+2021-03-09 09:17:48 ERROR Strategy1Provider:122 - java.lang.NullPointerException
+2021-03-09 09:20:05 INFO  Strategy2ProviderTest:69 - null
+2021-03-09 09:20:32 ERROR Strategy2Provider:108 - java.lang.NullPointerException
+2021-03-09 09:20:32 ERROR Strategy2ProviderTest:87 - java.lang.NullPointerException
+2021-03-09 09:20:34 INFO  Strategy2ProviderTest:49 - [25, 26]
+2021-03-09 09:20:34 ERROR Strategy2ProviderTest:106 - java.lang.NullPointerException
+2021-03-09 09:20:35 INFO  Strategy2ProviderTest:29 - [CreditAccount1{creditLimit=10.00}, CreditAccount1{creditLimit=10.00}, DebitAccount1{overdraftFee=10.00}, DebitAccount1{overdraftFee=10.00}, DebitAccount1{overdraftFee=10.00}, DebitAccount1{overdraftFee=10.00}]
+2021-03-09 09:20:35 ERROR Strategy2Provider:127 - java.lang.NullPointerException
+2021-03-09 23:54:00 INFO  Main:25 - 12
+2021-03-11 01:28:45 ERROR CollectionSetProviderTest:28 - java.lang.NullPointerException
+2021-03-11 01:29:43 ERROR CollectionSetProviderTest:28 - java.lang.NullPointerException
+2021-03-11 02:39:45 ERROR CollectionSetProvider:80 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-11 02:43:38 ERROR CollectionSetProvider:80 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-11 02:51:41 ERROR CollectionSetProviderTest:59 - java.lang.NullPointerException
+2021-03-11 03:07:52 ERROR CollectionSetProvider:57 - java.lang.NullPointerException
+2021-03-11 22:18:37 ERROR CollectionSetProvider:57 - java.lang.NullPointerException
+2021-03-11 22:20:26 ERROR CollectionSetProvider:57 - java.lang.NullPointerException
+2021-03-11 22:22:15 ERROR CollectionSetProvider:57 - java.lang.NullPointerException
+2021-03-11 22:25:15 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-11 22:26:24 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-11 22:28:28 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-11 22:28:55 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-11 22:29:55 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-11 22:32:32 ERROR CollectionSetProvider:100 - java.lang.NullPointerException
+2021-03-13 00:21:36 ERROR CollectionListProvider:37 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 00:25:28 ERROR CollectionListProvider:37 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 00:31:01 ERROR CollectionListProvider:37 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 00:35:46 ERROR CollectionListProvider:37 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 01:08:41 ERROR CollectionListProvider:37 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 01:20:49 ERROR CollectionListProvider:37 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 01:36:21 ERROR CollectionListProvider:37 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 01:38:34 ERROR CollectionListProvider:37 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 01:50:17 ERROR CollectionListProvider:37 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 02:07:03 ERROR CollectionListProvider:37 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 02:10:57 ERROR CollectionListProvider:37 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 02:17:04 ERROR CollectionListProvider:37 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 02:22:07 ERROR CollectionListProvider:37 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 02:43:02 ERROR CollectionListProvider:37 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 02:47:37 ERROR CollectionListProvider:37 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 03:23:50 ERROR CollectionMapProvider:34 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 04:08:24 INFO  CollectionMapProviderTest:46 - Outfit2{id=1, name='Bob', instruments={instrument1=0.001}}
+2021-03-13 04:08:52 ERROR CollectionMapProviderTest:57 - java.lang.NullPointerException
+2021-03-13 04:10:59 ERROR CollectionMapProvider:34 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 04:22:10 ERROR CollectionMapProviderTest:88 - java.lang.NullPointerException
+2021-03-13 04:34:37 ERROR CollectionListProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 04:35:42 ERROR CollectionListProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 04:48:21 ERROR CollectionListProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 10:33:12 ERROR CollectionListProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 11:07:34 ERROR CollectionListProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 11:15:06 ERROR CollectionListProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 11:25:45 ERROR CollectionListProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 11:29:47 ERROR CollectionListProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 11:38:17 ERROR CollectionListProviderTest:83 - java.lang.NullPointerException
+2021-03-13 11:42:16 ERROR CollectionListProvider:99 - java.lang.NullPointerException
+2021-03-13 12:17:36 ERROR CollectionSetProvider:59 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 12:17:37 ERROR CollectionSetProviderTest:31 - java.lang.NullPointerException
+2021-03-13 12:17:37 ERROR CollectionSetProviderTest:87 - java.lang.NullPointerException
+2021-03-13 12:17:37 ERROR CollectionSetProvider:102 - java.lang.NullPointerException
+2021-03-13 12:19:12 ERROR CollectionMapProvider:36 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 12:19:13 ERROR CollectionMapProviderTest:68 - java.lang.NullPointerException
+2021-03-13 12:19:13 ERROR CollectionMapProviderTest:88 - java.lang.NullPointerException
+2021-03-13 12:19:13 INFO  CollectionMapProviderTest:57 - Outfit2{id=1, name='Ivan1', instruments={instrument1=0.001}}
+2021-03-13 12:19:13 ERROR CollectionMapProvider:95 - java.lang.NullPointerException
+2021-03-13 12:21:19 ERROR CollectionListProvider:39 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-13 12:21:20 ERROR CollectionListProviderTest:63 - java.lang.NullPointerException
+2021-03-13 12:21:20 ERROR CollectionListProviderTest:83 - java.lang.NullPointerException
+2021-03-13 12:21:20 ERROR CollectionListProvider:99 - java.lang.NullPointerException
+2021-03-14 02:05:05 ERROR DataProviderHibernate:35 - org.hibernate.MappingException: Unknown entity: ru.sfedu.hiber.lab5.models.MyOutfit
+2021-03-14 02:08:45 ERROR DataProviderHibernate:35 - org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.hiber.lab5.models.MyOutfit.placeWork
+2021-03-14 02:11:52 ERROR DataProviderHibernate:35 - org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ru.sfedu.hiber.lab5.models.MyOutfit.placeWork -> ru.sfedu.hiber.lab5.models.PlaceOfWork
+2021-03-14 02:16:56 ERROR DataProviderHibernate:35 - org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.hiber.lab5.models.MyOutfit.placeWork
+2021-03-14 21:30:52 INFO  DataProviderHibernateTest:51 - HeadOfDepartment{id=35, name='Tito', salary=30000.0, executor=Executor{id=36, phoneNumber='79999999999'}}
+2021-03-14 21:33:47 ERROR DataProviderHibernateTest:62 - java.lang.NullPointerException
+2021-03-14 21:34:35 ERROR DataProviderHibernateTest:62 - java.lang.NullPointerException
+2021-03-14 22:03:09 ERROR DataProviderHibernate:49 - org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.hiber.lab5.models.MyOutfit.customer
+2021-03-15 00:09:06 INFO  DataProviderHibernate:34 - MyOutfit{id=0, dateStartWork=Mon Mar 15 00:08:56 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=30, name='Rostov'}, customer=Customer{id=51, name='Inna'}, meansMeasurement=null, executor=null}
+2021-03-15 00:16:49 INFO  DataProviderHibernate:35 - HeadOfDepartment{id=35, name='Tito', salary=30000.0, executor=Executor{id=36, phoneNumber='79999999999'}}
+2021-03-15 00:16:49 INFO  DataProviderHibernate:37 - MyOutfit{id=0, dateStartWork=Mon Mar 15 00:16:38 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=30, name='Rostov'}, customer=Customer{id=51, name='Inna'}, meansMeasurement=null, executor=null}
+2021-03-15 00:17:42 INFO  DataProviderHibernate:37 - MyOutfit{id=0, dateStartWork=Mon Mar 15 00:17:33 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=30, name='Rostov'}, customer=Customer{id=51, name='Inna'}, meansMeasurement=null, executor=Executor{id=36, phoneNumber='79999999999'}}
+2021-03-15 00:18:44 INFO  DataProviderHibernate:37 - MyOutfit{id=0, dateStartWork=Mon Mar 15 00:18:34 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=30, name='Rostov'}, customer=Customer{id=51, name='Inna'}, meansMeasurement=MechanicalMeasurement{id=47, name=instrument1 ,measurementError=1.0E-4, model=X220}, executor=Executor{id=36, phoneNumber='79999999999'}}
+2021-03-15 00:20:34 INFO  DataProviderHibernate:37 - MyOutfit{id=0, dateStartWork=Mon Mar 15 00:20:24 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=30, name='Rostov'}, customer=Customer{id=51, name='Inna'}, meansMeasurement=MechanicalMeasurement{id=47, name=instrument1 ,measurementError=1.0E-4, model=X220}, executor=Executor{id=36, phoneNumber='79999999999'}}
+2021-03-15 02:02:57 INFO  DataProviderHibernate:38 - [Employee{id=55, name='Sasha', salary=15000.0}, Employee{id=56, name='Nicola', salary=14500.0}]
+2021-03-15 02:12:46 INFO  DataProviderHibernate:39 - [Employee{id=55, name='Sasha', salary=15000.0}, Employee{id=56, name='Nicola', salary=14500.0}]
+2021-03-15 02:12:47 INFO  DataProviderHibernate:41 - MyOutfit{id=0, dateStartWork=Mon Mar 15 02:12:35 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=30, name='Rostov'}, customer=Customer{id=51, name='Inna'}, meansMeasurement=MechanicalMeasurement{id=47, name=instrument1 ,measurementError=1.0E-4, model=X220}, executor=Executor{id=36, phoneNumber='79999999999'}, employees=[Employee{id=55, name='Sasha', salary=15000.0}, Employee{id=56, name='Nicola', salary=14500.0}]}
+2021-03-15 15:04:59 ERROR DataProviderHibernate:55 - Outfit create error
+2021-03-15 15:04:59 ERROR DataProviderHibernate:56 - java.lang.ClassCastException: class ru.sfedu.hiber.lab5.models.Employee cannot be cast to class java.util.List (ru.sfedu.hiber.lab5.models.Employee is in unnamed module of loader 'app'; java.util.List is in module java.base of loader 'bootstrap')
+2021-03-15 15:06:58 INFO  DataProviderHibernate:53 - MyOutfit{id=0, dateStartWork=Mon Mar 15 15:06:46 MSK 2021, completionDate=null, placeWork=null, customer=null, meansMeasurement=null, executor=Executor{id=36, phoneNumber='79999999999'}, employees=[]}
+2021-03-15 15:07:46 INFO  DataProviderHibernate:53 - MyOutfit{id=0, dateStartWork=Mon Mar 15 15:07:36 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=30, name='Rostov'}, customer=null, meansMeasurement=null, executor=Executor{id=36, phoneNumber='79999999999'}, employees=[]}
+2021-03-15 15:08:20 INFO  DataProviderHibernate:53 - MyOutfit{id=0, dateStartWork=Mon Mar 15 15:08:11 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=30, name='Rostov'}, customer=Customer{id=51, name='Inna'}, meansMeasurement=null, executor=Executor{id=36, phoneNumber='79999999999'}, employees=[]}
+2021-03-15 15:09:00 INFO  DataProviderHibernate:53 - MyOutfit{id=0, dateStartWork=Mon Mar 15 15:08:49 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=30, name='Rostov'}, customer=Customer{id=51, name='Inna'}, meansMeasurement=MechanicalMeasurement{id=47, name=instrument1 ,measurementError=1.0E-4, model=X220}, executor=Executor{id=36, phoneNumber='79999999999'}, employees=[]}
+2021-03-15 15:10:17 INFO  DataProviderHibernate:53 - MyOutfit{id=0, dateStartWork=Mon Mar 15 15:10:08 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=30, name='Rostov'}, customer=Customer{id=51, name='Inna'}, meansMeasurement=MechanicalMeasurement{id=47, name=instrument1 ,measurementError=1.0E-4, model=X220}, executor=Executor{id=36, phoneNumber='79999999999'}, employees=[Employee{id=55, name='Sasha', salary=15000.0}, Employee{id=56, name='Nicola', salary=14500.0}]}
+2021-03-15 16:01:18 INFO  DataProviderHibernate:53 - MyOutfit{id=0, dateStartWork=Mon Mar 15 16:01:06 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=30, name='Rostov'}, customer=Customer{id=51, name='Inna'}, meansMeasurement=MechanicalMeasurement{id=47, name=instrument1 ,measurementError=1.0E-4, model=X220}, executor=Executor{id=36, phoneNumber='79999999999'}, employees=[Employee{id=55, name='Sasha', salary=15000.0}, Employee{id=56, name='Nicola', salary=14500.0}]}
+2021-03-15 16:02:17 ERROR DataProviderHibernate:161 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-03-15 16:02:17 ERROR DataProviderHibernate:56 - Outfit create error
+2021-03-15 16:02:17 ERROR DataProviderHibernate:57 - java.lang.NullPointerException
+2021-03-15 16:21:39 INFO  DataProviderHibernate:53 - MyOutfit{id=0, dateStartWork=Mon Mar 15 16:21:28 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=30, name='Rostov'}, customer=Customer{id=52, name='Roman'}, meansMeasurement=MechanicalMeasurement{id=47, name=instrument1 ,measurementError=1.0E-4, model=X220}, executor=Executor{id=36, phoneNumber='79999999999'}, employees=[Employee{id=57, name='Archi', salary=18000.0}, Employee{id=56, name='Nicola', salary=14500.0}]}
+2021-03-15 16:30:22 ERROR DataProviderHibernate:89 - Error employee id not found
+2021-03-15 16:33:19 INFO  DataProviderHibernateTest:41 - MyOutfit{id=60, dateStartWork=2021-03-15 16:21:28.411, completionDate=null, placeWork=PlaceOfWork{id=30, name='Rostov'}, customer=Customer{id=52, name='Roman'}, meansMeasurement=MechanicalMeasurement{id=47, name=instrument1 ,measurementError=1.0E-4, model=X220}, executor=Executor{id=36, phoneNumber='79999999999'}, employees=[Employee{id=57, name='Archi', salary=18000.0}, Employee{id=56, name='Nicola', salary=14500.0}]}
+2021-03-15 16:35:41 ERROR DataProviderHibernateTest:52 - java.lang.NullPointerException
+2021-03-15 16:36:11 INFO  DataProviderHibernate:53 - MyOutfit{id=0, dateStartWork=Mon Mar 15 16:36:01 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=30, name='Rostov'}, customer=Customer{id=52, name='Roman'}, meansMeasurement=MechanicalMeasurement{id=47, name=instrument1 ,measurementError=1.0E-4, model=X220}, executor=Executor{id=36, phoneNumber='79999999999'}, employees=[Employee{id=57, name='Archi', salary=18000.0}, Employee{id=56, name='Nicola', salary=14500.0}]}
+2021-03-15 16:36:12 ERROR DataProviderHibernate:289 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-15 16:38:01 INFO  DataProviderHibernate:53 - MyOutfit{id=0, dateStartWork=Mon Mar 15 16:37:45 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=30, name='Rostov'}, customer=Customer{id=52, name='Roman'}, meansMeasurement=MechanicalMeasurement{id=47, name=instrument1 ,measurementError=1.0E-4, model=X220}, executor=Executor{id=36, phoneNumber='79999999999'}, employees=[Employee{id=58, name='Rusik', salary=19000.0}, Employee{id=57, name='Archi', salary=18000.0}]}
+2021-03-15 16:38:02 ERROR DataProviderHibernate:289 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-15 17:03:27 INFO  DataProviderHibernate:59 - MyOutfit{id=0, dateStartWork=Mon Mar 15 17:03:14 MSK 2021, completionDate=null, placeWork=[PlaceOfWork{id=30, name='Rostov'}], customer=[Customer{id=52, name='Roman'}], meansMeasurement=[MechanicalMeasurement{id=47, name=instrument1 ,measurementError=1.0E-4, model=X220}], executor=[Executor{id=36, phoneNumber='79999999999'}], employees=[Employee{id=58, name='Rusik', salary=19000.0}, Employee{id=57, name='Archi', salary=18000.0}]}
+2021-03-15 17:03:27 ERROR DataProviderHibernate:295 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-15 17:11:06 INFO  DataProviderHibernateTest:41 - MyOutfit{id=60, dateStartWork=2021-03-15 16:21:28.411, completionDate=null, placeWork=PlaceOfWork{id=30, name='Rostov'}, customer=Customer{id=52, name='Roman'}, meansMeasurement=MechanicalMeasurement{id=47, name=instrument1 ,measurementError=1.0E-4, model=X220}, executor=Executor{id=36, phoneNumber='79999999999'}, employees=[Employee{id=57, name='Archi', salary=18000.0}, Employee{id=56, name='Nicola', salary=14500.0}]}
+2021-03-15 17:15:34 INFO  DataProviderHibernate:53 - MyOutfit{id=0, dateStartWork=Mon Mar 15 17:15:21 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=32, name='Sochi'}, customer=Customer{id=51, name='Inna'}, meansMeasurement=MechanicalMeasurement{id=48, name=instrument2 ,measurementError=1.0E-4, model=X222}, executor=Executor{id=38, phoneNumber='79999999999'}, employees=[Employee{id=57, name='Archi', salary=18000.0}, Employee{id=56, name='Nicola', salary=14500.0}]}
+2021-03-15 17:15:34 ERROR DataProviderHibernate:289 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-15 17:17:01 INFO  DataProviderHibernate:53 - MyOutfit{id=0, dateStartWork=Mon Mar 15 17:16:50 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=32, name='Sochi'}, customer=Customer{id=51, name='Inna'}, meansMeasurement=MechanicalMeasurement{id=48, name=instrument2 ,measurementError=1.0E-4, model=X222}, executor=Executor{id=38, phoneNumber='79999999999'}, employees=[Employee{id=58, name='Rusik', salary=19000.0}, Employee{id=57, name='Archi', salary=18000.0}]}
+2021-03-15 17:17:02 ERROR DataProviderHibernate:289 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-15 17:19:59 INFO  DataProviderHibernate:53 - MyOutfit{id=0, dateStartWork=Mon Mar 15 17:19:42 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=32, name='Sochi'}, customer=Customer{id=51, name='Inna'}, meansMeasurement=MechanicalMeasurement{id=48, name=instrument2 ,measurementError=1.0E-4, model=X222}, executor=Executor{id=38, phoneNumber='79999999999'}, employees=[Employee{id=58, name='Rusik', salary=19000.0}, Employee{id=55, name='Sasha', salary=15000.0}]}
+2021-03-15 18:07:44 INFO  DataProviderHibernate:100 - Outfit edited successful
+2021-03-15 18:10:31 INFO  DataProviderHibernate:100 - Outfit edited successful
+2021-03-15 18:17:27 INFO  DataProviderHibernate:100 - Outfit edited successful
+2021-03-15 18:18:53 INFO  DataProviderHibernate:100 - Outfit edited successful
+2021-03-15 18:31:18 ERROR DataProviderHibernate:160 - Error outfit id not found
+2021-03-15 18:50:51 INFO  DataProviderHibernate:54 - MyOutfit{id=0, dateStartWork=Mon Mar 15 18:50:36 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=34, name='Sochi'}, customer=Customer{id=53, name='Don'}, meansMeasurement=ElectricalMeasurement{id=49, name=instrument3, measurementError=0.001 , model=Y778, power=30.0}, executor=Executor{id=40, phoneNumber='79999999999'}, employees=[Employee{id=70, name='Son', salary=21600.0}, Employee{id=69, name='Won', salary=23000.0}]}
+2021-03-15 18:50:51 INFO  DataProviderHibernate:55 - Outfit created successful
+2021-03-15 21:27:14 INFO  DataProviderHibernate:54 - MyOutfit{id=0, dateStartWork=Mon Mar 15 21:26:54 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=34, name='Sochi'}, customer=Customer{id=53, name='Don'}, meansMeasurement=ElectricalMeasurement{id=49, name=instrument3, measurementError=0.001 , model=Y778, power=30.0}, executor=Executor{id=40, phoneNumber='79999999999'}}
+2021-03-15 21:27:14 INFO  DataProviderHibernate:55 - Outfit created successful
+2021-03-15 21:54:50 INFO  Main:25 - Hello
+2021-03-15 22:55:18 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-03-15 22:56:15 INFO  HibernateMetaDataProvider:37 - Get tables size 215
+2021-03-15 22:57:00 INFO  HibernateMetaDataProvider:57 - Get role tables grants size 1677
+2021-03-15 22:57:33 INFO  HibernateMetaDataProvider:47 - Get tables type size 215
+2021-03-16 00:09:14 ERROR Main:89 - java.lang.NullPointerException
+2021-03-16 00:10:04 INFO  TestEntityProvider:54 - 77
+2021-03-16 00:19:52 INFO  TestEntityProvider:31 - TestEntity{id=77, name='Nina', description='dis', dateCreated=2021-03-16 00:09:52.371, check=true}
+2021-03-16 00:19:52 ERROR Main:101 - java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+2021-03-16 00:21:16 INFO  TestEntityProvider:31 - TestEntity{id=77, name='Nina', description='dis', dateCreated=2021-03-16 00:09:52.371, check=true}
+2021-03-16 00:22:58 INFO  TestEntityProvider:31 - TestEntity{id=77, name='Nina', description='dis', dateCreated=2021-03-16 00:09:52.371, check=true}
+2021-03-16 00:22:58 INFO  TestEntityProvider:75 - TestEntity{id=77, name='den', description='dis', dateCreated=2021-03-16 00:09:52.371, check=true}
+2021-03-16 00:28:17 INFO  Main:41 - fhjgj
+2021-03-16 00:44:17 INFO  Strategy1Provider:63 - [78, 79]
+2021-03-16 00:48:08 INFO  Main:135 - CreditAccount{creditLimit=100.00}
+2021-03-16 00:56:24 INFO  Strategy1Provider:104 - CreditAccount{creditLimit=100.00}
+2021-03-16 01:05:30 INFO  Strategy2Provider:85 - [82, 83]
+2021-03-16 01:12:22 INFO  Main:177 - CreditAccount1{creditLimit=100.00}
+2021-03-16 01:39:31 INFO  Strategy3Provider:85 - [84, 85]
+2021-03-16 01:41:11 INFO  Strategy3Provider:58 - CreditAccount2{creditLimit=100.00}
+2021-03-16 01:41:11 INFO  Main:220 - CreditAccount2{creditLimit=100.00}
+2021-03-16 02:29:54 INFO  Strategy3Provider:58 - CreditAccount2{creditLimit=100.00}
+2021-03-16 02:29:54 INFO  Strategy3Provider:108 - CreditAccount2{creditLimit=100.00}
+2021-03-16 02:33:59 INFO  Strategy4Provider:68 - [86, 87]
+2021-03-16 02:34:29 INFO  Strategy4Provider:86 - CreditAccount3{creditLimit=100.00}
+2021-03-16 02:34:29 INFO  Main:263 - CreditAccount3{creditLimit=100.00}
+2021-03-16 02:36:16 INFO  Strategy4Provider:86 - CreditAccount3{creditLimit=100.00}
+2021-03-16 02:36:16 INFO  Strategy4Provider:109 - CreditAccount3{creditLimit=100.00}
+2021-03-16 03:16:55 INFO  CollectionSetProvider:58 - [477]
+2021-03-16 03:22:02 INFO  CollectionSetProvider:58 - [478]
+2021-03-16 03:22:02 INFO  CollectionSetProvider:58 - [986]
+2021-03-16 03:25:13 INFO  Main:309 - Outfit{id=478, name='hiho', instruments=[tefal]}
+2021-03-16 03:26:22 INFO  Main:309 - Outfit{id=478, name='hiho', instruments=[tefal]}
+2021-03-16 03:27:15 INFO  Main:314 - Outfit{id=478, name='478', instruments=[tefal]}
+2021-03-16 03:28:00 INFO  Main:314 - Outfit{id=478, name='Rico', instruments=[tefal]}
+2021-03-16 03:47:59 INFO  CollectionListProvider:39 - [765]
+2021-03-16 03:50:04 INFO  Main:345 - Outfit1{id=765, name='gig', instruments=[ins45]}
+2021-03-16 03:50:39 ERROR Main:358 - java.util.NoSuchElementException: No value present
+2021-03-16 03:52:20 ERROR Main:358 - java.util.NoSuchElementException: No value present
+2021-03-16 03:53:42 INFO  Main:350 - Outfit1{id=765, name='tito', instruments=[ins45]}
+2021-03-16 04:03:12 INFO  CollectionMapProvider:36 - [368]
+2021-03-16 04:03:12 INFO  CollectionMapProvider:36 - [566]
+2021-03-16 04:04:41 ERROR Main:395 - java.lang.NullPointerException
+2021-03-16 04:05:42 INFO  Main:382 - Outfit2{id=368, name='hiho', instruments={tefal=0.001}}
+2021-03-16 04:07:48 INFO  Main:387 - Outfit2{id=368, name='Ara', instruments={tefal=0.001}}
+2021-03-16 05:14:22 ERROR DataProviderHibernate:388 - org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ru.sfedu.hiber.lab5.models.Executor.headOfDepartment -> ru.sfedu.hiber.lab5.models.HeadOfDepartment
+2021-03-16 05:19:25 ERROR DataProviderHibernate:388 - org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ru.sfedu.hiber.lab5.models.Executor.headOfDepartment -> ru.sfedu.hiber.lab5.models.HeadOfDepartment
+2021-03-16 05:23:23 ERROR DataProviderHibernate:388 - org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ru.sfedu.hiber.lab5.models.Executor.headOfDepartment -> ru.sfedu.hiber.lab5.models.HeadOfDepartment
+2021-03-16 05:25:51 ERROR DataProviderHibernate:388 - org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ru.sfedu.hiber.lab5.models.Executor.headOfDepartment -> ru.sfedu.hiber.lab5.models.HeadOfDepartment
+2021-03-16 05:29:13 INFO  DataProviderHibernate:55 - MyOutfit{id=0, dateStartWork=Tue Mar 16 05:29:00 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=96, name='Rostov'}, customer=Customer{id=104, name='Ura'}, meansMeasurement=ElectricalMeasurement{id=100, name=instrument1, measurementError=0.001 , model=X222, power=30.0}, executor=null, employees=[]}
+2021-03-16 05:29:13 INFO  DataProviderHibernate:56 - Outfit created successful
+2021-03-16 05:29:13 ERROR DataProviderHibernate:388 - org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.hiber.lab5.models.MyOutfit.executor
+2021-03-16 05:34:58 INFO  Main:44 - Optional[HeadOfDepartment{id=115, name='Son', salary=30000.0, executor=null}]
+2021-03-16 05:34:58 ERROR Main:91 - Incorrect command entry
+2021-03-16 05:34:58 ERROR Main:92 - java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-03-16 05:48:18 INFO  DataProviderHibernate:55 - MyOutfit{id=0, dateStartWork=Tue Mar 16 05:48:05 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=96, name='Rostov'}, customer=Customer{id=104, name='Ura'}, meansMeasurement=ElectricalMeasurement{id=100, name=instrument1, measurementError=0.001 , model=X222, power=30.0}, executor=Executor{id=120, phoneNumber='799999999'}, employees=[]}
+2021-03-16 05:48:18 INFO  DataProviderHibernate:56 - Outfit created successful
+2021-03-16 05:50:07 INFO  DataProviderHibernateTest:48 - MyOutfit{id=121, dateStartWork=2021-03-16 05:48:05.883, completionDate=null, placeWork=PlaceOfWork{id=96, name='Rostov'}, customer=Customer{id=104, name='Ura'}, meansMeasurement=ElectricalMeasurement{id=100, name=instrument1, measurementError=0.001 , model=X222, power=30.0}, executor=Executor{id=120, phoneNumber='799999999'}, employees=[]}
+2021-03-16 05:55:03 INFO  DataProviderHibernate:55 - MyOutfit{id=0, dateStartWork=Tue Mar 16 05:54:50 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=97, name='Sochi'}, customer=Customer{id=105, name='Ura'}, meansMeasurement=ElectricalMeasurement{id=101, name=instrument2, measurementError=0.001 , model=X223, power=30.0}, executor=Executor{id=119, phoneNumber='799999999'}, employees=[]}
+2021-03-16 05:55:03 INFO  DataProviderHibernate:56 - Outfit created successful
+2021-03-16 05:56:09 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: The internal connection pool has reached its maximum size and no connection is currently available!
+2021-03-16 05:56:09 ERROR DataProviderHibernate:128 - Outfit delete error
+2021-03-16 05:56:09 ERROR DataProviderHibernate:129 - java.lang.NullPointerException
+2021-03-16 05:57:59 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: The internal connection pool has reached its maximum size and no connection is currently available!
+2021-03-16 05:57:59 ERROR DataProviderHibernate:128 - Outfit delete error
+2021-03-16 05:57:59 ERROR DataProviderHibernate:129 - java.lang.NullPointerException
+2021-03-16 06:04:18 INFO  DataProviderHibernate:126 - Outfit deleted successful
+2021-03-16 06:08:28 INFO  DataProviderHibernateTest:48 - MyOutfit{id=121, dateStartWork=2021-03-16 05:48:05.883, completionDate=null, placeWork=PlaceOfWork{id=96, name='Rostov'}, customer=Customer{id=104, name='Ura'}, meansMeasurement=ElectricalMeasurement{id=100, name=instrument1, measurementError=0.001 , model=X222, power=30.0}, executor=Executor{id=120, phoneNumber='799999999'}, employees=[]}
+2021-03-16 06:24:45 INFO  DataProviderHibernateTest:48 - MyOutfit{id=121, dateStartWork=2021-03-16 05:48:05.883, completionDate=null, placeWork=PlaceOfWork{id=96, name='Rostov'}, customer=Customer{id=104, name='Ura'}, meansMeasurement=ElectricalMeasurement{id=100, name=instrument1, measurementError=0.001 , model=X222, power=30.0}, executor=Executor{id=120, phoneNumber='799999999'}, employees=[]}
+2021-03-16 06:34:00 INFO  DataProviderHibernate:102 - Outfit edited successful
+2021-03-16 06:34:50 INFO  DataProviderHibernateTest:48 - MyOutfit{id=121, dateStartWork=2021-03-16 05:48:05.883, completionDate=null, placeWork=PlaceOfWork{id=96, name='Rostov'}, customer=Customer{id=104, name='Ura'}, meansMeasurement=ElectricalMeasurement{id=100, name=instrument1, measurementError=0.001 , model=X222, power=30.0}, executor=Executor{id=120, phoneNumber='799999999'}, employees=[]}
+2021-03-16 06:36:06 INFO  DataProviderHibernate:102 - Outfit edited successful
+2021-03-16 06:36:57 INFO  DataProviderHibernateTest:48 - MyOutfit{id=121, dateStartWork=2021-03-16 05:48:05.883, completionDate=null, placeWork=PlaceOfWork{id=96, name='Rostov'}, customer=Customer{id=104, name='Ura'}, meansMeasurement=ElectricalMeasurement{id=100, name=instrument1, measurementError=0.001 , model=X222, power=30.0}, executor=Executor{id=120, phoneNumber='799999999'}, employees=[]}
+2021-03-16 06:56:47 INFO  DataProviderHibernate:55 - MyOutfit{id=0, dateStartWork=Tue Mar 16 06:56:15 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=98, name='London'}, customer=Customer{id=106, name='Inna'}, meansMeasurement=MechanicalMeasurement{id=102, name=instrument3 ,measurementError=0.001, model=Y221}, executor=Executor{id=131, phoneNumber='799999999'}, employees=[]}
+2021-03-16 06:56:47 INFO  DataProviderHibernate:56 - Outfit created successful
+2021-03-16 07:05:54 ERROR DataProviderHibernate:183 - Error outfit id not found
+2021-03-16 08:28:04 INFO  Main:416 - MyOutfit{id=121, dateStartWork=2021-03-16 05:48:05.883, completionDate=null, placeWork=PlaceOfWork{id=96, name='Rostov'}, customer=Customer{id=104, name='Ura'}, meansMeasurement=ElectricalMeasurement{id=100, name=instrument1, measurementError=0.001 , model=X222, power=30.0}, executor=Executor{id=120, phoneNumber='799999999'}, employees=[]}
+2021-03-21 22:28:29 ERROR DataProviderHibernate:388 - org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: ru.sfedu.hiber.lab5.models.MyOutfit.employee in ru.sfedu.hiber.lab5.models.Employee.outfits
+2021-03-21 23:33:50 ERROR DataProviderHibernate:388 - org.hibernate.AnnotationException: Associations marked as mappedBy must not define database mappings like @JoinTable or @JoinColumn: ru.sfedu.hiber.lab5.models.Employee.outfits
+2021-03-21 23:34:50 ERROR DataProviderHibernate:388 - org.hibernate.AnnotationException: Associations marked as mappedBy must not define database mappings like @JoinTable or @JoinColumn: ru.sfedu.hiber.lab5.models.Employee.outfits
+2021-03-22 02:09:49 ERROR DataProviderHibernate:388 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-22 02:15:39 ERROR DataProviderHibernate:388 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-22 02:20:54 ERROR DataProviderHibernate:388 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-22 02:26:37 ERROR DataProviderHibernate:388 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-22 02:28:29 ERROR DataProviderHibernate:388 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-22 02:30:32 ERROR DataProviderHibernate:388 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-22 02:33:34 ERROR DataProviderHibernate:388 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-22 02:45:23 ERROR DataProviderHibernate:388 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-22 02:54:44 ERROR DataProviderHibernate:388 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-22 03:01:17 ERROR DataProviderHibernate:388 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-22 14:40:23 INFO  DataProviderHibernateTest:104 - MyOutfit{id=152, employees=[Employee{id=151, name='gfg', salary=32000.0, outfits=[]}]}
+2021-03-22 14:57:35 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 15:01:42 INFO  DataProviderHibernateTest:106 - 154
+2021-03-22 15:06:11 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 15:11:57 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 15:17:01 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 15:17:55 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 15:43:21 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 15:44:26 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 16:05:38 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 16:58:15 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 17:31:11 INFO  DataProviderHibernateTest:106 - 159
+2021-03-22 17:34:00 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 17:36:27 ERROR DataProviderHibernate:75 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 17:39:39 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 17:41:26 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 17:42:42 INFO  DataProviderHibernateTest:106 - 159
+2021-03-22 17:49:01 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 17:51:09 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 18:13:44 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 18:16:11 INFO  DataProviderHibernateTest:93 - gfg
+2021-03-22 18:17:46 INFO  DataProviderHibernateTest:93 - gfg
+2021-03-22 18:20:16 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 20:11:20 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 20:14:06 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 20:16:38 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 20:19:42 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 20:20:54 ERROR DataProviderHibernate:73 - org.hibernate.HibernateException: collection was evicted
+2021-03-22 20:23:13 INFO  DataProviderHibernateTest:126 - 159
+2021-03-22 21:15:03 INFO  DataProviderHibernateTest:97 - [Employee{id=163, name='gfg', salary=32000.0}, Employee{id=162, name='gfg', salary=32000.0}]
+2021-03-22 21:48:27 INFO  DataProviderHibernate:102 - Outfit edited successful
+2021-03-22 22:56:24 INFO  DataProviderHibernate:126 - Outfit deleted successful
+2021-03-22 23:25:29 ERROR DataProviderHibernate:388 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-03-23 01:17:41 INFO  DataProviderHibernateTest:120 - 187
+2021-03-23 01:19:03 INFO  DataProviderHibernateTest:120 - 183
+2021-03-23 01:20:37 INFO  DataProviderHibernateTest:120 - gfjgj
+2021-03-23 01:51:02 ERROR DataProviderHibernate:388 - org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ru.sfedu.hiber.lab5.models.Executor.headOfDepartment -> ru.sfedu.hiber.lab5.models.HeadOfDepartment
+2021-03-23 02:37:16 INFO  DataProviderHibernate:56 - Outfit created successful
+2021-03-23 02:58:29 INFO  DataProviderHibernate:56 - Outfit created successful
+2021-03-23 03:00:17 ERROR DataProviderHibernate:172 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-03-23 03:00:17 ERROR DataProviderHibernate:59 - Outfit create error
+2021-03-23 03:00:17 ERROR DataProviderHibernate:60 - java.lang.NullPointerException
+2021-03-23 03:02:13 INFO  DataProviderHibernateTest:174 - 2021-03-23 02:58:13.064
+2021-03-23 03:03:01 ERROR DataProviderHibernateTest:185 - java.lang.NullPointerException
+2021-03-23 03:04:50 INFO  DataProviderHibernate:102 - Outfit edited successful
+2021-03-23 03:07:10 INFO  DataProviderHibernate:102 - Outfit edited successful
+2021-03-23 03:12:36 ERROR DataProviderHibernate:128 - Outfit delete error
+2021-03-23 03:12:36 ERROR DataProviderHibernate:129 - javax.persistence.EntityExistsException: A different object with the same identifier value was already associated with the session : [ru.sfedu.hiber.lab5.models.Executor#227]
+2021-03-23 03:16:42 ERROR DataProviderHibernate:128 - Outfit delete error
+2021-03-23 03:16:42 ERROR DataProviderHibernate:129 - javax.persistence.EntityExistsException: A different object with the same identifier value was already associated with the session : [ru.sfedu.hiber.lab5.models.Executor#227]
+2021-03-23 03:20:04 INFO  DataProviderHibernate:126 - Outfit deleted successful
+2021-03-23 03:22:27 INFO  DataProviderHibernate:56 - Outfit created successful
+2021-03-23 03:23:58 INFO  DataProviderHibernateTest:174 - 2021-03-23 03:22:14.499
+2021-03-23 03:25:07 INFO  DataProviderHibernate:102 - Outfit edited successful
+2021-03-23 03:41:28 INFO  DataProviderHibernate:56 - Outfit created successful
+2021-03-23 03:59:46 ERROR DataProviderHibernateTest:181 - java.lang.NullPointerException
+2021-03-23 03:59:46 INFO  DataProviderHibernateTest:170 - 2021-03-23 03:22:14.499
+2021-03-23 04:07:01 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-03-23 04:12:06 INFO  Main:418 - 262
+2021-03-23 04:14:30 INFO  Main:418 - 262
+2021-03-23 04:15:40 INFO  Main:418 - 262
+2021-03-23 04:16:13 INFO  Main:418 - 262
+2021-03-23 04:17:14 INFO  Main:418 - 262
+2021-03-23 04:22:34 INFO  Main:418 - 262
+2021-03-23 04:23:25 INFO  Main:418 - Executor{id=228, phoneNumber='799999998'}
+2021-03-23 04:24:14 ERROR Main:431 - org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: ru.sfedu.hiber.lab5.models.Customer.myoutfit, could not initialize proxy - no Session
+2021-03-23 04:26:18 INFO  Main:418 - Executor{id=228, phoneNumber='799999998'}
+2021-03-23 04:59:56 INFO  DataProviderHibernateTest:223 - HQL 18217
+2021-03-23 05:44:20 INFO  DataProviderHibernateTest:231 - HQL 20869 SQL1205
+2021-03-23 05:51:22 INFO  DataProviderHibernateTest:239 - HQL 16672 SQL 813 Criteria 1538
+2021-03-23 06:06:48 INFO  DataProviderHibernateTest:239 - HQL 14811 SQL 850 Criteria 2231
+2021-03-23 06:18:06 INFO  DataProviderHibernateTest:249 - SQL 11 
+2021-03-23 06:34:30 INFO  DataProviderHibernateTest:249 - SQL 11 HQL 11
+2021-03-23 06:40:10 INFO  DataProviderHibernateTest:250 - SQL 11 HQL 11
+2021-03-23 06:48:17 INFO  DataProviderHibernateTest:251 - SQL 11 HQL 11 Criteria 11
+2021-03-23 10:42:52 INFO  DataProviderHibernateTest:250 - SQL 11 HQL 11 Criteria 11
+2021-03-23 10:42:52 ERROR DataProviderHibernateTest:183 - java.lang.NullPointerException
+2021-03-23 10:43:00 INFO  DataProviderHibernateTest:241 - HQL 4876 SQL 1014 Criteria 1840
+2021-03-23 10:43:02 INFO  DataProviderHibernate:109 - Outfit edited successful
+2021-03-23 10:43:02 ERROR DataProviderHibernate:153 - Error employee id not found
+2021-03-23 10:43:02 ERROR DataProviderHibernate:179 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-03-23 10:43:02 ERROR DataProviderHibernate:111 - Outfit edit error
+2021-03-23 10:43:02 ERROR DataProviderHibernate:112 - java.lang.NullPointerException
+2021-03-23 10:43:02 INFO  DataProviderHibernate:63 - Outfit created successful
+2021-03-23 10:43:03 ERROR DataProviderHibernate:179 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-03-23 10:43:03 ERROR DataProviderHibernate:66 - Outfit create error
+2021-03-23 10:43:03 ERROR DataProviderHibernate:67 - java.lang.NullPointerException
+2021-03-23 10:43:03 INFO  DataProviderHibernateTest:172 - 2021-03-23 03:22:14.499
+2021-03-23 10:43:03 ERROR DataProviderHibernate:179 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-03-23 10:43:03 ERROR DataProviderHibernate:135 - Outfit delete error
+2021-03-23 10:43:03 ERROR DataProviderHibernate:136 - java.lang.NullPointerException
+2021-03-23 10:43:04 INFO  DataProviderHibernate:133 - Outfit deleted successful
+2021-03-23 10:45:32 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-03-23 10:46:23 INFO  TestEntityProvider:31 - TestEntity{id=77, name='den', description='dis', dateCreated=2021-03-16 00:09:52.371, check=true}
+2021-03-23 10:47:02 INFO  TestEntityProvider:31 - null
+2021-03-23 10:47:02 ERROR Main:150 - java.lang.NullPointerException
+2021-03-23 10:58:49 INFO  DataProviderHibernate:133 - Outfit deleted successful
+2021-03-23 10:58:49 INFO  Main:427 - true
