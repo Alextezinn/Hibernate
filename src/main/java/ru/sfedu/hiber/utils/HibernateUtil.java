@@ -60,8 +60,8 @@ public class HibernateUtil {
             metadataSources.addAnnotatedClass(CreditAccount3.class);
             metadataSources.addAnnotatedClass(DebitAccount3.class);
 
-            metadataSources.addAnnotatedClass(Outfit.class);
-            metadataSources.addAnnotatedClass(MeansOfMeasurement.class);
+            metadataSources.addAnnotatedClass(Outfit3.class);
+            metadataSources.addAnnotatedClass(MeansOfMeasurement3.class);
             metadataSources.addAnnotatedClass(Outfit1.class);
             metadataSources.addAnnotatedClass(MeansOfMeasurement1.class);
             metadataSources.addAnnotatedClass(Outfit2.class);
@@ -69,7 +69,7 @@ public class HibernateUtil {
 
 
             //lab5
-            metadataSources.addAnnotatedClass(MyOutfit.class);
+            metadataSources.addAnnotatedClass(Outfit.class);
             metadataSources.addAnnotatedClass(PlaceOfWork.class);
             metadataSources.addAnnotatedClass(Executor.class);
             metadataSources.addAnnotatedClass(HeadOfDepartment.class);

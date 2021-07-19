@@ -7,6 +7,7 @@ import ru.sfedu.hiber.lab3.strategy2.model.Account1;
 import ru.sfedu.hiber.lab3.strategy2.model.CreditAccount1;
 import ru.sfedu.hiber.lab3.strategy2.model.DebitAccount1;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.Optional;
 
@@ -21,5 +22,9 @@ public interface IProvider {
     public <T> Optional<T> updateTypeAccount(Class<T> entity, long id, String name);
 
     public <T> boolean deleteTypeAccount(Class<T> entity, long id);
+
+    void initDb() throws IOException;
+
+    void deleteAll();
 
 }

@@ -3,6 +3,7 @@ package ru.sfedu.hiber.lab3.strategy2.api;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.xpath.operations.String;
+import org.junit.Before;
 import org.junit.Test;
 import ru.sfedu.hiber.lab2.api.TestEntityProviderTest;
 import ru.sfedu.hiber.lab3.strategy1.api.Strategy1Provider;
@@ -22,6 +23,27 @@ public class Strategy2ProviderTest {
 
     private final static Logger log = LogManager.getLogger(Strategy2ProviderTest.class);
 
+    @Before
+    public void initDb() throws IOException{
+        IProvider instance =  new Strategy2Provider();
+        instance.deleteAll();
+        CreditAccount1 creditAccount = new CreditAccount1();
+        DebitAccount1 debitAccount =  new DebitAccount1();
+        creditAccount.setId(1L);
+        creditAccount.setOwner("Alex");
+        creditAccount.setCreditLimit(new BigDecimal("10"));
+        creditAccount.setBalance(new BigDecimal("105"));
+        creditAccount.setInterestRate(new BigDecimal("123"));
+
+        debitAccount.setId(2L);
+        debitAccount.setBalance(new BigDecimal("1090"));
+        debitAccount.setInterestRate(new BigDecimal("1245"));
+        debitAccount.setOwner("Ura");
+        debitAccount.setOverdraftFee(new BigDecimal("10"));
+
+        instance.save(creditAccount, debitAccount);
+    }
+
     @Test
     public void getByAccountsSuccess() throws IOException{
         IProvider instance =  new Strategy2Provider();
@@ -35,11 +57,13 @@ public class Strategy2ProviderTest {
         IProvider instance =  new Strategy2Provider();
         CreditAccount1 creditAccount = new CreditAccount1();
         DebitAccount1 debitAccount =  new DebitAccount1();
+        creditAccount.setId(3L);
         creditAccount.setOwner("Alex");
         creditAccount.setCreditLimit(new BigDecimal("10"));
         creditAccount.setBalance(new BigDecimal("105"));
         creditAccount.setInterestRate(new BigDecimal("123"));
 
+        debitAccount.setId(4L);
         debitAccount.setBalance(new BigDecimal("1090"));
         debitAccount.setInterestRate(new BigDecimal("1245"));
         debitAccount.setOwner("Ura");
@@ -55,11 +79,13 @@ public class Strategy2ProviderTest {
         IProvider instance =  new Strategy2Provider();
         CreditAccount1 creditAccount = new CreditAccount1();
         DebitAccount1 debitAccount =  new DebitAccount1();
+        creditAccount.setId(3L);
         creditAccount.setOwner("Name10");
         creditAccount.setCreditLimit(new BigDecimal("10"));
         creditAccount.setBalance(new BigDecimal("105"));
         creditAccount.setInterestRate(new BigDecimal("123"));
 
+        debitAccount.setId(4L);
         debitAccount.setBalance(new BigDecimal("1090"));
         debitAccount.setInterestRate(new BigDecimal("1245"));
         debitAccount.setOwner("Ura");
@@ -73,7 +99,7 @@ public class Strategy2ProviderTest {
     @Test
     public void updateTypeAccountSuccess() throws IOException{
         IProvider instance =  new Strategy2Provider();
-        CreditAccount1 creditAccount = (CreditAccount1) instance.updateTypeAccount(CreditAccount1.class, 3L, "Don").get();
+        CreditAccount1 creditAccount = (CreditAccount1) instance.updateTypeAccount(CreditAccount1.class, 1L, "Don").get();
         assertNotNull(creditAccount);
     }
 
@@ -92,7 +118,7 @@ public class Strategy2ProviderTest {
     @Test
     public void getByTypeAccountSuccess() throws IOException {
         IProvider instance =  new Strategy2Provider();
-        CreditAccount1 creditAccount = (CreditAccount1) instance.getByTypeAccount(CreditAccount1.class, 3L).get();
+        CreditAccount1 creditAccount = (CreditAccount1) instance.getByTypeAccount(CreditAccount1.class, 1L).get();
         assertNotNull(creditAccount);
     }
 
@@ -111,7 +137,7 @@ public class Strategy2ProviderTest {
     @Test
     public void deleteTypeAccountSuccess()throws IOException{
         IProvider instance =  new Strategy2Provider();
-        boolean flag = instance.deleteTypeAccount(CreditAccount1.class, 13L);
+        boolean flag = instance.deleteTypeAccount(DebitAccount1.class, 2L);
         assertTrue(flag);
     }
 

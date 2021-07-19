@@ -14,7 +14,6 @@ public class MeansMeasurement implements Serializable {
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column
     private long id;
 

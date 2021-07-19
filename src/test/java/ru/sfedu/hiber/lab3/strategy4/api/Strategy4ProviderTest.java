@@ -2,6 +2,7 @@ package ru.sfedu.hiber.lab3.strategy4.api;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.junit.Before;
 import org.junit.Test;
 import ru.sfedu.hiber.lab3.strategy2.api.Strategy2Provider;
 import ru.sfedu.hiber.lab3.strategy2.model.CreditAccount1;
@@ -21,6 +22,26 @@ public class Strategy4ProviderTest {
 
     private final static Logger log = LogManager.getLogger(Strategy4ProviderTest.class);
 
+    @Before
+    public void initDb() throws IOException{
+        ru.sfedu.hiber.lab3.strategy4.api.IProvider instance = new Strategy4Provider();
+        instance.deleteAll();
+        CreditAccount3 creditAccount = new CreditAccount3();
+        DebitAccount3 debitAccount =  new DebitAccount3();
+        creditAccount.setId(1L);
+        creditAccount.setOwner("Alex");
+        creditAccount.setCreditLimit(new BigDecimal("10"));
+        creditAccount.setBalance(new BigDecimal("105"));
+        creditAccount.setInterestRate(new BigDecimal("123"));
+
+        debitAccount.setId(2L);
+        debitAccount.setBalance(new BigDecimal("1090"));
+        debitAccount.setInterestRate(new BigDecimal("1245"));
+        debitAccount.setOwner("Ura");
+        debitAccount.setOverdraftFee(new BigDecimal("10"));
+
+        instance.save(creditAccount, debitAccount);
+    }
 
     @Test
     public void getByAccountsSuccess() throws IOException{
@@ -35,11 +56,13 @@ public class Strategy4ProviderTest {
         ru.sfedu.hiber.lab3.strategy4.api.IProvider instance = new Strategy4Provider();
         CreditAccount3 creditAccount = new CreditAccount3();
         DebitAccount3 debitAccount =  new DebitAccount3();
+        creditAccount.setId(3L);
         creditAccount.setOwner("Alex");
         creditAccount.setCreditLimit(new BigDecimal("10"));
         creditAccount.setBalance(new BigDecimal("105"));
         creditAccount.setInterestRate(new BigDecimal("123"));
 
+        debitAccount.setId(4L);
         debitAccount.setBalance(new BigDecimal("1090"));
         debitAccount.setInterestRate(new BigDecimal("1245"));
         debitAccount.setOwner("Ura");
@@ -55,11 +78,13 @@ public class Strategy4ProviderTest {
         IProvider instance =  new Strategy4Provider();
         CreditAccount3 creditAccount = new CreditAccount3();
         DebitAccount3 debitAccount =  new DebitAccount3();
+        creditAccount.setId(3L);
         creditAccount.setOwner("Name10");
         creditAccount.setCreditLimit(new BigDecimal("10"));
         creditAccount.setBalance(new BigDecimal("105"));
         creditAccount.setInterestRate(new BigDecimal("123"));
 
+        debitAccount.setId(4L);
         debitAccount.setBalance(new BigDecimal("1090"));
         debitAccount.setInterestRate(new BigDecimal("1245"));
         debitAccount.setOwner("Ura");
@@ -73,7 +98,7 @@ public class Strategy4ProviderTest {
     @Test
     public void getByTypeAccountSuccess() throws IOException {
         ru.sfedu.hiber.lab3.strategy4.api.IProvider instance =  new Strategy4Provider();
-        CreditAccount3 creditAccount = (CreditAccount3) instance.getByTypeAccount(CreditAccount3.class, 19L).get();
+        CreditAccount3 creditAccount = (CreditAccount3) instance.getByTypeAccount(CreditAccount3.class, 1L).get();
         log.info(creditAccount);
         assertNotNull(creditAccount);
     }
@@ -93,7 +118,7 @@ public class Strategy4ProviderTest {
     @Test
     public void updateTypeAccountSuccess() throws IOException{
         IProvider instance =  new Strategy4Provider();
-        CreditAccount3 creditAccount = (CreditAccount3) instance.updateTypeAccount( CreditAccount3.class, 19L, "Don1").get();
+        CreditAccount3 creditAccount = (CreditAccount3) instance.updateTypeAccount(CreditAccount3.class, 1L, "Don1").get();
         assertNotNull(creditAccount);
     }
 
@@ -112,17 +137,15 @@ public class Strategy4ProviderTest {
     @Test
     public void deleteTypeAccountSuccess()throws IOException{
         IProvider instance = new Strategy4Provider();
-        boolean flag = instance.deleteTypeAccount(DebitAccount3.class, 20L);
+        boolean flag = instance.deleteTypeAccount(DebitAccount3.class, 2L);
         assertTrue(flag);
     }
 
     @Test
     public void deleteTypeAccountFail()throws IOException{
         IProvider instance =  new Strategy4Provider();
-        boolean flag = instance.deleteTypeAccount(CreditAccount1.class, 555L);
+        boolean flag = instance.deleteTypeAccount(CreditAccount3.class, 555L);
         assertFalse(flag);
     }
-
-
 
 }

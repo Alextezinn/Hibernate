@@ -43,7 +43,8 @@ public class CreditAccount1 extends Account1 implements Serializable {
     @Override
     public String toString() {
         return "CreditAccount1{" +
-                "creditLimit=" + creditLimit +
+                "owner=" + getOwner() +
+                ", creditLimit=" + creditLimit +
                 '}';
     }
 }

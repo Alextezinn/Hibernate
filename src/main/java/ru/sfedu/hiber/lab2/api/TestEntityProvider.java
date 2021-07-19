@@ -7,10 +7,12 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import ru.sfedu.hiber.Constants;
 import ru.sfedu.hiber.lab1.api.HibernateMetaDataProvider;
+import ru.sfedu.hiber.lab2.models.OtherEntity;
 import ru.sfedu.hiber.lab2.models.TestEntity;
 import ru.sfedu.hiber.utils.HibernateUtil;
 
 import java.io.IOException;
+import java.util.Date;
 import java.util.Optional;
 
 public class TestEntityProvider implements ITestEntityProvider{
@@ -100,6 +102,48 @@ public class TestEntityProvider implements ITestEntityProvider{
             session.close();
         }
         return true;
+    }
+
+    @Override
+    public void deleteAll() {
+        Constants.ENTITIES_LAB2.forEach(entity ->{
+            Session session = getSession();
+            Transaction transaction = session.beginTransaction();
+            String query = String.format(Constants.DELETE_ENTITY, entity);
+            session.createSQLQuery(query).executeUpdate();
+            transaction.commit();
+            session.close();
+        });
+    }
+
+    @Override
+    public void initDb()throws IOException{
+        deleteAll();
+        TestEntity entity = new TestEntity();
+        OtherEntity otherEntity = new OtherEntity();
+        entity.setId(1);
+        entity.setName("Name");
+        entity.setDescription("tesut");
+        entity.setDateCreated(new Date());
+        entity.setCheck(true);
+        otherEntity.setCount(10.96);
+        otherEntity.setOther("Named");
+        otherEntity.setComplicationDate(new Date());
+        entity.setOtherEntity(otherEntity);
+        save(entity);
+
+        TestEntity entity1 = new TestEntity();
+        OtherEntity otherEntity1 = new OtherEntity();
+        entity1.setId(2);
+        entity1.setName("Name");
+        entity1.setDescription("tesut");
+        entity1.setDateCreated(new Date());
+        entity1.setCheck(true);
+        otherEntity1.setCount(16.96);
+        otherEntity1.setOther("Namei");
+        otherEntity1.setComplicationDate(new Date());
+        entity1.setOtherEntity(otherEntity1);
+        save(entity1);
     }
 
     private Session getSession(){

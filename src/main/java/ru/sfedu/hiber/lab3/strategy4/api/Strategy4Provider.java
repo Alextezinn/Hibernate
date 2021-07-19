@@ -19,6 +19,7 @@ import ru.sfedu.hiber.lab3.strategy4.model.DebitAccount3;
 import ru.sfedu.hiber.utils.HibernateUtil;
 
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -134,6 +135,38 @@ public class Strategy4Provider implements IProvider{
             session.close();
         }
         return true;
+    }
+
+    @Override
+    public void initDb() throws IOException{
+        deleteAll();
+        CreditAccount3 creditAccount = new CreditAccount3();
+        DebitAccount3 debitAccount =  new DebitAccount3();
+        creditAccount.setId(1L);
+        creditAccount.setOwner("Alex");
+        creditAccount.setCreditLimit(new BigDecimal("10"));
+        creditAccount.setBalance(new BigDecimal("105"));
+        creditAccount.setInterestRate(new BigDecimal("123"));
+
+        debitAccount.setId(2L);
+        debitAccount.setBalance(new BigDecimal("1090"));
+        debitAccount.setInterestRate(new BigDecimal("1245"));
+        debitAccount.setOwner("Ura");
+        debitAccount.setOverdraftFee(new BigDecimal("10"));
+
+        save(creditAccount, debitAccount);
+    }
+
+    @Override
+    public void deleteAll() {
+        Constants.ENTITIES_LAB3_STRATEGY4.forEach(entity ->{
+            Session session = getSession();
+            Transaction transaction = session.beginTransaction();
+            String query = String.format(Constants.DELETE_ENTITY, entity);
+            session.createSQLQuery(query).executeUpdate();
+            transaction.commit();
+            session.close();
+        });
     }
 
     private Session getSession(){

@@ -2,9 +2,11 @@ package ru.sfedu.hiber.lab4.api;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.junit.Before;
 import org.junit.Test;
 import ru.sfedu.hiber.lab4.models.*;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -13,6 +15,28 @@ import static org.junit.Assert.*;
 
 public class CollectionListProviderTest {
     private final static Logger log = LogManager.getLogger(CollectionListProviderTest.class);
+
+    @Before
+    public void initDb() throws IOException {
+        CollectionListProvider provider = new CollectionListProvider();
+        provider.deleteAll();
+
+        Outfit1 outfit = new Outfit1();
+        outfit.setId(1L);
+        outfit.setName("Kira");
+        List<String> instruments = new ArrayList<>();
+        instruments.add("instrument90");
+        outfit.setInstruments(instruments);
+        provider.save(Arrays.asList(outfit));
+
+        Outfit1 newOutfit = new Outfit1();
+        newOutfit.setId(2L);
+        newOutfit.setName("Alex");
+        List<String> newInstruments = new ArrayList<>();
+        newInstruments.add("instrument9");
+        newOutfit.setInstruments(newInstruments);
+        provider.save(Arrays.asList(newOutfit));
+    }
 
     @Test
     public void saveSuccess() {

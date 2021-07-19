@@ -2,18 +2,14 @@ package ru.sfedu.hiber;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
 import ru.sfedu.hiber.lab1.api.HibernateMetaDataProvider;
 import ru.sfedu.hiber.lab2.api.TestEntityProvider;
 import ru.sfedu.hiber.lab2.models.OtherEntity;
 import ru.sfedu.hiber.lab2.models.TestEntity;
 import ru.sfedu.hiber.lab3.strategy1.api.Strategy1Provider;
-import ru.sfedu.hiber.lab3.strategy1.model.Account;
 import ru.sfedu.hiber.lab3.strategy1.model.CreditAccount;
 import ru.sfedu.hiber.lab3.strategy1.model.DebitAccount;
 import ru.sfedu.hiber.lab3.strategy2.api.Strategy2Provider;
-import ru.sfedu.hiber.lab3.strategy2.model.Account1;
 import ru.sfedu.hiber.lab3.strategy2.model.CreditAccount1;
 import ru.sfedu.hiber.lab3.strategy2.model.DebitAccount1;
 import ru.sfedu.hiber.lab3.strategy3.api.Strategy3Provider;
@@ -27,12 +23,8 @@ import ru.sfedu.hiber.lab4.api.CollectionMapProvider;
 import ru.sfedu.hiber.lab4.api.CollectionSetProvider;
 import ru.sfedu.hiber.lab4.models.*;
 import ru.sfedu.hiber.lab5.api.DataProviderHibernate;
-import ru.sfedu.hiber.lab5.models.HeadOfDepartment;
-import ru.sfedu.hiber.lab5.models.MyOutfit;
+import ru.sfedu.hiber.lab5.models.Outfit;
 
-import java.awt.*;
-import java.io.IOException;
-import java.lang.reflect.Array;
 import java.math.BigDecimal;
 import java.util.*;
 import java.util.List;
@@ -40,7 +32,7 @@ import java.util.List;
 public class Main {
     private final static Logger log = LogManager.getLogger(Main.class);
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
         List<String> arguments = Arrays.asList(args);
         try {
             switch (arguments.get(0).toUpperCase()) {
@@ -50,37 +42,46 @@ public class Main {
                     break;
                 case Constants.LAB2:
                     TestEntityProvider provider1 = new TestEntityProvider();
+                    provider1.initDb();
                     chooseLab2(provider1, arguments);
                     break;
                 case Constants.LAB3:
                     if (arguments.get(1).toUpperCase().equals(Constants.STRATEGY1)) {
                         Strategy1Provider provider2 = new Strategy1Provider();
+                        provider2.initDb();
                         chooseLab3Strategy1(provider2, arguments);
                     } else if (arguments.get(1).toUpperCase().equals(Constants.STRATEGY2)) {
                         Strategy2Provider provider3 = new Strategy2Provider();
+                        provider3.initDb();
                         chooseLab3Strategy2(provider3, arguments);
                     } else if (arguments.get(1).toUpperCase().equals(Constants.STRATEGY3)) {
                         Strategy3Provider provider4 = new Strategy3Provider();
+                        provider4.initDb();
                         chooseLab3Strategy3(provider4, arguments);
                     } else if (arguments.get(1).toUpperCase().equals(Constants.STRATEGY4)) {
                         Strategy4Provider provider5 = new Strategy4Provider();
+                        provider5.initDb();
                         chooseLab3Strategy4(provider5, arguments);
                     }
                     break;
                 case Constants.LAB4:
                     if (arguments.get(1).toUpperCase().equals(Constants.SET)) {
                         CollectionSetProvider provider6 = new CollectionSetProvider();
+                        provider6.initDb();
                         chooseLab4Set(provider6, arguments);
                     }else if(arguments.get(1).toUpperCase().equals(Constants.LIST)){
                         CollectionListProvider provider7 = new CollectionListProvider();
+                        provider7.initDb();
                         chooseLab4List(provider7, arguments);
                     }else if(arguments.get(1).toUpperCase().equals(Constants.MAP)){
                         CollectionMapProvider provider8 = new CollectionMapProvider();
+                        provider8.initDb();
                         chooseLab4Map(provider8, arguments);
                     }
                     break;
                 case Constants.LAB5:
                     DataProviderHibernate providerHibernate = new DataProviderHibernate();
+                    providerHibernate.initDb();
                     chooseLab5(providerHibernate, arguments);
                     break;
                 default:
@@ -121,6 +122,7 @@ public class Main {
                 case Constants.SAVE:
                     TestEntity entity = new TestEntity();
                     OtherEntity other = new OtherEntity();
+                    entity.setId(generateId());
                     entity.setName(params.get(2));
                     entity.setCheck(true);
                     entity.setDateCreated(new Date());
@@ -158,10 +160,13 @@ public class Main {
                 case Constants.SAVE:
                     CreditAccount creditAccount = new CreditAccount();
                     DebitAccount debitAccount = new DebitAccount();
+                    creditAccount.setId(generateId());
                     creditAccount.setOwner(params.get(3));
                     creditAccount.setCreditLimit(new BigDecimal(params.get(4)));
                     creditAccount.setBalance(new BigDecimal(params.get(5)));
                     creditAccount.setInterestRate(new BigDecimal(params.get(6)));
+
+                    debitAccount.setId(generateId());
                     debitAccount.setOwner(params.get(3));
                     debitAccount.setBalance(new BigDecimal(params.get(5)));
                     debitAccount.setInterestRate(new BigDecimal(params.get(6)));
@@ -195,10 +200,13 @@ public class Main {
                 case Constants.SAVE:
                     CreditAccount1 creditAccount = new CreditAccount1();
                     DebitAccount1 debitAccount = new DebitAccount1();
+                    creditAccount.setId(generateId());
                     creditAccount.setOwner(params.get(3));
                     creditAccount.setCreditLimit(new BigDecimal(params.get(4)));
                     creditAccount.setBalance(new BigDecimal(params.get(5)));
                     creditAccount.setInterestRate(new BigDecimal(params.get(6)));
+
+                    debitAccount.setId(generateId());
                     debitAccount.setOwner(params.get(3));
                     debitAccount.setBalance(new BigDecimal(params.get(5)));
                     debitAccount.setInterestRate(new BigDecimal(params.get(6)));
@@ -232,10 +240,13 @@ public class Main {
                 case Constants.SAVE:
                     CreditAccount2 creditAccount = new CreditAccount2();
                     DebitAccount2 debitAccount = new DebitAccount2();
+                    creditAccount.setId(generateId());
                     creditAccount.setOwner(params.get(3));
                     creditAccount.setCreditLimit(new BigDecimal(params.get(4)));
                     creditAccount.setBalance(new BigDecimal(params.get(5)));
                     creditAccount.setInterestRate(new BigDecimal(params.get(6)));
+
+                    debitAccount.setId(generateId());
                     debitAccount.setOwner(params.get(3));
                     debitAccount.setBalance(new BigDecimal(params.get(5)));
                     debitAccount.setInterestRate(new BigDecimal(params.get(6)));
@@ -269,10 +280,13 @@ public class Main {
                 case Constants.SAVE:
                     CreditAccount3 creditAccount = new CreditAccount3();
                     DebitAccount3 debitAccount = new DebitAccount3();
+                    creditAccount.setId(generateId());
                     creditAccount.setOwner(params.get(3));
                     creditAccount.setCreditLimit(new BigDecimal(params.get(4)));
                     creditAccount.setBalance(new BigDecimal(params.get(5)));
                     creditAccount.setInterestRate(new BigDecimal(params.get(6)));
+
+                    debitAccount.setId(generateId());
                     debitAccount.setOwner(params.get(3));
                     debitAccount.setBalance(new BigDecimal(params.get(5)));
                     debitAccount.setInterestRate(new BigDecimal(params.get(6)));
@@ -304,30 +318,32 @@ public class Main {
             long id;
             switch (params.get(2).trim().toUpperCase()) {
                 case Constants.SAVE:
-                    Outfit outfit = new Outfit();
-                    outfit.setId(Long.parseLong(params.get(3)));
-                    outfit.setName(params.get(4));
-                    provider.save(Arrays.asList(outfit));
+                    Outfit3 outfit3 = new Outfit3();
+                    id = generateId();
+                    outfit3.setId(id);
+                    outfit3.setName(params.get(3));
+                    provider.save(Arrays.asList(outfit3));
 
-                    MeansOfMeasurement instrument1 = new MeansOfMeasurement();
-                    instrument1.setId(Long.parseLong(params.get(5)));
-                    instrument1.setMeasurementError(Double.parseDouble(params.get(6)));
-                    instrument1.setNameMeansOfMeasurement(params.get(7));
-                    instrument1.setIdOutfit(Long.parseLong(params.get(3)));
+                    long id_measurement = generateId();
+                    MeansOfMeasurement3 instrument1 = new MeansOfMeasurement3();
+                    instrument1.setId(id_measurement);
+                    instrument1.setMeasurementError(Double.parseDouble(params.get(4)));
+                    instrument1.setNameMeansOfMeasurement(params.get(5));
+                    instrument1.setIdOutfit(id);
                     provider.save(Arrays.asList(instrument1));
                     break;
                 case Constants.GET_BY_ID:
                     id = Long.parseLong(params.get(3));
-                    log.info(provider.getById(Outfit.class, id).get());
+                    log.info(provider.getById(Outfit3.class, id).get());
                     break;
                 case Constants.UPDATE:
                     id = Long.parseLong(params.get(3));
                     String name = params.get(4);
-                    log.info(provider.update(Outfit.class, id, name).get());
+                    log.info(provider.update(Outfit3.class, id, name).get());
                     break;
                 case Constants.DELETE:
                     id = Long.parseLong(params.get(3));
-                    provider.delete(Outfit.class, id);
+                    provider.delete(Outfit3.class, id);
                     break;
             }
         } catch (Exception e) {
@@ -341,10 +357,10 @@ public class Main {
             switch (params.get(2).trim().toUpperCase()) {
                 case Constants.SAVE:
                     Outfit1 outfit = new Outfit1();
-                    outfit.setId(Long.parseLong(params.get(3)));
-                    outfit.setName(params.get(4));
+                    outfit.setId(generateId());
+                    outfit.setName(params.get(3));
                     List<String> instruments = new ArrayList<>();
-                    instruments.add(params.get(5));
+                    instruments.add(params.get(4));
                     outfit.setInstruments(instruments);
                     provider.save(Arrays.asList(outfit));
                     break;
@@ -373,15 +389,17 @@ public class Main {
             switch (params.get(2).trim().toUpperCase()) {
                 case Constants.SAVE:
                     Outfit2 outfit = new Outfit2();
-                    outfit.setId(Long.parseLong(params.get(3)));
-                    outfit.setName(params.get(4));
+                    id = generateId();
+                    outfit.setId(id);
+                    outfit.setName(params.get(3));
                     provider.save(Arrays.asList(outfit));
 
+                    long id_measurement = generateId();
                     MeansOfMeasurement2 instrument1 = new MeansOfMeasurement2();
-                    instrument1.setId(Long.parseLong(params.get(5)));
-                    instrument1.setMeasurementError(Double.parseDouble(params.get(6)));
-                    instrument1.setNameMeansOfMeasurement(params.get(7));
-                    instrument1.setIdOutfit(Long.parseLong(params.get(3)));
+                    instrument1.setId(id_measurement);
+                    instrument1.setMeasurementError(Double.parseDouble(params.get(4)));
+                    instrument1.setNameMeansOfMeasurement(params.get(5));
+                    instrument1.setIdOutfit(id);
                     provider.save(Arrays.asList(instrument1));
                     break;
                 case Constants.GET_BY_ID:
@@ -410,11 +428,11 @@ public class Main {
             switch (params.get(1).trim().toUpperCase()) {
                 case Constants.SAVE:
                     employees = provider.stringToList(params.get(6));
-                    provider.createOutfit(new Date(), Long.parseLong(params.get(2)), Long.parseLong(params.get(3)), Long.parseLong(params.get(4)), Long.parseLong(params.get(5)), employees);
+                    provider.createOutfit(new Date(), Long.parseLong(params.get(2)), Long.parseLong(params.get(3)), Long.parseLong(params.get(4)), Long.parseLong(params.get(5)), employees, generateId());
                     break;
                 case Constants.GET_BY_ID:
                     id = Long.parseLong(params.get(2));
-                    MyOutfit outfit = (MyOutfit) provider.getById(MyOutfit.class, id).get();
+                    Outfit outfit = (Outfit) provider.getById(Outfit.class, id).get();
                     log.info(outfit.getExecutor());
                     break;
                 case Constants.UPDATE:
@@ -430,5 +448,9 @@ public class Main {
         }catch (Exception e){
             log.error(e);
         }
+    }
+
+    private static long generateId(){
+        return Math.round(Math.random() * 1000000);
     }
 }

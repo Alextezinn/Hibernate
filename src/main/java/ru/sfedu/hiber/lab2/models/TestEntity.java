@@ -13,7 +13,6 @@ public class TestEntity implements Serializable {
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column
     private long id;
 

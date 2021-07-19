@@ -6,20 +6,17 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import ru.sfedu.hiber.Constants;
-import ru.sfedu.hiber.lab3.strategy3.model.Account2;
-import ru.sfedu.hiber.lab3.strategy4.api.Strategy4Provider;
-import ru.sfedu.hiber.lab3.strategy4.model.Account3;
-import ru.sfedu.hiber.lab3.strategy4.model.CreditAccount3;
-import ru.sfedu.hiber.lab3.strategy4.model.DebitAccount3;
-import ru.sfedu.hiber.lab4.models.Outfit;
+import ru.sfedu.hiber.lab4.models.MeansOfMeasurement3;
+import ru.sfedu.hiber.lab4.models.Outfit3;
 import ru.sfedu.hiber.lab4.models.Outfit1;
 import ru.sfedu.hiber.lab4.models.Outfit2;
 import ru.sfedu.hiber.utils.HibernateUtil;
 
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-import java.util.Set;
 
 public class CollectionSetProvider implements IProvider{
     private final static Logger log = LogManager.getLogger(CollectionSetProvider.class);
@@ -67,16 +64,16 @@ public class CollectionSetProvider implements IProvider{
     }
 
     @Override
-    public Optional<Outfit> update(Class entity, long id, String name){
+    public Optional<Outfit3> update(Class entity, long id, String name){
         Session session = null;
         Transaction transaction;
-        Outfit updateEntity = null;
+        Outfit3 updateEntity = null;
         if(name.isEmpty()){
             return null;
         }
         try {
             session = getSession();
-            updateEntity = (Outfit) getById(entity, id).get();
+            updateEntity = (Outfit3) getById(entity, id).get();
             updateEntity.setName(name);
             transaction = session.beginTransaction();
             session.update(updateEntity);
@@ -110,18 +107,51 @@ public class CollectionSetProvider implements IProvider{
         return true;
     }
 
+    @Override
+    public void initDb() throws IOException {
+        deleteAll();
+        Outfit3 outfit3 = new Outfit3();
+        outfit3.setId(1);
+        outfit3.setName("Bob");
 
+        MeansOfMeasurement3 instrument1 = new MeansOfMeasurement3();
+        instrument1.setId(1);
+        instrument1.setMeasurementError(0.0001);
+        instrument1.setNameMeansOfMeasurement("Instrument12");
+        instrument1.setIdOutfit(1);
+        save(Arrays.asList(outfit3));
+        save(Arrays.asList(instrument1));
+
+
+        Outfit3 newOutfit3 = new Outfit3();
+        newOutfit3.setId(2);
+        newOutfit3.setName("Bob");
+
+        MeansOfMeasurement3 instrument2 = new MeansOfMeasurement3();
+        instrument2.setId(2);
+        instrument2.setMeasurementError(0.0001);
+        instrument2.setNameMeansOfMeasurement("Instrument11");
+        instrument2.setIdOutfit(2);
+        save(Arrays.asList(newOutfit3));
+        save(Arrays.asList(instrument2));
+    }
+
+    @Override
+    public void deleteAll() {
+        Constants.ENTITIES_LAB4_SET.forEach(entity ->{
+            Session session = getSession();
+            Transaction transaction = session.beginTransaction();
+            String query = String.format(Constants.DELETE_ENTITY, entity);
+            session.createSQLQuery(query).executeUpdate();
+            transaction.commit();
+            session.close();
+        });
+    }
 
     public Session getSession(){
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         return sessionFactory.openSession();
     }
-
-
-
-
-
-
 
 
     @Override

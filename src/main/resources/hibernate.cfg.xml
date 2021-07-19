@@ -25,7 +25,7 @@
         <!-- when using type="yes_no" for booleans, the line below allow booleans in HQL expressions: -->
         <property name="hibernate.query.substitutions">true 'Y', false 'N'</property>
 
-        <mapping class="ru.sfedu.hiber.lab5.models.MyOutfit"/>
+        <mapping class="ru.sfedu.hiber.lab5.models.Outfit"/>
         <mapping class="ru.sfedu.hiber.lab5.models.Customer"/>
         <mapping class="ru.sfedu.hiber.lab5.models.Executor"/>
         <mapping class="ru.sfedu.hiber.lab5.models.MeansMeasurement"/>

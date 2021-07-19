@@ -14,7 +14,6 @@ public  class Account3 implements Serializable {
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column
     private Long id;
 

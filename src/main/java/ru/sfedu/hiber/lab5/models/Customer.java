@@ -3,7 +3,6 @@ package ru.sfedu.hiber.lab5.models;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.HashSet;
-import java.util.Objects;
 import java.util.Set;
 
 
@@ -15,7 +14,6 @@ public class Customer implements Serializable {
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(name = "id")
     private long id;
 
@@ -23,7 +21,7 @@ public class Customer implements Serializable {
     private String name;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "customer")
-    private Set<MyOutfit> myoutfit = new HashSet<>();
+    private Set<Outfit> outfit = new HashSet<>();
 
     public long getId() {
         return id;
@@ -41,12 +39,12 @@ public class Customer implements Serializable {
         this.name = name;
     }
 
-    public Set<MyOutfit> getMyoutfit() {
-        return myoutfit;
+    public Set<Outfit> getOutfit() {
+        return outfit;
     }
 
-    public void setMyoutfit(Set<MyOutfit> myoutfit) {
-        this.myoutfit = myoutfit;
+    public void setOutfit(Set<Outfit> outfit) {
+        this.outfit = outfit;
     }
 
     @Override
@@ -54,7 +52,7 @@ public class Customer implements Serializable {
         return "Customer{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", myoutfit=" + myoutfit +
+                ", outfit=" + outfit +
                 '}';
     }
 }

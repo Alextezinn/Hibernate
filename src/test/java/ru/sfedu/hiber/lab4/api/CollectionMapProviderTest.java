@@ -2,9 +2,11 @@ package ru.sfedu.hiber.lab4.api;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.junit.Before;
 import org.junit.Test;
 import ru.sfedu.hiber.lab4.models.*;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
@@ -12,6 +14,36 @@ import static org.junit.Assert.*;
 
 public class CollectionMapProviderTest {
     private final static Logger log = LogManager.getLogger(CollectionMapProviderTest.class);
+
+    @Before
+    public void initDb() throws IOException {
+        CollectionMapProvider provider = new CollectionMapProvider();
+        provider.deleteAll();
+
+        Outfit2 outfit = new Outfit2();
+        outfit.setId(1L);
+        outfit.setName("Jon");
+        provider.save(Arrays.asList(outfit));
+
+        MeansOfMeasurement2 instrument1 = new MeansOfMeasurement2();
+        instrument1.setId(1L);
+        instrument1.setMeasurementError(0.001);
+        instrument1.setNameMeansOfMeasurement("instrument3");
+        instrument1.setIdOutfit(1L);
+        provider.save(Arrays.asList(instrument1));
+
+        Outfit2 newOutfit = new Outfit2();
+        newOutfit.setId(2L);
+        newOutfit.setName("Bob");
+        provider.save(Arrays.asList(newOutfit));
+
+        MeansOfMeasurement2 instrument2 = new MeansOfMeasurement2();
+        instrument2.setId(2L);
+        instrument2.setMeasurementError(0.001);
+        instrument2.setNameMeansOfMeasurement("instrument5");
+        instrument2.setIdOutfit(2L);
+        provider.save(Arrays.asList(instrument1));
+    }
 
     @Test
     public void saveSuccess() {

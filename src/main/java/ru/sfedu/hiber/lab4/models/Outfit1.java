@@ -25,7 +25,6 @@ public class Outfit1 implements Serializable {
     )
     @OrderColumn
     @Column(name = "nameMeansOfMeasurement")
-    //@ListIndexBase(0)
     protected List<String> instruments = new ArrayList<>();
 
     public void setId(Long id) {

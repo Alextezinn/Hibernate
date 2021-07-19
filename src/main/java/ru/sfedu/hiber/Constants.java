@@ -1,5 +1,8 @@
 package ru.sfedu.hiber;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Constants {
     public static final String SQL_ALL_SCHEMAS = "SELECT schema_name FROM information_schema.schemata";
     //таблицы
@@ -68,4 +71,45 @@ public class Constants {
     public static final String MAP = "MAP";
     public static final String LIST = "LIST";
 
+    public static final String TEST_ENTITY = "test_entity";
+
+    public static final String DELETE_ENTITY = "DELETE FROM %s";
+
+    public static final String CREDIT_ACCOUNT = "credit_account";
+
+    public static final String DEBIT_ACCOUNT = "debit_account";
+
+    public static final List<String> ENTITIES_LAB2 = Arrays.asList(TEST_ENTITY);
+
+
+
+    public static final List<String> ENTITIES_LAB3_STRATEGY1 = Arrays.asList(CREDIT_ACCOUNT, DEBIT_ACCOUNT);
+
+
+    public static final String CREDIT_ACCOUNT1 = "credit_account1";
+
+    public static final String DEBIT_ACCOUNT1 = "debit_account1";
+
+    public static final List<String> ENTITIES_LAB3_STRATEGY2 = Arrays.asList(CREDIT_ACCOUNT1, DEBIT_ACCOUNT1);
+
+    public static final String Account = "account2";
+
+    public static final List<String> ENTITIES_LAB3_STRATEGY3 = Arrays.asList(Account);
+
+    public static final String Account3 = "account3";
+
+    public static final String CREDIT_ACCOUNT3 = "credit_account3";
+
+    public static final String DEBIT_ACCOUNT3 = "debit_account3";
+
+    public static final List<String> ENTITIES_LAB3_STRATEGY4 = Arrays.asList(CREDIT_ACCOUNT3, DEBIT_ACCOUNT3, Account3);
+
+    public static final List<String> ENTITIES_LAB4_LIST = Arrays.asList("MEANSOFMEASUREMENT1", "OUTFIT1");
+
+    public static final List<String> ENTITIES_LAB4_SET = Arrays.asList("MEANSOFMEASUREMENT", "OUTFIT3");
+
+    public static final List<String> ENTITIES_LAB4_MAP = Arrays.asList("MEANSOFMEASUREMENT2", "OUTFIT2");
+
+    public static final List<String> ENTITIES_LAB5 = Arrays.asList("customer", "employee",
+            "executor", "measurement_instrument", "place_of_work", "head_of_department");
 }

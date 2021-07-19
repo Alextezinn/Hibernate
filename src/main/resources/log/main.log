@@ -238,14 +238,14 @@
 2021-03-13 12:21:20 ERROR CollectionListProviderTest:63 - java.lang.NullPointerException
 2021-03-13 12:21:20 ERROR CollectionListProviderTest:83 - java.lang.NullPointerException
 2021-03-13 12:21:20 ERROR CollectionListProvider:99 - java.lang.NullPointerException
-2021-03-14 02:05:05 ERROR DataProviderHibernate:35 - org.hibernate.MappingException: Unknown entity: ru.sfedu.hiber.lab5.models.MyOutfit
-2021-03-14 02:08:45 ERROR DataProviderHibernate:35 - org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.hiber.lab5.models.MyOutfit.placeWork
-2021-03-14 02:11:52 ERROR DataProviderHibernate:35 - org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ru.sfedu.hiber.lab5.models.MyOutfit.placeWork -> ru.sfedu.hiber.lab5.models.PlaceOfWork
-2021-03-14 02:16:56 ERROR DataProviderHibernate:35 - org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.hiber.lab5.models.MyOutfit.placeWork
+2021-03-14 02:05:05 ERROR DataProviderHibernate:35 - org.hibernate.MappingException: Unknown entity: ru.sfedu.hiber.lab5.models.Outfit
+2021-03-14 02:08:45 ERROR DataProviderHibernate:35 - org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.hiber.lab5.models.Outfit.placeWork
+2021-03-14 02:11:52 ERROR DataProviderHibernate:35 - org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ru.sfedu.hiber.lab5.models.Outfit.placeWork -> ru.sfedu.hiber.lab5.models.PlaceOfWork
+2021-03-14 02:16:56 ERROR DataProviderHibernate:35 - org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.hiber.lab5.models.Outfit.placeWork
 2021-03-14 21:30:52 INFO  DataProviderHibernateTest:51 - HeadOfDepartment{id=35, name='Tito', salary=30000.0, executor=Executor{id=36, phoneNumber='79999999999'}}
 2021-03-14 21:33:47 ERROR DataProviderHibernateTest:62 - java.lang.NullPointerException
 2021-03-14 21:34:35 ERROR DataProviderHibernateTest:62 - java.lang.NullPointerException
-2021-03-14 22:03:09 ERROR DataProviderHibernate:49 - org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.hiber.lab5.models.MyOutfit.customer
+2021-03-14 22:03:09 ERROR DataProviderHibernate:49 - org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.hiber.lab5.models.Outfit.customer
 2021-03-15 00:09:06 INFO  DataProviderHibernate:34 - MyOutfit{id=0, dateStartWork=Mon Mar 15 00:08:56 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=30, name='Rostov'}, customer=Customer{id=51, name='Inna'}, meansMeasurement=null, executor=null}
 2021-03-15 00:16:49 INFO  DataProviderHibernate:35 - HeadOfDepartment{id=35, name='Tito', salary=30000.0, executor=Executor{id=36, phoneNumber='79999999999'}}
 2021-03-15 00:16:49 INFO  DataProviderHibernate:37 - MyOutfit{id=0, dateStartWork=Mon Mar 15 00:16:38 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=30, name='Rostov'}, customer=Customer{id=51, name='Inna'}, meansMeasurement=null, executor=null}
@@ -286,7 +286,7 @@
 2021-03-15 18:10:31 INFO  DataProviderHibernate:100 - Outfit edited successful
 2021-03-15 18:17:27 INFO  DataProviderHibernate:100 - Outfit edited successful
 2021-03-15 18:18:53 INFO  DataProviderHibernate:100 - Outfit edited successful
-2021-03-15 18:31:18 ERROR DataProviderHibernate:160 - Error outfit id not found
+2021-03-15 18:31:18 ERROR DataProviderHibernate:160 - Error outfit3 id not found
 2021-03-15 18:50:51 INFO  DataProviderHibernate:54 - MyOutfit{id=0, dateStartWork=Mon Mar 15 18:50:36 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=34, name='Sochi'}, customer=Customer{id=53, name='Don'}, meansMeasurement=ElectricalMeasurement{id=49, name=instrument3, measurementError=0.001 , model=Y778, power=30.0}, executor=Executor{id=40, phoneNumber='79999999999'}, employees=[Employee{id=70, name='Son', salary=21600.0}, Employee{id=69, name='Won', salary=23000.0}]}
 2021-03-15 18:50:51 INFO  DataProviderHibernate:55 - Outfit created successful
 2021-03-15 21:27:14 INFO  DataProviderHibernate:54 - MyOutfit{id=0, dateStartWork=Mon Mar 15 21:26:54 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=34, name='Sochi'}, customer=Customer{id=53, name='Don'}, meansMeasurement=ElectricalMeasurement{id=49, name=instrument3, measurementError=0.001 , model=Y778, power=30.0}, executor=Executor{id=40, phoneNumber='79999999999'}}
@@ -342,7 +342,7 @@
 2021-03-16 05:25:51 ERROR DataProviderHibernate:388 - org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : ru.sfedu.hiber.lab5.models.Executor.headOfDepartment -> ru.sfedu.hiber.lab5.models.HeadOfDepartment
 2021-03-16 05:29:13 INFO  DataProviderHibernate:55 - MyOutfit{id=0, dateStartWork=Tue Mar 16 05:29:00 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=96, name='Rostov'}, customer=Customer{id=104, name='Ura'}, meansMeasurement=ElectricalMeasurement{id=100, name=instrument1, measurementError=0.001 , model=X222, power=30.0}, executor=null, employees=[]}
 2021-03-16 05:29:13 INFO  DataProviderHibernate:56 - Outfit created successful
-2021-03-16 05:29:13 ERROR DataProviderHibernate:388 - org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.hiber.lab5.models.MyOutfit.executor
+2021-03-16 05:29:13 ERROR DataProviderHibernate:388 - org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.hiber.lab5.models.Outfit.executor
 2021-03-16 05:34:58 INFO  Main:44 - Optional[HeadOfDepartment{id=115, name='Son', salary=30000.0, executor=null}]
 2021-03-16 05:34:58 ERROR Main:91 - Incorrect command entry
 2021-03-16 05:34:58 ERROR Main:92 - java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
@@ -366,9 +366,9 @@
 2021-03-16 06:36:57 INFO  DataProviderHibernateTest:48 - MyOutfit{id=121, dateStartWork=2021-03-16 05:48:05.883, completionDate=null, placeWork=PlaceOfWork{id=96, name='Rostov'}, customer=Customer{id=104, name='Ura'}, meansMeasurement=ElectricalMeasurement{id=100, name=instrument1, measurementError=0.001 , model=X222, power=30.0}, executor=Executor{id=120, phoneNumber='799999999'}, employees=[]}
 2021-03-16 06:56:47 INFO  DataProviderHibernate:55 - MyOutfit{id=0, dateStartWork=Tue Mar 16 06:56:15 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=98, name='London'}, customer=Customer{id=106, name='Inna'}, meansMeasurement=MechanicalMeasurement{id=102, name=instrument3 ,measurementError=0.001, model=Y221}, executor=Executor{id=131, phoneNumber='799999999'}, employees=[]}
 2021-03-16 06:56:47 INFO  DataProviderHibernate:56 - Outfit created successful
-2021-03-16 07:05:54 ERROR DataProviderHibernate:183 - Error outfit id not found
+2021-03-16 07:05:54 ERROR DataProviderHibernate:183 - Error outfit3 id not found
 2021-03-16 08:28:04 INFO  Main:416 - MyOutfit{id=121, dateStartWork=2021-03-16 05:48:05.883, completionDate=null, placeWork=PlaceOfWork{id=96, name='Rostov'}, customer=Customer{id=104, name='Ura'}, meansMeasurement=ElectricalMeasurement{id=100, name=instrument1, measurementError=0.001 , model=X222, power=30.0}, executor=Executor{id=120, phoneNumber='799999999'}, employees=[]}
-2021-03-21 22:28:29 ERROR DataProviderHibernate:388 - org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: ru.sfedu.hiber.lab5.models.MyOutfit.employee in ru.sfedu.hiber.lab5.models.Employee.outfits
+2021-03-21 22:28:29 ERROR DataProviderHibernate:388 - org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: ru.sfedu.hiber.lab5.models.Outfit.employee in ru.sfedu.hiber.lab5.models.Employee.outfits
 2021-03-21 23:33:50 ERROR DataProviderHibernate:388 - org.hibernate.AnnotationException: Associations marked as mappedBy must not define database mappings like @JoinTable or @JoinColumn: ru.sfedu.hiber.lab5.models.Employee.outfits
 2021-03-21 23:34:50 ERROR DataProviderHibernate:388 - org.hibernate.AnnotationException: Associations marked as mappedBy must not define database mappings like @JoinTable or @JoinColumn: ru.sfedu.hiber.lab5.models.Employee.outfits
 2021-03-22 02:09:49 ERROR DataProviderHibernate:388 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
@@ -479,3 +479,1392 @@
 2021-03-23 10:47:02 ERROR Main:150 - java.lang.NullPointerException
 2021-03-23 10:58:49 INFO  DataProviderHibernate:133 - Outfit deleted successful
 2021-03-23 10:58:49 INFO  Main:427 - true
+2021-04-01 00:12:17 INFO  TestEntityProvider:31 - null
+2021-04-01 00:12:17 ERROR TestEntityProvider:97 - java.lang.NullPointerException
+2021-04-01 00:12:17 INFO  TestEntityProvider:54 - 286
+2021-04-01 00:12:17 INFO  TestEntityProvider:31 - TestEntity{id=286, name='Name1', description='test', dateCreated=2021-04-01 00:12:17.131, check=true}
+2021-04-01 00:12:17 INFO  TestEntityProviderTest:58 - TestEntity{id=286, name='Name1', description='test', dateCreated=2021-04-01 00:12:17.131, check=true}
+2021-04-01 00:12:17 INFO  TestEntityProvider:31 - null
+2021-04-01 00:12:17 INFO  TestEntityProviderTest:38 - java.lang.NullPointerException
+2021-04-01 00:12:17 INFO  TestEntityProvider:31 - null
+2021-04-01 00:12:17 INFO  TestEntityProvider:31 - null
+2021-04-01 00:12:17 INFO  TestEntityProvider:31 - null
+2021-04-01 00:12:17 INFO  TestEntityProvider:31 - null
+2021-04-01 00:12:17 ERROR TestEntityProvider:97 - java.lang.NullPointerException
+2021-04-01 00:12:17 ERROR TestEntityProviderTest:123 - java.lang.NullPointerException
+2021-04-01 00:14:01 INFO  HibernateMetaDataProvider:57 - Get role tables grants size 1656
+2021-04-01 00:14:03 INFO  HibernateMetaDataProvider:57 - Get role tables grants size 1656
+2021-04-01 00:14:03 INFO  HibernateMetaDataProvider:37 - Get tables size 212
+2021-04-01 00:14:03 INFO  HibernateMetaDataProvider:37 - Get tables size 212
+2021-04-01 00:14:03 INFO  HibernateMetaDataProvider:47 - Get tables type size 212
+2021-04-01 00:14:03 INFO  HibernateMetaDataProvider:47 - Get tables type size 212
+2021-04-01 00:14:03 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-04-01 00:14:03 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-04-01 01:20:10 INFO  TestEntityProvider:54 - 287
+2021-04-01 01:20:11 INFO  TestEntityProvider:31 - TestEntity{id=287, name='Name', description='tesut', dateCreated=2021-04-01 01:20:10.611, check=true}
+2021-04-01 01:20:11 INFO  TestEntityProviderTest:37 - TestEntity{id=287, name='Name', description='tesut', dateCreated=2021-04-01 01:20:10.611, check=true}
+2021-04-01 01:20:11 INFO  TestEntityProvider:54 - 288
+2021-04-01 01:20:11 INFO  TestEntityProvider:31 - TestEntity{id=288, name='Name', description='tesut', dateCreated=2021-04-01 01:20:11.052, check=true}
+2021-04-01 01:20:11 INFO  TestEntityProviderTest:37 - TestEntity{id=288, name='Name', description='tesut', dateCreated=2021-04-01 01:20:11.052, check=true}
+2021-04-01 01:20:11 INFO  TestEntityProvider:31 - null
+2021-04-01 01:20:11 ERROR TestEntityProvider:97 - java.lang.NullPointerException
+2021-04-01 01:20:11 INFO  TestEntityProvider:54 - 289
+2021-04-01 01:20:11 INFO  TestEntityProvider:31 - TestEntity{id=289, name='Name', description='tesut', dateCreated=2021-04-01 01:20:11.184, check=true}
+2021-04-01 01:20:11 INFO  TestEntityProviderTest:37 - TestEntity{id=289, name='Name', description='tesut', dateCreated=2021-04-01 01:20:11.184, check=true}
+2021-04-01 01:20:11 INFO  TestEntityProvider:54 - 290
+2021-04-01 01:20:11 INFO  TestEntityProvider:31 - TestEntity{id=290, name='Name1', description='test', dateCreated=2021-04-01 01:20:11.238, check=true}
+2021-04-01 01:20:11 INFO  TestEntityProviderTest:77 - TestEntity{id=290, name='Name1', description='test', dateCreated=2021-04-01 01:20:11.238, check=true}
+2021-04-01 01:20:11 INFO  TestEntityProvider:54 - 291
+2021-04-01 01:20:11 INFO  TestEntityProvider:31 - TestEntity{id=291, name='Name', description='tesut', dateCreated=2021-04-01 01:20:11.35, check=true}
+2021-04-01 01:20:11 INFO  TestEntityProviderTest:37 - TestEntity{id=291, name='Name', description='tesut', dateCreated=2021-04-01 01:20:11.35, check=true}
+2021-04-01 01:20:11 INFO  TestEntityProvider:31 - null
+2021-04-01 01:20:11 INFO  TestEntityProviderTest:57 - java.lang.NullPointerException
+2021-04-01 01:20:11 INFO  TestEntityProvider:54 - 292
+2021-04-01 01:20:11 INFO  TestEntityProvider:31 - TestEntity{id=292, name='Name', description='tesut', dateCreated=2021-04-01 01:20:11.487, check=true}
+2021-04-01 01:20:11 INFO  TestEntityProviderTest:37 - TestEntity{id=292, name='Name', description='tesut', dateCreated=2021-04-01 01:20:11.487, check=true}
+2021-04-01 01:20:11 INFO  TestEntityProvider:31 - null
+2021-04-01 01:20:11 INFO  TestEntityProvider:54 - 293
+2021-04-01 01:20:11 INFO  TestEntityProvider:31 - TestEntity{id=293, name='Name', description='tesut', dateCreated=2021-04-01 01:20:11.571, check=true}
+2021-04-01 01:20:11 INFO  TestEntityProviderTest:37 - TestEntity{id=293, name='Name', description='tesut', dateCreated=2021-04-01 01:20:11.571, check=true}
+2021-04-01 01:20:11 INFO  TestEntityProvider:31 - null
+2021-04-01 01:20:11 INFO  TestEntityProvider:54 - 294
+2021-04-01 01:20:11 INFO  TestEntityProvider:31 - TestEntity{id=294, name='Name', description='tesut', dateCreated=2021-04-01 01:20:11.69, check=true}
+2021-04-01 01:20:11 INFO  TestEntityProviderTest:37 - TestEntity{id=294, name='Name', description='tesut', dateCreated=2021-04-01 01:20:11.69, check=true}
+2021-04-01 01:20:11 INFO  TestEntityProvider:31 - null
+2021-04-01 01:20:11 INFO  TestEntityProvider:54 - 295
+2021-04-01 01:20:11 INFO  TestEntityProvider:31 - TestEntity{id=295, name='Name', description='tesut', dateCreated=2021-04-01 01:20:11.771, check=true}
+2021-04-01 01:20:11 INFO  TestEntityProviderTest:37 - TestEntity{id=295, name='Name', description='tesut', dateCreated=2021-04-01 01:20:11.771, check=true}
+2021-04-01 01:20:11 INFO  TestEntityProvider:31 - null
+2021-04-01 01:20:11 ERROR TestEntityProvider:97 - java.lang.NullPointerException
+2021-04-01 01:20:11 ERROR TestEntityProviderTest:142 - java.lang.NullPointerException
+2021-04-01 17:09:22 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:09:23 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:09:23 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:09:23 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:09:23 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:09:23 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:09:23 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:09:23 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:13:16 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:13:16 INFO  TestEntityProvider:54 - 2
+2021-04-01 17:13:16 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:13:16 INFO  TestEntityProvider:54 - 2
+2021-04-01 17:13:16 INFO  TestEntityProvider:31 - TestEntity{id=2, name='Name', description='tesut', dateCreated=2021-04-01 17:13:16.339, check=true}
+2021-04-01 17:13:16 INFO  TestEntityProvider:95 - Delete successful
+2021-04-01 17:13:16 INFO  TestEntityProvider:31 - null
+2021-04-01 17:13:16 ERROR TestEntityProviderTest:143 - java.lang.NullPointerException
+2021-04-01 17:13:16 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:13:16 INFO  TestEntityProvider:54 - 2
+2021-04-01 17:13:16 INFO  TestEntityProvider:54 - 3
+2021-04-01 17:13:16 INFO  TestEntityProvider:31 - TestEntity{id=3, name='Name1', description='test', dateCreated=2021-04-01 17:13:16.815, check=true}
+2021-04-01 17:13:16 INFO  TestEntityProviderTest:90 - TestEntity{id=3, name='Name1', description='test', dateCreated=2021-04-01 17:13:16.815, check=true}
+2021-04-01 17:13:16 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:13:16 INFO  TestEntityProvider:54 - 2
+2021-04-01 17:13:16 INFO  TestEntityProvider:31 - null
+2021-04-01 17:13:16 INFO  TestEntityProviderTest:69 - java.lang.NullPointerException
+2021-04-01 17:13:17 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:13:17 INFO  TestEntityProvider:54 - 2
+2021-04-01 17:13:17 INFO  TestEntityProvider:31 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 17:13:16.991, check=true}
+2021-04-01 17:13:17 INFO  TestEntityProvider:31 - null
+2021-04-01 17:13:17 ERROR TestEntityProvider:77 - java.lang.NullPointerException
+2021-04-01 17:13:17 ERROR TestEntityProviderTest:130 - java.lang.NullPointerException
+2021-04-01 17:13:17 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:13:17 INFO  TestEntityProvider:54 - 2
+2021-04-01 17:13:17 INFO  TestEntityProvider:31 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 17:13:17.113, check=true}
+2021-04-01 17:13:17 INFO  TestEntityProviderTest:57 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 17:13:17.113, check=true}
+2021-04-01 17:13:17 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:13:17 INFO  TestEntityProvider:54 - 2
+2021-04-01 17:13:17 INFO  TestEntityProvider:31 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 17:13:17.223, check=true}
+2021-04-01 17:13:17 INFO  TestEntityProvider:31 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 17:13:17.223, check=true}
+2021-04-01 17:13:17 INFO  TestEntityProvider:75 - TestEntity{id=1, name='NewName', description='tesut', dateCreated=2021-04-01 17:13:17.223, check=true}
+2021-04-01 17:13:17 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:13:17 INFO  TestEntityProvider:54 - 2
+2021-04-01 17:13:17 INFO  TestEntityProvider:31 - null
+2021-04-01 17:13:17 ERROR TestEntityProvider:97 - java.lang.NullPointerException
+2021-04-01 17:13:17 ERROR TestEntityProviderTest:156 - java.lang.NullPointerException
+2021-04-01 17:13:50 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:13:50 INFO  TestEntityProvider:54 - 2
+2021-04-01 17:13:50 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:13:50 INFO  TestEntityProvider:54 - 2
+2021-04-01 17:13:50 INFO  TestEntityProvider:31 - TestEntity{id=2, name='Name', description='tesut', dateCreated=2021-04-01 17:13:50.433, check=true}
+2021-04-01 17:13:50 INFO  TestEntityProvider:95 - Delete successful
+2021-04-01 17:13:50 INFO  TestEntityProvider:31 - null
+2021-04-01 17:13:50 ERROR TestEntityProviderTest:143 - java.lang.NullPointerException
+2021-04-01 17:13:50 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:13:50 INFO  TestEntityProvider:54 - 2
+2021-04-01 17:13:50 INFO  TestEntityProvider:54 - 3
+2021-04-01 17:13:50 INFO  TestEntityProvider:31 - TestEntity{id=3, name='Name1', description='test', dateCreated=2021-04-01 17:13:50.768, check=true}
+2021-04-01 17:13:50 INFO  TestEntityProviderTest:90 - TestEntity{id=3, name='Name1', description='test', dateCreated=2021-04-01 17:13:50.768, check=true}
+2021-04-01 17:13:50 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:13:50 INFO  TestEntityProvider:54 - 2
+2021-04-01 17:13:50 INFO  TestEntityProvider:31 - null
+2021-04-01 17:13:50 INFO  TestEntityProviderTest:69 - java.lang.NullPointerException
+2021-04-01 17:13:51 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:13:51 INFO  TestEntityProvider:54 - 2
+2021-04-01 17:13:51 INFO  TestEntityProvider:31 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 17:13:51.009, check=true}
+2021-04-01 17:13:51 INFO  TestEntityProvider:31 - null
+2021-04-01 17:13:51 ERROR TestEntityProvider:77 - java.lang.NullPointerException
+2021-04-01 17:13:51 ERROR TestEntityProviderTest:130 - java.lang.NullPointerException
+2021-04-01 17:13:51 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:13:51 INFO  TestEntityProvider:54 - 2
+2021-04-01 17:13:51 INFO  TestEntityProvider:31 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 17:13:51.108, check=true}
+2021-04-01 17:13:51 INFO  TestEntityProviderTest:57 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 17:13:51.108, check=true}
+2021-04-01 17:13:51 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:13:51 INFO  TestEntityProvider:54 - 2
+2021-04-01 17:13:51 INFO  TestEntityProvider:31 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 17:13:51.195, check=true}
+2021-04-01 17:13:51 INFO  TestEntityProvider:31 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 17:13:51.195, check=true}
+2021-04-01 17:13:51 INFO  TestEntityProvider:75 - TestEntity{id=1, name='NewName', description='tesut', dateCreated=2021-04-01 17:13:51.195, check=true}
+2021-04-01 17:13:51 INFO  TestEntityProvider:54 - 1
+2021-04-01 17:13:51 INFO  TestEntityProvider:54 - 2
+2021-04-01 17:13:51 INFO  TestEntityProvider:31 - null
+2021-04-01 17:13:51 ERROR TestEntityProvider:97 - java.lang.NullPointerException
+2021-04-01 17:13:51 ERROR TestEntityProviderTest:156 - java.lang.NullPointerException
+2021-04-01 17:21:55 INFO  TestEntityProvider:54 - 493474
+2021-04-01 18:27:27 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:27:27 INFO  Strategy1ProviderTest:91 - null
+2021-04-01 18:42:12 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:42:12 INFO  Strategy1ProviderTest:92 - null
+2021-04-01 18:42:12 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:42:12 ERROR Strategy1Provider:106 - java.lang.NullPointerException
+2021-04-01 18:42:12 ERROR Strategy1ProviderTest:130 - java.lang.NullPointerException
+2021-04-01 18:42:12 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:42:12 INFO  Strategy1Provider:64 - [3, 4]
+2021-04-01 18:42:12 INFO  Strategy1ProviderTest:72 - [3, 4]
+2021-04-01 18:42:12 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:42:12 INFO  Strategy1Provider:124 - Delete successful
+2021-04-01 18:42:12 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:42:12 INFO  Strategy1ProviderTest:100 - CreditAccount{creditLimit=10.00}
+2021-04-01 18:42:12 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:42:12 ERROR Strategy1ProviderTest:111 - java.lang.NullPointerException
+2021-04-01 18:42:12 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:42:13 INFO  Strategy1Provider:104 - CreditAccount{creditLimit=10.00}
+2021-04-01 18:42:13 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:42:13 INFO  Strategy1ProviderTest:49 - [CreditAccount{creditLimit=10.00}, DebitAccount{overdraftFee=10.00}]
+2021-04-01 18:42:13 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:42:13 ERROR Strategy1Provider:126 - java.lang.NullPointerException
+2021-04-01 18:42:46 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:42:46 INFO  Strategy1ProviderTest:92 - null
+2021-04-01 18:42:46 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:42:46 ERROR Strategy1Provider:106 - java.lang.NullPointerException
+2021-04-01 18:42:46 ERROR Strategy1ProviderTest:130 - java.lang.NullPointerException
+2021-04-01 18:42:46 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:42:46 INFO  Strategy1Provider:64 - [3, 4]
+2021-04-01 18:42:46 INFO  Strategy1ProviderTest:72 - [3, 4]
+2021-04-01 18:42:46 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:42:46 INFO  Strategy1Provider:124 - Delete successful
+2021-04-01 18:42:47 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:42:47 INFO  Strategy1ProviderTest:100 - CreditAccount{creditLimit=10.00}
+2021-04-01 18:42:47 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:42:47 ERROR Strategy1ProviderTest:111 - java.lang.NullPointerException
+2021-04-01 18:42:47 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:42:47 INFO  Strategy1Provider:104 - CreditAccount{creditLimit=10.00}
+2021-04-01 18:42:47 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:42:48 INFO  Strategy1ProviderTest:49 - [CreditAccount{creditLimit=10.00}, DebitAccount{overdraftFee=10.00}]
+2021-04-01 18:42:48 INFO  Strategy1Provider:64 - [1, 2]
+2021-04-01 18:42:48 ERROR Strategy1Provider:126 - java.lang.NullPointerException
+2021-04-01 18:46:34 INFO  Strategy1Provider:64 - [73134, 487217]
+2021-04-01 19:03:52 INFO  TestEntityProvider:54 - 1
+2021-04-01 19:03:52 INFO  TestEntityProvider:54 - 2
+2021-04-01 19:03:52 INFO  TestEntityProvider:54 - 1
+2021-04-01 19:03:52 INFO  TestEntityProvider:54 - 2
+2021-04-01 19:03:52 INFO  TestEntityProvider:31 - TestEntity{id=2, name='Name', description='tesut', dateCreated=2021-04-01 19:03:52.25, check=true}
+2021-04-01 19:03:52 INFO  TestEntityProvider:95 - Delete successful
+2021-04-01 19:03:52 INFO  TestEntityProvider:31 - null
+2021-04-01 19:03:52 ERROR TestEntityProviderTest:143 - java.lang.NullPointerException
+2021-04-01 19:03:52 INFO  TestEntityProvider:54 - 1
+2021-04-01 19:03:52 INFO  TestEntityProvider:54 - 2
+2021-04-01 19:03:52 INFO  TestEntityProvider:54 - 3
+2021-04-01 19:03:52 INFO  TestEntityProvider:31 - TestEntity{id=3, name='Name1', description='test', dateCreated=2021-04-01 19:03:52.65, check=true}
+2021-04-01 19:03:52 INFO  TestEntityProviderTest:90 - TestEntity{id=3, name='Name1', description='test', dateCreated=2021-04-01 19:03:52.65, check=true}
+2021-04-01 19:03:52 INFO  TestEntityProvider:54 - 1
+2021-04-01 19:03:52 INFO  TestEntityProvider:54 - 2
+2021-04-01 19:03:52 INFO  TestEntityProvider:31 - null
+2021-04-01 19:03:52 INFO  TestEntityProviderTest:69 - java.lang.NullPointerException
+2021-04-01 19:03:52 INFO  TestEntityProvider:54 - 1
+2021-04-01 19:03:53 INFO  TestEntityProvider:54 - 2
+2021-04-01 19:03:53 INFO  TestEntityProvider:31 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 19:03:52.891, check=true}
+2021-04-01 19:03:53 INFO  TestEntityProvider:31 - null
+2021-04-01 19:03:53 ERROR TestEntityProvider:77 - java.lang.NullPointerException
+2021-04-01 19:03:53 ERROR TestEntityProviderTest:130 - java.lang.NullPointerException
+2021-04-01 19:03:53 INFO  TestEntityProvider:54 - 1
+2021-04-01 19:03:53 INFO  TestEntityProvider:54 - 2
+2021-04-01 19:03:53 INFO  TestEntityProvider:31 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 19:03:53.124, check=true}
+2021-04-01 19:03:53 INFO  TestEntityProviderTest:57 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 19:03:53.124, check=true}
+2021-04-01 19:03:53 INFO  TestEntityProvider:54 - 1
+2021-04-01 19:03:53 INFO  TestEntityProvider:54 - 2
+2021-04-01 19:03:53 INFO  TestEntityProvider:31 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 19:03:53.259, check=true}
+2021-04-01 19:03:53 INFO  TestEntityProvider:31 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 19:03:53.259, check=true}
+2021-04-01 19:03:53 INFO  TestEntityProvider:75 - TestEntity{id=1, name='NewName', description='tesut', dateCreated=2021-04-01 19:03:53.259, check=true}
+2021-04-01 19:03:53 INFO  TestEntityProvider:54 - 1
+2021-04-01 19:03:53 INFO  TestEntityProvider:54 - 2
+2021-04-01 19:03:53 INFO  TestEntityProvider:31 - null
+2021-04-01 19:03:53 ERROR TestEntityProvider:97 - java.lang.NullPointerException
+2021-04-01 19:03:53 ERROR TestEntityProviderTest:156 - java.lang.NullPointerException
+2021-04-01 19:05:04 INFO  TestEntityProvider:54 - 1
+2021-04-01 19:05:04 INFO  TestEntityProvider:54 - 2
+2021-04-01 19:05:04 INFO  TestEntityProvider:54 - 1
+2021-04-01 19:05:04 INFO  TestEntityProvider:54 - 2
+2021-04-01 19:05:05 INFO  TestEntityProvider:31 - TestEntity{id=2, name='Name', description='tesut', dateCreated=2021-04-01 19:05:04.879, check=true}
+2021-04-01 19:05:05 INFO  TestEntityProvider:95 - Delete successful
+2021-04-01 19:05:05 INFO  TestEntityProvider:31 - null
+2021-04-01 19:05:05 ERROR TestEntityProviderTest:143 - java.lang.NullPointerException
+2021-04-01 19:05:05 INFO  TestEntityProvider:54 - 1
+2021-04-01 19:05:05 INFO  TestEntityProvider:54 - 2
+2021-04-01 19:05:05 INFO  TestEntityProvider:54 - 3
+2021-04-01 19:05:05 INFO  TestEntityProvider:31 - TestEntity{id=3, name='Name1', description='test', dateCreated=2021-04-01 19:05:05.2, check=true}
+2021-04-01 19:05:05 INFO  TestEntityProviderTest:90 - TestEntity{id=3, name='Name1', description='test', dateCreated=2021-04-01 19:05:05.2, check=true}
+2021-04-01 19:05:05 INFO  TestEntityProvider:54 - 1
+2021-04-01 19:05:05 INFO  TestEntityProvider:54 - 2
+2021-04-01 19:05:05 INFO  TestEntityProvider:31 - null
+2021-04-01 19:05:05 INFO  TestEntityProviderTest:69 - java.lang.NullPointerException
+2021-04-01 19:05:05 INFO  TestEntityProvider:54 - 1
+2021-04-01 19:05:05 INFO  TestEntityProvider:54 - 2
+2021-04-01 19:05:05 INFO  TestEntityProvider:31 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 19:05:05.378, check=true}
+2021-04-01 19:05:05 INFO  TestEntityProvider:31 - null
+2021-04-01 19:05:05 ERROR TestEntityProvider:77 - java.lang.NullPointerException
+2021-04-01 19:05:05 ERROR TestEntityProviderTest:130 - java.lang.NullPointerException
+2021-04-01 19:05:05 INFO  TestEntityProvider:54 - 1
+2021-04-01 19:05:05 INFO  TestEntityProvider:54 - 2
+2021-04-01 19:05:05 INFO  TestEntityProvider:31 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 19:05:05.498, check=true}
+2021-04-01 19:05:05 INFO  TestEntityProviderTest:57 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 19:05:05.498, check=true}
+2021-04-01 19:05:05 INFO  TestEntityProvider:54 - 1
+2021-04-01 19:05:05 INFO  TestEntityProvider:54 - 2
+2021-04-01 19:05:05 INFO  TestEntityProvider:31 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 19:05:05.6, check=true}
+2021-04-01 19:05:05 INFO  TestEntityProvider:31 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-01 19:05:05.6, check=true}
+2021-04-01 19:05:05 INFO  TestEntityProvider:75 - TestEntity{id=1, name='NewName', description='tesut', dateCreated=2021-04-01 19:05:05.6, check=true}
+2021-04-01 19:05:05 INFO  TestEntityProvider:54 - 1
+2021-04-01 19:05:05 INFO  TestEntityProvider:54 - 2
+2021-04-01 19:05:05 INFO  TestEntityProvider:31 - null
+2021-04-01 19:05:05 ERROR TestEntityProvider:97 - java.lang.NullPointerException
+2021-04-01 19:05:05 ERROR TestEntityProviderTest:156 - java.lang.NullPointerException
+2021-04-01 21:26:15 INFO  Strategy2Provider:86 - [1, 2]
+2021-04-01 21:26:15 INFO  Strategy2ProviderTest:95 - null
+2021-04-01 21:26:15 INFO  Strategy2Provider:86 - [1, 2]
+2021-04-01 21:26:15 ERROR Strategy2Provider:111 - java.lang.NullPointerException
+2021-04-01 21:26:15 ERROR Strategy2ProviderTest:113 - java.lang.NullPointerException
+2021-04-01 21:26:15 INFO  Strategy2Provider:86 - [1, 2]
+2021-04-01 21:26:15 INFO  Strategy2Provider:86 - [3, 4]
+2021-04-01 21:26:15 INFO  Strategy2ProviderTest:73 - [3, 4]
+2021-04-01 21:26:15 INFO  Strategy2Provider:86 - [1, 2]
+2021-04-01 21:26:15 INFO  Strategy2Provider:129 - Delete successful
+2021-04-01 21:26:15 INFO  Strategy2Provider:86 - [1, 2]
+2021-04-01 21:26:15 INFO  Strategy2Provider:86 - [1, 2]
+2021-04-01 21:26:15 ERROR Strategy2ProviderTest:132 - java.lang.NullPointerException
+2021-04-01 21:26:15 INFO  Strategy2Provider:86 - [1, 2]
+2021-04-01 21:26:15 INFO  Strategy2Provider:109 - CreditAccount1{creditLimit=10.00}
+2021-04-01 21:26:15 INFO  Strategy2Provider:86 - [1, 2]
+2021-04-01 21:26:16 INFO  Strategy2ProviderTest:51 - [CreditAccount1{creditLimit=10.00}, DebitAccount1{overdraftFee=10.00}]
+2021-04-01 21:26:16 INFO  Strategy2Provider:86 - [1, 2]
+2021-04-01 21:26:16 ERROR Strategy2Provider:131 - java.lang.NullPointerException
+2021-04-01 21:26:56 INFO  Strategy2Provider:86 - [1, 2]
+2021-04-01 21:26:56 INFO  Strategy2ProviderTest:95 - null
+2021-04-01 21:26:56 INFO  Strategy2Provider:86 - [1, 2]
+2021-04-01 21:26:56 ERROR Strategy2Provider:111 - java.lang.NullPointerException
+2021-04-01 21:26:56 ERROR Strategy2ProviderTest:113 - java.lang.NullPointerException
+2021-04-01 21:26:56 INFO  Strategy2Provider:86 - [1, 2]
+2021-04-01 21:26:56 INFO  Strategy2Provider:86 - [3, 4]
+2021-04-01 21:26:56 INFO  Strategy2ProviderTest:73 - [3, 4]
+2021-04-01 21:26:56 INFO  Strategy2Provider:86 - [1, 2]
+2021-04-01 21:26:57 INFO  Strategy2Provider:129 - Delete successful
+2021-04-01 21:26:57 INFO  Strategy2Provider:86 - [1, 2]
+2021-04-01 21:26:57 INFO  Strategy2Provider:86 - [1, 2]
+2021-04-01 21:26:57 ERROR Strategy2ProviderTest:132 - java.lang.NullPointerException
+2021-04-01 21:26:57 INFO  Strategy2Provider:86 - [1, 2]
+2021-04-01 21:26:57 INFO  Strategy2Provider:109 - CreditAccount1{creditLimit=10.00}
+2021-04-01 21:26:57 INFO  Strategy2Provider:86 - [1, 2]
+2021-04-01 21:26:58 INFO  Strategy2ProviderTest:51 - [CreditAccount1{creditLimit=10.00}, DebitAccount1{overdraftFee=10.00}]
+2021-04-01 21:26:58 INFO  Strategy2Provider:86 - [1, 2]
+2021-04-01 21:26:58 ERROR Strategy2Provider:131 - java.lang.NullPointerException
+2021-04-01 22:02:59 INFO  Strategy3Provider:85 - [1, 2]
+2021-04-01 22:03:00 INFO  Strategy3ProviderTest:95 - null
+2021-04-01 22:03:00 INFO  Strategy3Provider:85 - [1, 2]
+2021-04-01 22:03:00 ERROR Strategy3Provider:60 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-01 22:03:00 ERROR Strategy3Provider:110 - java.lang.NullPointerException
+2021-04-01 22:03:00 ERROR Strategy3ProviderTest:132 - java.lang.NullPointerException
+2021-04-01 22:03:00 INFO  Strategy3Provider:85 - [1, 2]
+2021-04-01 22:03:00 INFO  Strategy3Provider:85 - [3, 4]
+2021-04-01 22:03:00 INFO  Strategy3ProviderTest:73 - [3, 4]
+2021-04-01 22:03:00 INFO  Strategy3Provider:85 - [1, 2]
+2021-04-01 22:03:00 INFO  Strategy3Provider:58 - DebitAccount2{overdraftFee=10.00}
+2021-04-01 22:03:00 INFO  Strategy3Provider:128 - Delete successful
+2021-04-01 22:03:00 INFO  Strategy3Provider:85 - [1, 2]
+2021-04-01 22:03:00 INFO  Strategy3Provider:58 - CreditAccount2{creditLimit=10.00}
+2021-04-01 22:03:01 INFO  Strategy3Provider:85 - [1, 2]
+2021-04-01 22:03:01 ERROR Strategy3Provider:60 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-01 22:03:01 ERROR Strategy3ProviderTest:113 - java.lang.NullPointerException
+2021-04-01 22:03:01 INFO  Strategy3Provider:85 - [1, 2]
+2021-04-01 22:03:01 INFO  Strategy3Provider:58 - CreditAccount2{creditLimit=10.00}
+2021-04-01 22:03:01 INFO  Strategy3Provider:108 - CreditAccount2{creditLimit=10.00}
+2021-04-01 22:03:01 INFO  Strategy3Provider:85 - [1, 2]
+2021-04-01 22:03:01 INFO  Strategy3ProviderTest:50 - [CreditAccount2{creditLimit=10.00}, DebitAccount2{overdraftFee=10.00}]
+2021-04-01 22:03:01 INFO  Strategy3Provider:85 - [1, 2]
+2021-04-01 22:03:01 ERROR Strategy3Provider:60 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-01 22:03:01 ERROR Strategy3Provider:130 - java.lang.NullPointerException
+2021-04-01 22:03:40 INFO  Strategy3Provider:85 - [1, 2]
+2021-04-01 22:03:40 INFO  Strategy3ProviderTest:95 - null
+2021-04-01 22:03:40 INFO  Strategy3Provider:85 - [1, 2]
+2021-04-01 22:03:40 ERROR Strategy3Provider:60 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-01 22:03:40 ERROR Strategy3Provider:110 - java.lang.NullPointerException
+2021-04-01 22:03:40 ERROR Strategy3ProviderTest:132 - java.lang.NullPointerException
+2021-04-01 22:03:40 INFO  Strategy3Provider:85 - [1, 2]
+2021-04-01 22:03:40 INFO  Strategy3Provider:85 - [3, 4]
+2021-04-01 22:03:40 INFO  Strategy3ProviderTest:73 - [3, 4]
+2021-04-01 22:03:40 INFO  Strategy3Provider:85 - [1, 2]
+2021-04-01 22:03:40 INFO  Strategy3Provider:58 - DebitAccount2{overdraftFee=10.00}
+2021-04-01 22:03:40 INFO  Strategy3Provider:128 - Delete successful
+2021-04-01 22:03:40 INFO  Strategy3Provider:85 - [1, 2]
+2021-04-01 22:03:41 INFO  Strategy3Provider:58 - CreditAccount2{creditLimit=10.00}
+2021-04-01 22:03:41 INFO  Strategy3Provider:85 - [1, 2]
+2021-04-01 22:03:41 ERROR Strategy3Provider:60 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-01 22:03:41 ERROR Strategy3ProviderTest:113 - java.lang.NullPointerException
+2021-04-01 22:03:41 INFO  Strategy3Provider:85 - [1, 2]
+2021-04-01 22:03:41 INFO  Strategy3Provider:58 - CreditAccount2{creditLimit=10.00}
+2021-04-01 22:03:41 INFO  Strategy3Provider:108 - CreditAccount2{creditLimit=10.00}
+2021-04-01 22:03:41 INFO  Strategy3Provider:85 - [1, 2]
+2021-04-01 22:03:41 INFO  Strategy3ProviderTest:50 - [CreditAccount2{creditLimit=10.00}, DebitAccount2{overdraftFee=10.00}]
+2021-04-01 22:03:41 INFO  Strategy3Provider:85 - [1, 2]
+2021-04-01 22:03:41 ERROR Strategy3Provider:60 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-01 22:03:41 ERROR Strategy3Provider:130 - java.lang.NullPointerException
+2021-04-01 22:14:20 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 22:14:20 INFO  Strategy4ProviderTest:94 - null
+2021-04-01 22:14:20 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 22:14:20 INFO  Strategy4Provider:86 - null
+2021-04-01 22:14:20 ERROR Strategy4Provider:111 - java.lang.NullPointerException
+2021-04-01 22:14:20 ERROR Strategy4ProviderTest:132 - java.lang.NullPointerException
+2021-04-01 22:14:20 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 22:14:20 INFO  Strategy4Provider:68 - [3, 4]
+2021-04-01 22:14:20 INFO  Strategy4ProviderTest:72 - [3, 4]
+2021-04-01 22:14:21 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 22:14:21 INFO  Strategy4Provider:86 - DebitAccount3{overdraftFee=10.00}
+2021-04-01 22:14:21 INFO  Strategy4Provider:129 - Delete successful
+2021-04-01 22:14:21 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 22:14:21 INFO  Strategy4Provider:86 - CreditAccount3{creditLimit=10.00}
+2021-04-01 22:14:21 INFO  Strategy4ProviderTest:102 - CreditAccount3{creditLimit=10.00}
+2021-04-01 22:14:21 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 22:14:21 INFO  Strategy4Provider:86 - null
+2021-04-01 22:14:21 ERROR Strategy4ProviderTest:113 - java.lang.NullPointerException
+2021-04-01 22:14:21 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 22:14:21 INFO  Strategy4Provider:86 - CreditAccount3{creditLimit=10.00}
+2021-04-01 22:14:21 INFO  Strategy4Provider:109 - CreditAccount3{creditLimit=10.00}
+2021-04-01 22:14:21 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 22:14:21 INFO  Strategy4ProviderTest:50 - [CreditAccount3{creditLimit=10.00}, DebitAccount3{overdraftFee=10.00}]
+2021-04-01 22:14:22 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 22:14:22 INFO  Strategy4Provider:86 - null
+2021-04-01 22:14:22 ERROR Strategy4Provider:131 - java.lang.NullPointerException
+2021-04-01 22:16:25 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 22:16:25 INFO  Strategy4ProviderTest:94 - null
+2021-04-01 22:16:25 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 22:16:25 INFO  Strategy4Provider:86 - null
+2021-04-01 22:16:25 ERROR Strategy4Provider:111 - java.lang.NullPointerException
+2021-04-01 22:16:25 ERROR Strategy4ProviderTest:132 - java.lang.NullPointerException
+2021-04-01 22:16:25 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 22:16:25 INFO  Strategy4Provider:68 - [3, 4]
+2021-04-01 22:16:25 INFO  Strategy4ProviderTest:72 - [3, 4]
+2021-04-01 22:16:25 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 22:16:25 INFO  Strategy4Provider:86 - DebitAccount3{overdraftFee=10.00}
+2021-04-01 22:16:25 INFO  Strategy4Provider:129 - Delete successful
+2021-04-01 22:16:25 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 22:16:25 INFO  Strategy4Provider:86 - CreditAccount3{creditLimit=10.00}
+2021-04-01 22:16:25 INFO  Strategy4ProviderTest:102 - CreditAccount3{creditLimit=10.00}
+2021-04-01 22:16:25 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 22:16:25 INFO  Strategy4Provider:86 - null
+2021-04-01 22:16:25 ERROR Strategy4ProviderTest:113 - java.lang.NullPointerException
+2021-04-01 22:16:25 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 22:16:26 INFO  Strategy4Provider:86 - CreditAccount3{creditLimit=10.00}
+2021-04-01 22:16:26 INFO  Strategy4Provider:109 - CreditAccount3{creditLimit=10.00}
+2021-04-01 22:16:26 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 22:16:26 INFO  Strategy4ProviderTest:50 - [CreditAccount3{creditLimit=10.00}, DebitAccount3{overdraftFee=10.00}]
+2021-04-01 22:16:26 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 22:16:26 INFO  Strategy4Provider:86 - null
+2021-04-01 22:16:26 ERROR Strategy4Provider:131 - java.lang.NullPointerException
+2021-04-01 23:45:06 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 23:45:06 INFO  Strategy4ProviderTest:94 - null
+2021-04-01 23:45:06 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 23:45:06 INFO  Strategy4Provider:86 - null
+2021-04-01 23:45:06 ERROR Strategy4Provider:111 - java.lang.NullPointerException
+2021-04-01 23:45:06 ERROR Strategy4ProviderTest:132 - java.lang.NullPointerException
+2021-04-01 23:45:06 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 23:45:06 INFO  Strategy4Provider:68 - [3, 4]
+2021-04-01 23:45:06 INFO  Strategy4ProviderTest:72 - [3, 4]
+2021-04-01 23:45:06 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 23:45:07 INFO  Strategy4Provider:86 - DebitAccount3{overdraftFee=10.00}
+2021-04-01 23:45:07 INFO  Strategy4Provider:129 - Delete successful
+2021-04-01 23:45:07 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 23:45:07 INFO  Strategy4Provider:86 - CreditAccount3{creditLimit=10.00}
+2021-04-01 23:45:07 INFO  Strategy4ProviderTest:102 - CreditAccount3{creditLimit=10.00}
+2021-04-01 23:45:07 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 23:45:07 INFO  Strategy4Provider:86 - null
+2021-04-01 23:45:07 ERROR Strategy4ProviderTest:113 - java.lang.NullPointerException
+2021-04-01 23:45:07 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 23:45:07 INFO  Strategy4Provider:86 - CreditAccount3{creditLimit=10.00}
+2021-04-01 23:45:07 INFO  Strategy4Provider:109 - CreditAccount3{creditLimit=10.00}
+2021-04-01 23:45:07 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 23:45:08 INFO  Strategy4ProviderTest:50 - [CreditAccount3{creditLimit=10.00}, DebitAccount3{overdraftFee=10.00}]
+2021-04-01 23:45:08 INFO  Strategy4Provider:68 - [1, 2]
+2021-04-01 23:45:08 INFO  Strategy4Provider:86 - null
+2021-04-01 23:45:08 ERROR Strategy4Provider:131 - java.lang.NullPointerException
+2021-04-01 23:53:22 INFO  CollectionListProvider:39 - [3]
+2021-04-02 00:12:26 INFO  CollectionListProvider:39 - [1]
+2021-04-02 00:12:26 INFO  CollectionListProvider:39 - [2]
+2021-04-02 00:12:27 ERROR CollectionListProvider:41 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:12:27 INFO  CollectionListProvider:39 - [1]
+2021-04-02 00:12:27 INFO  CollectionListProvider:39 - [2]
+2021-04-02 00:12:27 INFO  CollectionListProvider:100 - Delete successful
+2021-04-02 00:12:27 INFO  CollectionListProvider:39 - [1]
+2021-04-02 00:12:27 INFO  CollectionListProvider:39 - [2]
+2021-04-02 00:12:27 INFO  CollectionListProvider:39 - [1]
+2021-04-02 00:12:27 INFO  CollectionListProvider:39 - [2]
+2021-04-02 00:12:27 INFO  CollectionListProvider:39 - [3]
+2021-04-02 00:12:27 INFO  CollectionListProvider:39 - [1]
+2021-04-02 00:12:27 INFO  CollectionListProvider:39 - [2]
+2021-04-02 00:12:27 ERROR CollectionListProviderTest:87 - java.lang.NullPointerException
+2021-04-02 00:12:28 INFO  CollectionListProvider:39 - [1]
+2021-04-02 00:12:28 INFO  CollectionListProvider:39 - [2]
+2021-04-02 00:12:28 ERROR CollectionListProviderTest:107 - java.lang.NullPointerException
+2021-04-02 00:12:28 INFO  CollectionListProvider:39 - [1]
+2021-04-02 00:12:28 INFO  CollectionListProvider:39 - [2]
+2021-04-02 00:12:28 INFO  CollectionListProvider:39 - [1]
+2021-04-02 00:12:28 INFO  CollectionListProvider:39 - [2]
+2021-04-02 00:12:28 ERROR CollectionListProvider:102 - java.lang.NullPointerException
+2021-04-02 00:35:08 INFO  CollectionSetProvider:52 - [1]
+2021-04-02 00:35:08 INFO  CollectionSetProvider:52 - [2]
+2021-04-02 00:35:08 INFO  CollectionSetProvider:52 - [1]
+2021-04-02 00:35:08 ERROR CollectionSetProvider:55 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:35:09 INFO  CollectionSetProvider:52 - [1]
+2021-04-02 00:35:09 INFO  CollectionSetProvider:52 - [2]
+2021-04-02 00:35:09 INFO  CollectionSetProvider:97 - Delete successful
+2021-04-02 00:35:09 INFO  CollectionSetProvider:52 - [1]
+2021-04-02 00:35:09 INFO  CollectionSetProvider:52 - [2]
+2021-04-02 00:35:09 INFO  CollectionSetProvider:52 - [3]
+2021-04-02 00:35:09 INFO  CollectionSetProvider:52 - [1]
+2021-04-02 00:35:09 INFO  CollectionSetProvider:52 - [2]
+2021-04-02 00:35:09 ERROR CollectionSetProviderTest:47 - java.lang.NullPointerException
+2021-04-02 00:35:09 INFO  CollectionSetProvider:52 - [1]
+2021-04-02 00:35:09 INFO  CollectionSetProvider:52 - [2]
+2021-04-02 00:35:09 ERROR CollectionSetProviderTest:95 - java.lang.NullPointerException
+2021-04-02 00:35:09 INFO  CollectionSetProvider:52 - [1]
+2021-04-02 00:35:09 INFO  CollectionSetProvider:52 - [2]
+2021-04-02 00:35:10 INFO  CollectionSetProvider:52 - [1]
+2021-04-02 00:35:10 INFO  CollectionSetProvider:52 - [2]
+2021-04-02 00:35:10 INFO  CollectionSetProvider:52 - [1]
+2021-04-02 00:35:10 INFO  CollectionSetProvider:52 - [2]
+2021-04-02 00:35:10 ERROR CollectionSetProvider:99 - java.lang.NullPointerException
+2021-04-02 00:36:16 INFO  CollectionSetProvider:52 - [1]
+2021-04-02 00:36:16 INFO  CollectionSetProvider:52 - [2]
+2021-04-02 00:36:16 INFO  CollectionSetProvider:52 - [1]
+2021-04-02 00:36:16 ERROR CollectionSetProvider:55 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:36:16 INFO  CollectionSetProvider:52 - [1]
+2021-04-02 00:36:16 INFO  CollectionSetProvider:52 - [2]
+2021-04-02 00:36:16 INFO  CollectionSetProvider:97 - Delete successful
+2021-04-02 00:36:16 INFO  CollectionSetProvider:52 - [1]
+2021-04-02 00:36:16 INFO  CollectionSetProvider:52 - [2]
+2021-04-02 00:36:16 INFO  CollectionSetProvider:52 - [3]
+2021-04-02 00:36:16 INFO  CollectionSetProvider:52 - [1]
+2021-04-02 00:36:16 INFO  CollectionSetProvider:52 - [2]
+2021-04-02 00:36:16 ERROR CollectionSetProviderTest:47 - java.lang.NullPointerException
+2021-04-02 00:36:17 INFO  CollectionSetProvider:52 - [1]
+2021-04-02 00:36:17 INFO  CollectionSetProvider:52 - [2]
+2021-04-02 00:36:17 ERROR CollectionSetProviderTest:95 - java.lang.NullPointerException
+2021-04-02 00:36:17 INFO  CollectionSetProvider:52 - [1]
+2021-04-02 00:36:17 INFO  CollectionSetProvider:52 - [2]
+2021-04-02 00:36:17 INFO  CollectionSetProvider:52 - [1]
+2021-04-02 00:36:17 INFO  CollectionSetProvider:52 - [2]
+2021-04-02 00:36:17 INFO  CollectionSetProvider:52 - [1]
+2021-04-02 00:36:17 INFO  CollectionSetProvider:52 - [2]
+2021-04-02 00:36:17 ERROR CollectionSetProvider:99 - java.lang.NullPointerException
+2021-04-02 00:49:33 INFO  CollectionMapProvider:36 - [1]
+2021-04-02 00:49:33 INFO  CollectionMapProvider:36 - [1]
+2021-04-02 00:49:33 INFO  CollectionMapProvider:36 - [2]
+2021-04-02 00:49:33 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:33 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:33 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:33 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:33 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:33 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:33 INFO  CollectionMapProvider:96 - Delete successful
+2021-04-02 00:49:33 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:33 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:33 INFO  CollectionMapProvider:36 - [2]
+2021-04-02 00:49:33 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 INFO  CollectionMapProvider:36 - [3]
+2021-04-02 00:49:34 INFO  CollectionMapProvider:36 - [3]
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProviderTest:98 - java.lang.NullPointerException
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProviderTest:118 - java.lang.NullPointerException
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 INFO  CollectionMapProviderTest:87 - Outfit2{id=1, name='Ivan1', instruments={instrument3=0.001}}
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:49:34 ERROR CollectionMapProvider:98 - java.lang.NullPointerException
+2021-04-02 00:50:04 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:04 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 INFO  CollectionMapProvider:96 - Delete successful
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 INFO  CollectionMapProvider:36 - [2]
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 ERROR CollectionMapProviderTest:98 - java.lang.NullPointerException
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:05 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:06 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:06 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:06 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:06 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:06 ERROR CollectionMapProviderTest:118 - java.lang.NullPointerException
+2021-04-02 00:50:06 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:06 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:06 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:06 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:06 INFO  CollectionMapProviderTest:87 - Outfit2{id=1, name='Ivan1', instruments={instrument3=0.001}}
+2021-04-02 00:50:06 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:06 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:06 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:06 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:50:06 ERROR CollectionMapProvider:98 - java.lang.NullPointerException
+2021-04-02 00:51:30 INFO  CollectionMapProvider:36 - [1]
+2021-04-02 00:51:30 INFO  CollectionMapProvider:36 - [1]
+2021-04-02 00:51:30 INFO  CollectionMapProvider:36 - [2]
+2021-04-02 00:51:30 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:51:30 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:51:30 INFO  CollectionMapProvider:36 - [1]
+2021-04-02 00:51:30 INFO  CollectionMapProvider:36 - [1]
+2021-04-02 00:51:30 INFO  CollectionMapProvider:36 - [2]
+2021-04-02 00:51:30 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:51:30 INFO  CollectionMapProvider:96 - Delete successful
+2021-04-02 00:51:30 INFO  CollectionMapProvider:36 - [1]
+2021-04-02 00:51:30 INFO  CollectionMapProvider:36 - [1]
+2021-04-02 00:51:30 INFO  CollectionMapProvider:36 - [2]
+2021-04-02 00:51:30 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:51:30 INFO  CollectionMapProvider:36 - [3]
+2021-04-02 00:51:30 INFO  CollectionMapProvider:36 - [3]
+2021-04-02 00:51:30 INFO  CollectionMapProvider:36 - [1]
+2021-04-02 00:51:30 INFO  CollectionMapProvider:36 - [1]
+2021-04-02 00:51:30 INFO  CollectionMapProvider:36 - [2]
+2021-04-02 00:51:31 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:51:31 ERROR CollectionMapProviderTest:99 - java.lang.NullPointerException
+2021-04-02 00:51:31 INFO  CollectionMapProvider:36 - [1]
+2021-04-02 00:51:31 INFO  CollectionMapProvider:36 - [1]
+2021-04-02 00:51:31 INFO  CollectionMapProvider:36 - [2]
+2021-04-02 00:51:31 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:51:31 INFO  CollectionMapProvider:36 - [1]
+2021-04-02 00:51:31 INFO  CollectionMapProvider:36 - [1]
+2021-04-02 00:51:31 INFO  CollectionMapProvider:36 - [2]
+2021-04-02 00:51:31 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:51:31 ERROR CollectionMapProviderTest:119 - java.lang.NullPointerException
+2021-04-02 00:51:31 INFO  CollectionMapProvider:36 - [1]
+2021-04-02 00:51:31 INFO  CollectionMapProvider:36 - [1]
+2021-04-02 00:51:31 INFO  CollectionMapProvider:36 - [2]
+2021-04-02 00:51:31 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:51:31 INFO  CollectionMapProviderTest:88 - Outfit2{id=1, name='Jon', instruments={instrument3=0.001}}
+2021-04-02 00:51:31 INFO  CollectionMapProvider:36 - [1]
+2021-04-02 00:51:31 INFO  CollectionMapProvider:36 - [1]
+2021-04-02 00:51:31 INFO  CollectionMapProvider:36 - [2]
+2021-04-02 00:51:31 ERROR CollectionMapProvider:38 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 00:51:31 ERROR CollectionMapProvider:98 - java.lang.NullPointerException
+2021-04-02 01:18:56 INFO  TestEntityProvider:56 - 1
+2021-04-02 01:18:56 INFO  TestEntityProvider:56 - 2
+2021-04-02 01:18:56 INFO  TestEntityProvider:56 - 655569
+2021-04-02 01:19:41 INFO  TestEntityProvider:56 - 1
+2021-04-02 01:19:42 INFO  TestEntityProvider:56 - 2
+2021-04-02 01:19:42 INFO  TestEntityProvider:33 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-02 01:19:41.841, check=true}
+2021-04-02 01:20:21 INFO  TestEntityProvider:56 - 1
+2021-04-02 01:20:21 INFO  TestEntityProvider:56 - 2
+2021-04-02 01:20:22 INFO  TestEntityProvider:33 - TestEntity{id=2, name='Name', description='tesut', dateCreated=2021-04-02 01:20:21.893, check=true}
+2021-04-02 01:21:02 INFO  TestEntityProvider:56 - 1
+2021-04-02 01:21:02 INFO  TestEntityProvider:56 - 2
+2021-04-02 01:21:02 INFO  TestEntityProvider:33 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-02 01:21:02.661, check=true}
+2021-04-02 01:21:03 INFO  TestEntityProvider:77 - TestEntity{id=1, name='den', description='tesut', dateCreated=2021-04-02 01:21:02.661, check=true}
+2021-04-02 01:21:30 INFO  TestEntityProvider:56 - 1
+2021-04-02 01:21:30 INFO  TestEntityProvider:56 - 2
+2021-04-02 01:21:30 INFO  TestEntityProvider:33 - TestEntity{id=2, name='Name', description='tesut', dateCreated=2021-04-02 01:21:30.627, check=true}
+2021-04-02 01:21:30 INFO  TestEntityProvider:97 - Delete successful
+2021-04-02 01:22:10 INFO  TestEntityProvider:56 - 1
+2021-04-02 01:22:10 INFO  TestEntityProvider:56 - 2
+2021-04-02 01:22:10 INFO  TestEntityProvider:33 - TestEntity{id=2, name='Name', description='tesut', dateCreated=2021-04-02 01:22:10.777, check=true}
+2021-04-02 01:22:10 INFO  TestEntityProvider:97 - Delete successful
+2021-04-02 13:42:43 INFO  Strategy1Provider:65 - [1, 2]
+2021-04-02 13:42:43 INFO  Main:175 - CreditAccount{creditLimit=10.00}
+2021-04-02 13:43:12 INFO  Strategy1Provider:65 - [1, 2]
+2021-04-02 13:43:12 INFO  Strategy1Provider:105 - CreditAccount{creditLimit=10.00}
+2021-04-02 13:45:27 INFO  Strategy1Provider:65 - [1, 2]
+2021-04-02 13:45:28 INFO  Strategy1Provider:105 - CreditAccount{ownertuucreditLimit=10.00}
+2021-04-02 13:46:03 INFO  Strategy1Provider:65 - [1, 2]
+2021-04-02 13:46:04 INFO  Strategy1Provider:105 - CreditAccount{ownertuucreditLimit=10.00}
+2021-04-02 13:46:29 INFO  Strategy1Provider:65 - [1, 2]
+2021-04-02 13:46:29 INFO  Strategy1Provider:105 - CreditAccount{owner=tuu creditLimit=10.00}
+2021-04-02 13:47:15 INFO  Strategy1Provider:65 - [1, 2]
+2021-04-02 13:47:15 ERROR Strategy1Provider:127 - java.lang.NullPointerException
+2021-04-02 13:47:43 INFO  Strategy1Provider:65 - [1, 2]
+2021-04-02 13:47:43 INFO  Strategy1Provider:125 - Delete successful
+2021-04-02 15:00:53 INFO  Strategy2Provider:87 - [1, 2]
+2021-04-02 15:00:53 INFO  Strategy2Provider:87 - [73441, 973022]
+2021-04-02 15:01:28 INFO  Strategy2Provider:87 - [1, 2]
+2021-04-02 15:01:28 INFO  Main:215 - CreditAccount1{owner=Alex, creditLimit=10.00}
+2021-04-02 15:01:51 INFO  Strategy2Provider:87 - [1, 2]
+2021-04-02 15:01:51 INFO  Strategy2Provider:110 - CreditAccount1{owner=Fifa, creditLimit=10.00}
+2021-04-02 15:02:14 INFO  Strategy2Provider:87 - [1, 2]
+2021-04-02 15:02:14 INFO  Strategy2Provider:130 - Delete successful
+2021-04-02 15:02:47 INFO  Strategy3Provider:86 - [1, 2]
+2021-04-02 15:02:48 INFO  Strategy3Provider:86 - [206975, 170001]
+2021-04-02 15:03:50 INFO  Strategy3Provider:86 - [1, 2]
+2021-04-02 15:03:51 INFO  Strategy3Provider:59 - CreditAccount2{owner=Alex, creditLimit=10.00}
+2021-04-02 15:03:51 INFO  Main:255 - CreditAccount2{owner=Alex, creditLimit=10.00}
+2021-04-02 15:04:13 INFO  Strategy3Provider:86 - [1, 2]
+2021-04-02 15:04:14 INFO  Strategy3Provider:59 - CreditAccount2{owner=Alex, creditLimit=10.00}
+2021-04-02 15:04:14 INFO  Strategy3Provider:109 - CreditAccount2{owner=Ura, creditLimit=10.00}
+2021-04-02 15:04:46 INFO  Strategy3Provider:86 - [1, 2]
+2021-04-02 15:04:46 INFO  Strategy3Provider:59 - CreditAccount2{owner=Alex, creditLimit=10.00}
+2021-04-02 15:04:47 INFO  Strategy3Provider:129 - Delete successful
+2021-04-02 15:05:14 INFO  Strategy4Provider:69 - [1, 2]
+2021-04-02 15:05:14 INFO  Strategy4Provider:69 - [930519, 920607]
+2021-04-02 15:05:50 INFO  Strategy4Provider:69 - [1, 2]
+2021-04-02 15:05:50 INFO  Strategy4Provider:87 - CreditAccount3{owner=Alex, creditLimit=10.00}
+2021-04-02 15:05:50 INFO  Main:295 - CreditAccount3{owner=Alex, creditLimit=10.00}
+2021-04-02 15:06:12 INFO  Strategy4Provider:69 - [1, 2]
+2021-04-02 15:06:12 INFO  Strategy4Provider:87 - CreditAccount3{owner=Alex, creditLimit=10.00}
+2021-04-02 15:06:12 INFO  Strategy4Provider:110 - CreditAccount3{owner=Fifa, creditLimit=10.00}
+2021-04-02 15:06:34 INFO  Strategy4Provider:69 - [1, 2]
+2021-04-02 15:06:35 INFO  Strategy4Provider:87 - CreditAccount3{owner=Alex, creditLimit=10.00}
+2021-04-02 15:06:35 INFO  Main:295 - CreditAccount3{owner=Alex, creditLimit=10.00}
+2021-04-02 15:06:59 INFO  Strategy4Provider:69 - [1, 2]
+2021-04-02 15:06:59 INFO  Strategy4Provider:87 - CreditAccount3{owner=Alex, creditLimit=10.00}
+2021-04-02 15:06:59 INFO  Strategy4Provider:130 - Delete successful
+2021-04-02 15:22:04 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:22:05 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:22:05 INFO  CollectionSetProvider:54 - [809110]
+2021-04-02 15:22:05 INFO  CollectionSetProvider:54 - [566]
+2021-04-02 15:32:17 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:32:18 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:32:18 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:32:18 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:32:18 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:32:18 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:32:18 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:32:18 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:32:18 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:32:18 ERROR CollectionSetProvider:101 - java.lang.NullPointerException
+2021-04-02 15:32:18 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:32:18 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:32:18 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:32:18 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:32:18 INFO  CollectionSetProvider:54 - [3]
+2021-04-02 15:32:18 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:32:18 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:32:18 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:32:18 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:32:18 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:32:18 ERROR CollectionSetProviderTest:53 - java.lang.NullPointerException
+2021-04-02 15:32:18 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:32:18 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:32:18 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:32:18 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:32:18 ERROR CollectionSetProviderTest:104 - java.lang.NullPointerException
+2021-04-02 15:32:18 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:32:18 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:32:18 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:32:18 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:32:18 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:32:18 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:32:18 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:32:19 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:32:19 ERROR CollectionSetProvider:81 - java.lang.NullPointerException
+2021-04-02 15:32:19 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:32:19 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:32:19 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:32:19 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:32:19 ERROR CollectionSetProvider:101 - java.lang.NullPointerException
+2021-04-02 15:44:07 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:44:07 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:44:07 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:44:07 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:44:07 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:44:07 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:44:07 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:44:07 INFO  CollectionSetProvider:99 - Delete successful
+2021-04-02 15:44:07 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:44:07 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:44:07 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:44:08 INFO  CollectionSetProvider:54 - [3]
+2021-04-02 15:44:08 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:44:08 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:44:08 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:44:08 ERROR CollectionSetProviderTest:53 - java.lang.NullPointerException
+2021-04-02 15:44:08 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:44:08 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:44:08 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:44:08 ERROR CollectionSetProviderTest:101 - java.lang.NullPointerException
+2021-04-02 15:44:08 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:44:08 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:44:08 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:44:08 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:44:08 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:44:08 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:44:08 ERROR CollectionSetProvider:81 - java.lang.NullPointerException
+2021-04-02 15:44:08 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:44:08 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:44:08 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:44:08 ERROR CollectionSetProvider:101 - java.lang.NullPointerException
+2021-04-02 15:49:08 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:08 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:08 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:08 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:49:08 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:49:08 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:49:08 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:08 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:49:08 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:08 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:08 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:08 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:49:08 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:49:08 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:49:09 ERROR CollectionSetProvider:101 - java.lang.NullPointerException
+2021-04-02 15:49:09 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:09 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:09 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:09 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:49:09 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:49:09 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:49:09 INFO  CollectionSetProvider:54 - [3]
+2021-04-02 15:49:09 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:09 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:09 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:09 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:49:09 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:49:09 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:49:09 ERROR CollectionSetProviderTest:64 - java.lang.NullPointerException
+2021-04-02 15:49:09 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:09 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:09 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:09 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:49:09 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:49:09 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:49:09 ERROR CollectionSetProviderTest:112 - java.lang.NullPointerException
+2021-04-02 15:49:09 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:09 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:09 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:10 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:49:10 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:49:10 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:49:10 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:10 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:10 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:10 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:49:10 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:49:10 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:49:10 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:10 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:10 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:49:10 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:49:10 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:49:10 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:49:10 ERROR CollectionSetProvider:101 - java.lang.NullPointerException
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:50:49 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:50:49 INFO  CollectionSetProvider:99 - Delete successful
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [3]
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:50:49 ERROR CollectionSetProviderTest:64 - java.lang.NullPointerException
+2021-04-02 15:50:49 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:50:50 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:50:50 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:50:50 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:50:50 ERROR CollectionSetProviderTest:112 - java.lang.NullPointerException
+2021-04-02 15:50:50 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:50:50 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:50:50 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:50:50 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:50:50 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:50:50 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:50:50 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:50:50 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:50:50 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:50:50 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:50:50 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:50:50 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:50:50 ERROR CollectionSetProvider:101 - java.lang.NullPointerException
+2021-04-02 15:51:36 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:51:36 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:51:36 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:51:36 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:51:36 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:51:36 ERROR CollectionSetProvider:57 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:51:36 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:51:36 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:51:36 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:51:36 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:51:36 INFO  CollectionSetProvider:99 - Delete successful
+2021-04-02 15:51:36 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:51:36 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:51:36 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:51:36 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:51:36 INFO  CollectionSetProvider:54 - [3]
+2021-04-02 15:51:36 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:51:37 ERROR CollectionSetProviderTest:64 - java.lang.NullPointerException
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:51:37 ERROR CollectionSetProviderTest:112 - java.lang.NullPointerException
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [1]
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:51:37 INFO  CollectionSetProvider:54 - [2]
+2021-04-02 15:51:37 ERROR CollectionSetProvider:101 - java.lang.NullPointerException
+2021-04-02 15:54:17 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 15:54:17 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 15:54:18 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 15:54:18 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 15:54:18 INFO  CollectionSetProvider:55 - [102414]
+2021-04-02 15:54:18 INFO  CollectionSetProvider:55 - [566]
+2021-04-02 15:56:07 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 15:56:08 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 15:56:08 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 15:56:08 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 15:56:08 INFO  CollectionSetProvider:55 - [224996]
+2021-04-02 15:56:08 INFO  CollectionSetProvider:55 - [655445]
+2021-04-02 15:56:08 ERROR CollectionSetProvider:58 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 15:57:18 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 15:57:18 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 15:57:18 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 15:57:18 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 15:57:18 INFO  CollectionSetProvider:55 - [388205]
+2021-04-02 15:57:18 INFO  CollectionSetProvider:55 - [5366]
+2021-04-02 16:00:35 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 16:00:35 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 16:00:35 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 16:00:35 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 16:00:36 INFO  Main:335 - Outfit{id=1, name='Bob', instruments=[Instrument12]}
+2021-04-02 16:01:10 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 16:01:10 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 16:01:10 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 16:01:10 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 16:01:10 INFO  Main:340 - Outfit{id=1, name='Rico', instruments=[Instrument12]}
+2021-04-02 16:01:36 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 16:01:36 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 16:01:36 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 16:01:36 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 16:01:37 INFO  CollectionSetProvider:100 - Delete successful
+2021-04-02 16:05:18 INFO  CollectionListProvider:41 - [1]
+2021-04-02 16:05:18 INFO  CollectionListProvider:41 - [2]
+2021-04-02 16:05:18 INFO  CollectionListProvider:41 - [594669]
+2021-04-02 16:07:30 INFO  CollectionListProvider:41 - [1]
+2021-04-02 16:07:30 INFO  CollectionListProvider:41 - [2]
+2021-04-02 16:07:30 INFO  Main:368 - Outfit1{id=1, name='Kira', instruments=[instrument90]}
+2021-04-02 16:07:55 INFO  CollectionListProvider:41 - [1]
+2021-04-02 16:07:55 INFO  CollectionListProvider:41 - [2]
+2021-04-02 16:07:55 ERROR CollectionListProvider:83 - java.lang.NullPointerException
+2021-04-02 16:07:55 ERROR Main:381 - java.lang.NullPointerException
+2021-04-02 16:09:22 INFO  CollectionListProvider:41 - [1]
+2021-04-02 16:09:22 INFO  CollectionListProvider:41 - [2]
+2021-04-02 16:09:22 INFO  Main:368 - Outfit1{id=1, name='Kira', instruments=[instrument90]}
+2021-04-02 16:09:47 INFO  CollectionListProvider:41 - [1]
+2021-04-02 16:09:47 INFO  CollectionListProvider:41 - [2]
+2021-04-02 16:09:47 INFO  Main:373 - Outfit1{id=1, name='titos', instruments=[instrument90]}
+2021-04-02 16:10:13 INFO  CollectionListProvider:41 - [1]
+2021-04-02 16:10:13 INFO  CollectionListProvider:41 - [2]
+2021-04-02 16:10:13 INFO  CollectionListProvider:102 - Delete successful
+2021-04-02 16:10:30 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 16:10:30 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 16:10:30 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 16:10:30 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 16:10:30 INFO  Main:336 - Outfit{id=1, name='Bob', instruments=[Instrument12]}
+2021-04-02 16:14:37 INFO  CollectionMapProvider:39 - [320897]
+2021-04-02 16:14:37 INFO  CollectionMapProvider:39 - [456249]
+2021-04-02 16:15:09 INFO  Main:406 - Outfit2{id=1, name='Jon', instruments={instrument3=0.001}}
+2021-04-02 16:15:43 INFO  Main:411 - Outfit2{id=1, name='Aran', instruments={instrument3=0.001}}
+2021-04-02 16:16:10 INFO  CollectionMapProvider:99 - Delete successful
+2021-04-02 17:12:25 ERROR CollectionMapProvider:101 - java.lang.NullPointerException
+2021-04-02 17:12:55 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 17:12:55 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 17:12:55 INFO  CollectionMapProvider:39 - [2]
+2021-04-02 17:12:56 ERROR CollectionMapProvider:41 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 17:12:56 INFO  CollectionMapProvider:99 - Delete successful
+2021-04-02 17:13:30 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 17:13:30 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 17:13:30 INFO  CollectionMapProvider:39 - [2]
+2021-04-02 17:13:30 ERROR CollectionMapProvider:41 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 17:13:30 INFO  Main:407 - Outfit2{id=1, name='Jon', instruments={instrument3=0.001}}
+2021-04-02 17:44:39 ERROR DataProviderHibernate:176 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 17:44:39 ERROR DataProviderHibernate:63 - Outfit create error
+2021-04-02 17:44:39 ERROR DataProviderHibernate:64 - java.lang.NullPointerException
+2021-04-02 17:45:51 ERROR DataProviderHibernateTest:184 - java.lang.NullPointerException
+2021-04-02 17:50:52 ERROR DataProviderHibernateTest:188 - java.lang.NullPointerException
+2021-04-02 17:59:22 ERROR DataProviderHibernateTest:200 - java.lang.NullPointerException
+2021-04-02 18:00:37 ERROR DataProviderHibernateTest:200 - java.lang.NullPointerException
+2021-04-02 18:04:27 ERROR DataProviderHibernateTest:204 - java.lang.NullPointerException
+2021-04-02 18:17:31 ERROR DataProviderHibernate:176 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 18:17:31 ERROR DataProviderHibernate:132 - Outfit delete error
+2021-04-02 18:17:31 ERROR DataProviderHibernate:133 - java.lang.NullPointerException
+2021-04-02 18:22:48 ERROR DataProviderHibernateTest:285 - java.lang.NullPointerException
+2021-04-02 18:27:36 ERROR DataProviderHibernate:392 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 18:27:37 ERROR DataProviderHibernateTest:308 - java.lang.NullPointerException
+2021-04-02 18:30:23 ERROR DataProviderHibernateTest:306 - java.lang.NullPointerException
+2021-04-02 18:35:22 ERROR DataProviderHibernate:392 - org.hibernate.NonUniqueObjectException: A different object with the same identifier value was already associated with the session : [ru.sfedu.hiber.lab5.models.MechanicalMeasurement#0]
+2021-04-02 18:35:22 ERROR DataProviderHibernateTest:336 - java.lang.NullPointerException
+2021-04-02 18:38:15 ERROR DataProviderHibernate:392 - org.hibernate.NonUniqueObjectException: A different object with the same identifier value was already associated with the session : [ru.sfedu.hiber.lab5.models.MechanicalMeasurement#0]
+2021-04-02 18:38:15 ERROR DataProviderHibernateTest:336 - java.lang.NullPointerException
+2021-04-02 18:41:30 ERROR DataProviderHibernateTest:336 - java.lang.NullPointerException
+2021-04-02 19:04:36 ERROR DataProviderHibernate:151 - Error employee id not found
+2021-04-02 19:04:37 ERROR DataProviderHibernate:151 - Error employee id not found
+2021-04-02 19:04:37 ERROR DataProviderHibernate:393 - java.lang.IllegalArgumentException: attempt to create saveOrUpdate event with null entity
+2021-04-02 19:04:37 ERROR DataProviderHibernateTest:346 - java.lang.NullPointerException
+2021-04-02 19:09:15 ERROR DataProviderHibernate:151 - Error employee id not found
+2021-04-02 19:09:15 ERROR DataProviderHibernate:151 - Error employee id not found
+2021-04-02 19:09:15 ERROR DataProviderHibernate:393 - java.lang.IllegalArgumentException: attempt to create saveOrUpdate event with null entity
+2021-04-02 19:09:16 ERROR DataProviderHibernateTest:346 - java.lang.NullPointerException
+2021-04-02 19:13:48 ERROR DataProviderHibernate:151 - Error employee id not found
+2021-04-02 19:13:49 ERROR DataProviderHibernate:151 - Error employee id not found
+2021-04-02 19:13:49 ERROR DataProviderHibernate:393 - java.lang.IllegalArgumentException: attempt to create saveOrUpdate event with null entity
+2021-04-02 19:13:49 ERROR DataProviderHibernate:151 - Error employee id not found
+2021-04-02 19:16:53 ERROR DataProviderHibernate:151 - Error employee id not found
+2021-04-02 19:38:27 ERROR DataProviderHibernate:151 - Error employee id not found
+2021-04-02 19:49:35 ERROR DataProviderHibernate:151 - Error employee id not found
+2021-04-02 19:52:46 ERROR DataProviderHibernate:393 - org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.hiber.lab5.models.Outfit.executor
+2021-04-02 19:52:46 ERROR DataProviderHibernateTest:351 - java.lang.NullPointerException
+2021-04-02 19:57:26 ERROR DataProviderHibernate:393 - org.hibernate.PropertyValueException: not-null property references a null or transient value : ru.sfedu.hiber.lab5.models.Outfit.executor
+2021-04-02 19:57:27 ERROR DataProviderHibernate:177 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 19:57:27 ERROR DataProviderHibernate:64 - Outfit create error
+2021-04-02 19:57:27 ERROR DataProviderHibernate:65 - java.lang.NullPointerException
+2021-04-02 20:11:51 ERROR DataProviderHibernateTest:356 - java.lang.NullPointerException
+2021-04-02 21:12:09 ERROR DataProviderHibernate:151 - Error employee id not found
+2021-04-02 21:12:09 ERROR DataProviderHibernate:248 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 21:12:09 ERROR DataProviderHibernate:64 - Outfit create error
+2021-04-02 21:12:09 ERROR DataProviderHibernate:65 - java.lang.NullPointerException
+2021-04-02 21:12:09 ERROR DataProviderHibernate:151 - Error employee id not found
+2021-04-02 21:12:09 ERROR DataProviderHibernate:248 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 21:12:09 ERROR DataProviderHibernate:64 - Outfit create error
+2021-04-02 21:12:09 ERROR DataProviderHibernate:65 - java.lang.NullPointerException
+2021-04-02 21:12:09 ERROR DataProviderHibernate:393 - java.lang.IllegalArgumentException: attempt to create saveOrUpdate event with null entity
+2021-04-02 21:12:10 ERROR DataProviderHibernate:177 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 21:12:10 ERROR DataProviderHibernate:64 - Outfit create error
+2021-04-02 21:12:10 ERROR DataProviderHibernate:65 - java.lang.NullPointerException
+2021-04-02 21:38:17 ERROR DataProviderHibernate:151 - Error employee id not found
+2021-04-02 21:38:18 ERROR DataProviderHibernate:248 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 21:38:18 ERROR DataProviderHibernate:64 - Outfit create error
+2021-04-02 21:38:18 ERROR DataProviderHibernate:65 - java.lang.NullPointerException
+2021-04-02 21:38:18 ERROR DataProviderHibernate:151 - Error employee id not found
+2021-04-02 21:38:18 ERROR DataProviderHibernate:248 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 21:38:18 ERROR DataProviderHibernate:64 - Outfit create error
+2021-04-02 21:38:18 ERROR DataProviderHibernate:65 - java.lang.NullPointerException
+2021-04-02 21:38:19 ERROR DataProviderHibernateTest:373 - java.lang.NullPointerException
+2021-04-02 21:42:05 ERROR DataProviderHibernate:151 - Error employee id not found
+2021-04-02 21:42:07 ERROR DataProviderHibernate:248 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 21:42:07 ERROR DataProviderHibernate:64 - Outfit create error
+2021-04-02 21:42:07 ERROR DataProviderHibernate:65 - java.lang.NullPointerException
+2021-04-02 21:42:08 ERROR DataProviderHibernate:151 - Error employee id not found
+2021-04-02 21:42:08 ERROR DataProviderHibernate:248 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 21:42:08 ERROR DataProviderHibernate:64 - Outfit create error
+2021-04-02 21:42:08 ERROR DataProviderHibernate:65 - java.lang.NullPointerException
+2021-04-02 21:42:08 ERROR DataProviderHibernate:393 - java.lang.IllegalArgumentException: attempt to create saveOrUpdate event with null entity
+2021-04-02 21:42:09 ERROR DataProviderHibernateTest:373 - java.lang.NullPointerException
+2021-04-02 22:04:37 ERROR DataProviderHibernate:151 - Error employee id not found
+2021-04-02 22:04:37 ERROR DataProviderHibernate:248 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 22:04:37 ERROR DataProviderHibernate:64 - Outfit create error
+2021-04-02 22:04:37 ERROR DataProviderHibernate:65 - java.lang.NullPointerException
+2021-04-02 22:04:37 ERROR DataProviderHibernateTest:371 - java.lang.NullPointerException
+2021-04-02 22:09:14 ERROR DataProviderHibernate:151 - Error employee id not found
+2021-04-02 22:09:15 INFO  DataProviderHibernate:60 - MyOutfit{id=1, dateStartWork=Fri Apr 02 22:09:00 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=10, name='Park'}, meansMeasurement=MechanicalMeasurement{id=30, name=other ,measurementError=1.0E-4, model=x220}, executor=Executor{id=50, phoneNumber='799999999'}, employees=[]}
+2021-04-02 22:09:15 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 22:09:15 ERROR DataProviderHibernateTest:371 - java.lang.NullPointerException
+2021-04-02 22:20:18 ERROR DataProviderHibernateTest:371 - java.lang.NullPointerException
+2021-04-02 22:23:07 INFO  DataProviderHibernate:60 - MyOutfit{id=1, dateStartWork=Fri Apr 02 22:23:06 MSK 2021, completionDate=null, placeWork=PlaceOfWork{id=10, name='Park'}, meansMeasurement=MechanicalMeasurement{id=30, name=other ,measurementError=1.0E-4, model=x220}, executor=Executor{id=50, phoneNumber='799999999'}, employees=[Employee{id=21, name='Alex', salary=34000.0}, Employee{id=20, name='Sasha', salary=32000.0}]}
+2021-04-02 22:23:07 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 22:23:07 ERROR DataProviderHibernateTest:370 - java.lang.NullPointerException
+2021-04-02 22:33:05 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 22:33:05 ERROR DataProviderHibernate:177 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 22:33:05 ERROR DataProviderHibernate:64 - Outfit create error
+2021-04-02 22:33:05 ERROR DataProviderHibernate:65 - java.lang.NullPointerException
+2021-04-02 22:42:09 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 22:42:09 ERROR DataProviderHibernateTest:370 - java.lang.NullPointerException
+2021-04-02 22:53:01 INFO  DataProviderHibernate:131 - Outfit deleted successful
+2021-04-02 22:53:03 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 22:53:03 ERROR DataProviderHibernateTest:373 - java.lang.NullPointerException
+2021-04-02 22:56:58 INFO  DataProviderHibernate:149 - Outfit deleted successful
+2021-04-02 22:57:00 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 22:57:01 ERROR DataProviderHibernateTest:373 - java.lang.NullPointerException
+2021-04-02 23:09:24 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:09:25 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:09:25 ERROR DataProviderHibernateTest:376 - java.lang.NullPointerException
+2021-04-02 23:11:57 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:11:58 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:11:58 INFO  DataProviderHibernateTest:414 - SQL 8 HQL 8 Criteria 8
+2021-04-02 23:11:59 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:00 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:00 ERROR DataProviderHibernateTest:347 - java.lang.NullPointerException
+2021-04-02 23:12:02 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:02 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:06 INFO  DataProviderHibernateTest:405 - HQL 2162 SQL 576 Criteria 1284
+2021-04-02 23:12:07 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:07 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:08 INFO  DataProviderHibernate:107 - Outfit edited successful
+2021-04-02 23:12:09 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:09 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:09 ERROR DataProviderHibernate:179 - Error employee id not found
+2021-04-02 23:12:09 ERROR DataProviderHibernate:205 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 23:12:09 ERROR DataProviderHibernate:109 - Outfit edit error
+2021-04-02 23:12:09 ERROR DataProviderHibernate:110 - java.lang.NullPointerException
+2021-04-02 23:12:10 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:10 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:11 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:12 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:12 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:12 ERROR DataProviderHibernate:205 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 23:12:12 ERROR DataProviderHibernate:64 - Outfit create error
+2021-04-02 23:12:12 ERROR DataProviderHibernate:65 - java.lang.NullPointerException
+2021-04-02 23:12:13 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:13 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:13 INFO  DataProviderHibernateTest:336 - 2021-04-02 23:12:13.258
+2021-04-02 23:12:14 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:14 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:14 ERROR DataProviderHibernate:205 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 23:12:14 ERROR DataProviderHibernate:133 - Outfit delete error
+2021-04-02 23:12:14 ERROR DataProviderHibernate:134 - java.lang.NullPointerException
+2021-04-02 23:12:15 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:16 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:12:16 INFO  DataProviderHibernate:131 - Outfit deleted successful
+2021-04-02 23:21:55 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:21:55 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:21:56 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:24:07 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:24:08 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:24:09 INFO  DataProviderHibernate:131 - Outfit deleted successful
+2021-04-02 23:24:09 INFO  Main:445 - true
+2021-04-02 23:25:49 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:25:50 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:25:50 INFO  Main:436 - Executor{id=50, phoneNumber='799999999'}
+2021-04-02 23:27:07 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:27:07 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:27:08 INFO  DataProviderHibernate:107 - Outfit edited successful
+2021-04-02 23:32:50 INFO  TestEntityProvider:56 - 1
+2021-04-02 23:32:50 INFO  TestEntityProvider:56 - 2
+2021-04-02 23:32:51 INFO  TestEntityProvider:56 - 1
+2021-04-02 23:32:51 INFO  TestEntityProvider:56 - 2
+2021-04-02 23:32:51 INFO  TestEntityProvider:33 - TestEntity{id=2, name='Name', description='tesut', dateCreated=2021-04-02 23:32:51.015, check=true}
+2021-04-02 23:32:51 INFO  TestEntityProvider:97 - Delete successful
+2021-04-02 23:32:51 INFO  TestEntityProvider:33 - null
+2021-04-02 23:32:51 ERROR TestEntityProviderTest:143 - java.lang.NullPointerException
+2021-04-02 23:32:51 INFO  TestEntityProvider:56 - 1
+2021-04-02 23:32:51 INFO  TestEntityProvider:56 - 2
+2021-04-02 23:32:51 INFO  TestEntityProvider:56 - 3
+2021-04-02 23:32:51 INFO  TestEntityProvider:33 - TestEntity{id=3, name='Name1', description='test', dateCreated=2021-04-02 23:32:51.513, check=true}
+2021-04-02 23:32:51 INFO  TestEntityProviderTest:90 - TestEntity{id=3, name='Name1', description='test', dateCreated=2021-04-02 23:32:51.513, check=true}
+2021-04-02 23:32:51 INFO  TestEntityProvider:56 - 1
+2021-04-02 23:32:51 INFO  TestEntityProvider:56 - 2
+2021-04-02 23:32:51 INFO  TestEntityProvider:33 - null
+2021-04-02 23:32:51 INFO  TestEntityProviderTest:69 - java.lang.NullPointerException
+2021-04-02 23:32:51 INFO  TestEntityProvider:56 - 1
+2021-04-02 23:32:51 INFO  TestEntityProvider:56 - 2
+2021-04-02 23:32:51 INFO  TestEntityProvider:33 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-02 23:32:51.756, check=true}
+2021-04-02 23:32:51 INFO  TestEntityProvider:33 - null
+2021-04-02 23:32:51 ERROR TestEntityProvider:79 - java.lang.NullPointerException
+2021-04-02 23:32:51 ERROR TestEntityProviderTest:130 - java.lang.NullPointerException
+2021-04-02 23:32:51 INFO  TestEntityProvider:56 - 1
+2021-04-02 23:32:52 INFO  TestEntityProvider:56 - 2
+2021-04-02 23:32:52 INFO  TestEntityProvider:33 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-02 23:32:51.966, check=true}
+2021-04-02 23:32:52 INFO  TestEntityProviderTest:57 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-02 23:32:51.966, check=true}
+2021-04-02 23:32:52 INFO  TestEntityProvider:56 - 1
+2021-04-02 23:32:52 INFO  TestEntityProvider:56 - 2
+2021-04-02 23:32:52 INFO  TestEntityProvider:33 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-02 23:32:52.11, check=true}
+2021-04-02 23:32:52 INFO  TestEntityProvider:33 - TestEntity{id=1, name='Name', description='tesut', dateCreated=2021-04-02 23:32:52.11, check=true}
+2021-04-02 23:32:52 INFO  TestEntityProvider:77 - TestEntity{id=1, name='NewName', description='tesut', dateCreated=2021-04-02 23:32:52.11, check=true}
+2021-04-02 23:32:52 INFO  TestEntityProvider:56 - 1
+2021-04-02 23:32:52 INFO  TestEntityProvider:56 - 2
+2021-04-02 23:32:52 INFO  TestEntityProvider:33 - null
+2021-04-02 23:32:52 ERROR TestEntityProvider:99 - java.lang.NullPointerException
+2021-04-02 23:32:52 ERROR TestEntityProviderTest:156 - java.lang.NullPointerException
+2021-04-02 23:32:52 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 23:32:52 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 23:32:52 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 23:32:52 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 23:32:52 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 23:32:52 ERROR CollectionSetProvider:58 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 23:32:52 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 23:32:53 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 23:32:53 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 23:32:53 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 23:32:53 INFO  CollectionSetProvider:100 - Delete successful
+2021-04-02 23:32:53 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 23:32:53 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 23:32:53 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 23:32:53 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 23:32:53 INFO  CollectionSetProvider:55 - [3]
+2021-04-02 23:32:53 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 23:32:53 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 23:32:53 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 23:32:53 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 23:32:54 ERROR CollectionSetProviderTest:64 - java.lang.NullPointerException
+2021-04-02 23:32:54 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 23:32:54 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 23:32:54 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 23:32:54 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 23:32:54 ERROR CollectionSetProviderTest:112 - java.lang.NullPointerException
+2021-04-02 23:32:54 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 23:32:54 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 23:32:54 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 23:32:54 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 23:32:54 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 23:32:54 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 23:32:54 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 23:32:54 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 23:32:54 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 23:32:54 INFO  CollectionSetProvider:55 - [1]
+2021-04-02 23:32:54 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 23:32:54 INFO  CollectionSetProvider:55 - [2]
+2021-04-02 23:32:54 ERROR CollectionSetProvider:102 - java.lang.NullPointerException
+2021-04-02 23:32:55 INFO  CollectionListProvider:41 - [1]
+2021-04-02 23:32:55 INFO  CollectionListProvider:41 - [2]
+2021-04-02 23:32:55 ERROR CollectionListProvider:43 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 23:32:55 INFO  CollectionListProvider:41 - [1]
+2021-04-02 23:32:55 INFO  CollectionListProvider:41 - [2]
+2021-04-02 23:32:55 INFO  CollectionListProvider:102 - Delete successful
+2021-04-02 23:32:55 INFO  CollectionListProvider:41 - [1]
+2021-04-02 23:32:55 INFO  CollectionListProvider:41 - [2]
+2021-04-02 23:32:55 INFO  CollectionListProvider:41 - [1]
+2021-04-02 23:32:55 INFO  CollectionListProvider:41 - [2]
+2021-04-02 23:32:55 INFO  CollectionListProvider:41 - [3]
+2021-04-02 23:32:55 INFO  CollectionListProvider:41 - [1]
+2021-04-02 23:32:55 INFO  CollectionListProvider:41 - [2]
+2021-04-02 23:32:55 ERROR CollectionListProviderTest:87 - java.lang.NullPointerException
+2021-04-02 23:32:55 INFO  CollectionListProvider:41 - [1]
+2021-04-02 23:32:55 INFO  CollectionListProvider:41 - [2]
+2021-04-02 23:32:55 ERROR CollectionListProviderTest:107 - java.lang.NullPointerException
+2021-04-02 23:32:55 INFO  CollectionListProvider:41 - [1]
+2021-04-02 23:32:55 INFO  CollectionListProvider:41 - [2]
+2021-04-02 23:32:55 INFO  CollectionListProvider:41 - [1]
+2021-04-02 23:32:56 INFO  CollectionListProvider:41 - [2]
+2021-04-02 23:32:56 ERROR CollectionListProvider:104 - java.lang.NullPointerException
+2021-04-02 23:32:56 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 23:32:56 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 23:32:56 INFO  CollectionMapProvider:39 - [2]
+2021-04-02 23:32:56 ERROR CollectionMapProvider:41 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 23:32:56 ERROR CollectionMapProvider:41 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 23:32:56 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 23:32:56 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 23:32:56 INFO  CollectionMapProvider:39 - [2]
+2021-04-02 23:32:56 ERROR CollectionMapProvider:41 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 23:32:56 INFO  CollectionMapProvider:99 - Delete successful
+2021-04-02 23:32:56 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 23:32:56 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 23:32:56 INFO  CollectionMapProvider:39 - [2]
+2021-04-02 23:32:56 ERROR CollectionMapProvider:41 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 23:32:56 INFO  CollectionMapProvider:39 - [3]
+2021-04-02 23:32:56 INFO  CollectionMapProvider:39 - [3]
+2021-04-02 23:32:56 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 23:32:56 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 23:32:56 INFO  CollectionMapProvider:39 - [2]
+2021-04-02 23:32:56 ERROR CollectionMapProvider:41 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 23:32:56 ERROR CollectionMapProviderTest:100 - java.lang.NullPointerException
+2021-04-02 23:32:57 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 23:32:57 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 23:32:57 INFO  CollectionMapProvider:39 - [2]
+2021-04-02 23:32:57 ERROR CollectionMapProvider:41 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 23:32:57 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 23:32:57 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 23:32:57 INFO  CollectionMapProvider:39 - [2]
+2021-04-02 23:32:57 ERROR CollectionMapProvider:41 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 23:32:57 ERROR CollectionMapProviderTest:120 - java.lang.NullPointerException
+2021-04-02 23:32:57 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 23:32:57 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 23:32:57 INFO  CollectionMapProvider:39 - [2]
+2021-04-02 23:32:57 ERROR CollectionMapProvider:41 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 23:32:57 INFO  CollectionMapProviderTest:89 - Outfit2{id=1, name='Jon', instruments={instrument3=0.001}}
+2021-04-02 23:32:57 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 23:32:57 INFO  CollectionMapProvider:39 - [1]
+2021-04-02 23:32:57 INFO  CollectionMapProvider:39 - [2]
+2021-04-02 23:32:57 ERROR CollectionMapProvider:41 - javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+2021-04-02 23:32:57 ERROR CollectionMapProvider:101 - java.lang.NullPointerException
+2021-04-02 23:32:58 INFO  Strategy4Provider:69 - [1, 2]
+2021-04-02 23:32:58 INFO  Strategy4ProviderTest:94 - null
+2021-04-02 23:32:58 INFO  Strategy4Provider:69 - [1, 2]
+2021-04-02 23:32:58 INFO  Strategy4Provider:87 - null
+2021-04-02 23:32:58 ERROR Strategy4Provider:112 - java.lang.NullPointerException
+2021-04-02 23:32:58 ERROR Strategy4ProviderTest:132 - java.lang.NullPointerException
+2021-04-02 23:32:58 INFO  Strategy4Provider:69 - [1, 2]
+2021-04-02 23:32:58 INFO  Strategy4Provider:69 - [3, 4]
+2021-04-02 23:32:58 INFO  Strategy4ProviderTest:72 - [3, 4]
+2021-04-02 23:32:58 INFO  Strategy4Provider:69 - [1, 2]
+2021-04-02 23:32:58 INFO  Strategy4Provider:87 - DebitAccount3{overdraftFee=10.00}
+2021-04-02 23:32:58 INFO  Strategy4Provider:130 - Delete successful
+2021-04-02 23:32:58 INFO  Strategy4Provider:69 - [1, 2]
+2021-04-02 23:32:58 INFO  Strategy4Provider:87 - CreditAccount3{owner=Alex, creditLimit=10.00}
+2021-04-02 23:32:58 INFO  Strategy4ProviderTest:102 - CreditAccount3{owner=Alex, creditLimit=10.00}
+2021-04-02 23:32:58 INFO  Strategy4Provider:69 - [1, 2]
+2021-04-02 23:32:58 INFO  Strategy4Provider:87 - null
+2021-04-02 23:32:58 ERROR Strategy4ProviderTest:113 - java.lang.NullPointerException
+2021-04-02 23:32:59 INFO  Strategy4Provider:69 - [1, 2]
+2021-04-02 23:32:59 INFO  Strategy4Provider:87 - CreditAccount3{owner=Alex, creditLimit=10.00}
+2021-04-02 23:32:59 INFO  Strategy4Provider:110 - CreditAccount3{owner=Don1, creditLimit=10.00}
+2021-04-02 23:32:59 INFO  Strategy4Provider:69 - [1, 2]
+2021-04-02 23:32:59 INFO  Strategy4ProviderTest:50 - [CreditAccount3{owner=Alex, creditLimit=10.00}, DebitAccount3{overdraftFee=10.00}]
+2021-04-02 23:32:59 INFO  Strategy4Provider:69 - [1, 2]
+2021-04-02 23:32:59 INFO  Strategy4Provider:87 - null
+2021-04-02 23:32:59 ERROR Strategy4Provider:132 - java.lang.NullPointerException
+2021-04-02 23:32:59 INFO  Strategy2Provider:87 - [1, 2]
+2021-04-02 23:32:59 INFO  Strategy2ProviderTest:95 - null
+2021-04-02 23:32:59 INFO  Strategy2Provider:87 - [1, 2]
+2021-04-02 23:32:59 ERROR Strategy2Provider:112 - java.lang.NullPointerException
+2021-04-02 23:32:59 ERROR Strategy2ProviderTest:113 - java.lang.NullPointerException
+2021-04-02 23:33:00 INFO  Strategy2Provider:87 - [1, 2]
+2021-04-02 23:33:00 INFO  Strategy2Provider:87 - [3, 4]
+2021-04-02 23:33:00 INFO  Strategy2ProviderTest:73 - [3, 4]
+2021-04-02 23:33:00 INFO  Strategy2Provider:87 - [1, 2]
+2021-04-02 23:33:00 INFO  Strategy2Provider:130 - Delete successful
+2021-04-02 23:33:00 INFO  Strategy2Provider:87 - [1, 2]
+2021-04-02 23:33:00 INFO  Strategy2Provider:87 - [1, 2]
+2021-04-02 23:33:00 ERROR Strategy2ProviderTest:132 - java.lang.NullPointerException
+2021-04-02 23:33:00 INFO  Strategy2Provider:87 - [1, 2]
+2021-04-02 23:33:00 INFO  Strategy2Provider:110 - CreditAccount1{owner=Don, creditLimit=10.00}
+2021-04-02 23:33:00 INFO  Strategy2Provider:87 - [1, 2]
+2021-04-02 23:33:00 INFO  Strategy2ProviderTest:51 - [CreditAccount1{owner=Alex, creditLimit=10.00}, DebitAccount1{overdraftFee=10.00}]
+2021-04-02 23:33:00 INFO  Strategy2Provider:87 - [1, 2]
+2021-04-02 23:33:01 ERROR Strategy2Provider:132 - java.lang.NullPointerException
+2021-04-02 23:33:01 INFO  Strategy3Provider:86 - [1, 2]
+2021-04-02 23:33:01 INFO  Strategy3ProviderTest:95 - null
+2021-04-02 23:33:01 INFO  Strategy3Provider:86 - [1, 2]
+2021-04-02 23:33:01 ERROR Strategy3Provider:61 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 23:33:01 ERROR Strategy3Provider:111 - java.lang.NullPointerException
+2021-04-02 23:33:01 ERROR Strategy3ProviderTest:132 - java.lang.NullPointerException
+2021-04-02 23:33:01 INFO  Strategy3Provider:86 - [1, 2]
+2021-04-02 23:33:01 INFO  Strategy3Provider:86 - [3, 4]
+2021-04-02 23:33:01 INFO  Strategy3ProviderTest:73 - [3, 4]
+2021-04-02 23:33:01 INFO  Strategy3Provider:86 - [1, 2]
+2021-04-02 23:33:01 INFO  Strategy3Provider:59 - DebitAccount2{overdraftFee=10.00}
+2021-04-02 23:33:01 INFO  Strategy3Provider:129 - Delete successful
+2021-04-02 23:33:01 INFO  Strategy3Provider:86 - [1, 2]
+2021-04-02 23:33:01 INFO  Strategy3Provider:59 - CreditAccount2{owner=Alex, creditLimit=10.00}
+2021-04-02 23:33:01 INFO  Strategy3Provider:86 - [1, 2]
+2021-04-02 23:33:01 ERROR Strategy3Provider:61 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 23:33:01 ERROR Strategy3ProviderTest:113 - java.lang.NullPointerException
+2021-04-02 23:33:01 INFO  Strategy3Provider:86 - [1, 2]
+2021-04-02 23:33:01 INFO  Strategy3Provider:59 - CreditAccount2{owner=Alex, creditLimit=10.00}
+2021-04-02 23:33:01 INFO  Strategy3Provider:109 - CreditAccount2{owner=Don1, creditLimit=10.00}
+2021-04-02 23:33:01 INFO  Strategy3Provider:86 - [1, 2]
+2021-04-02 23:33:01 INFO  Strategy3ProviderTest:50 - [CreditAccount2{owner=Alex, creditLimit=10.00}, DebitAccount2{overdraftFee=10.00}]
+2021-04-02 23:33:01 INFO  Strategy3Provider:86 - [1, 2]
+2021-04-02 23:33:01 ERROR Strategy3Provider:61 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 23:33:01 ERROR Strategy3Provider:131 - java.lang.NullPointerException
+2021-04-02 23:33:02 INFO  Strategy1Provider:65 - [1, 2]
+2021-04-02 23:33:02 INFO  Strategy1ProviderTest:92 - null
+2021-04-02 23:33:02 INFO  Strategy1Provider:65 - [1, 2]
+2021-04-02 23:33:02 ERROR Strategy1Provider:107 - java.lang.NullPointerException
+2021-04-02 23:33:02 ERROR Strategy1ProviderTest:130 - java.lang.NullPointerException
+2021-04-02 23:33:02 INFO  Strategy1Provider:65 - [1, 2]
+2021-04-02 23:33:02 INFO  Strategy1Provider:65 - [3, 4]
+2021-04-02 23:33:02 INFO  Strategy1ProviderTest:72 - [3, 4]
+2021-04-02 23:33:02 INFO  Strategy1Provider:65 - [1, 2]
+2021-04-02 23:33:02 INFO  Strategy1Provider:125 - Delete successful
+2021-04-02 23:33:02 INFO  Strategy1Provider:65 - [1, 2]
+2021-04-02 23:33:02 INFO  Strategy1ProviderTest:100 - CreditAccount{owner=Alex, creditLimit=10.00}
+2021-04-02 23:33:02 INFO  Strategy1Provider:65 - [1, 2]
+2021-04-02 23:33:02 ERROR Strategy1ProviderTest:111 - java.lang.NullPointerException
+2021-04-02 23:33:02 INFO  Strategy1Provider:65 - [1, 2]
+2021-04-02 23:33:02 INFO  Strategy1Provider:105 - CreditAccount{owner=Alex2, creditLimit=10.00}
+2021-04-02 23:33:02 INFO  Strategy1Provider:65 - [1, 2]
+2021-04-02 23:33:02 INFO  Strategy1ProviderTest:49 - [CreditAccount{owner=Alex, creditLimit=10.00}, DebitAccount{overdraftFee=10.00}]
+2021-04-02 23:33:02 INFO  Strategy1Provider:65 - [1, 2]
+2021-04-02 23:33:02 ERROR Strategy1Provider:127 - java.lang.NullPointerException
+2021-04-02 23:33:05 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:05 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:05 INFO  DataProviderHibernateTest:414 - SQL 8 HQL 8 Criteria 8
+2021-04-02 23:33:07 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:07 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:07 ERROR DataProviderHibernateTest:347 - java.lang.NullPointerException
+2021-04-02 23:33:09 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:09 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:14 INFO  DataProviderHibernateTest:405 - HQL 2472 SQL 694 Criteria 2048
+2021-04-02 23:33:16 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:16 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:16 INFO  DataProviderHibernate:107 - Outfit edited successful
+2021-04-02 23:33:17 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:18 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:18 ERROR DataProviderHibernate:162 - Error employee id not found
+2021-04-02 23:33:18 ERROR DataProviderHibernate:188 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 23:33:18 ERROR DataProviderHibernate:109 - Outfit edit error
+2021-04-02 23:33:18 ERROR DataProviderHibernate:110 - java.lang.NullPointerException
+2021-04-02 23:33:19 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:19 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:19 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:20 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:21 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:21 ERROR DataProviderHibernate:188 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 23:33:21 ERROR DataProviderHibernate:64 - Outfit create error
+2021-04-02 23:33:21 ERROR DataProviderHibernate:65 - java.lang.NullPointerException
+2021-04-02 23:33:21 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:22 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:22 INFO  DataProviderHibernateTest:336 - 2021-04-02 23:33:21.845
+2021-04-02 23:33:23 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:23 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:23 ERROR DataProviderHibernate:188 - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+2021-04-02 23:33:23 ERROR DataProviderHibernate:133 - Outfit delete error
+2021-04-02 23:33:23 ERROR DataProviderHibernate:134 - java.lang.NullPointerException
+2021-04-02 23:33:24 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:24 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-02 23:33:25 INFO  DataProviderHibernate:131 - Outfit deleted successful
+2021-04-02 23:33:26 INFO  HibernateMetaDataProvider:57 - Get role tables grants size 1649
+2021-04-02 23:33:26 INFO  HibernateMetaDataProvider:57 - Get role tables grants size 1649
+2021-04-02 23:33:26 INFO  HibernateMetaDataProvider:37 - Get tables size 211
+2021-04-02 23:33:26 INFO  HibernateMetaDataProvider:37 - Get tables size 211
+2021-04-02 23:33:26 INFO  HibernateMetaDataProvider:47 - Get tables type size 211
+2021-04-02 23:33:26 INFO  HibernateMetaDataProvider:47 - Get tables type size 211
+2021-04-02 23:33:26 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-04-02 23:33:26 INFO  HibernateMetaDataProvider:27 - Get schemas size 6
+2021-04-03 10:13:56 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-03 10:13:56 INFO  DataProviderHibernate:61 - Outfit created successful
+2021-04-03 10:13:57 INFO  DataProviderHibernate:61 - Outfit created successful

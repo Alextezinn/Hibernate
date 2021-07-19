@@ -18,6 +18,7 @@ import ru.sfedu.hiber.utils.HibernateUtil;
 
 import java.io.IOException;
 import java.lang.reflect.Array;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -136,34 +137,42 @@ public class Strategy2Provider implements IProvider{
         return true;
     }
 
+    @Override
+    public void initDb() throws IOException{
+        deleteAll();
+        CreditAccount1 creditAccount = new CreditAccount1();
+        DebitAccount1 debitAccount =  new DebitAccount1();
+        creditAccount.setId(1L);
+        creditAccount.setOwner("Alex");
+        creditAccount.setCreditLimit(new BigDecimal("10"));
+        creditAccount.setBalance(new BigDecimal("105"));
+        creditAccount.setInterestRate(new BigDecimal("123"));
+
+        debitAccount.setId(2L);
+        debitAccount.setBalance(new BigDecimal("1090"));
+        debitAccount.setInterestRate(new BigDecimal("1245"));
+        debitAccount.setOwner("Ura");
+        debitAccount.setOverdraftFee(new BigDecimal("10"));
+
+        save(creditAccount, debitAccount);
+    }
+
+    @Override
+    public void deleteAll() {
+        Constants.ENTITIES_LAB3_STRATEGY2.forEach(entity ->{
+            Session session = getSession();
+            Transaction transaction = session.beginTransaction();
+            String query = String.format(Constants.DELETE_ENTITY, entity);
+            session.createSQLQuery(query).executeUpdate();
+            transaction.commit();
+            session.close();
+        });
+    }
+
 
     private Session getSession(){
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         return sessionFactory.openSession();
     }
-
-
-
-
-
-
-
-//    @Override
-//    public Optional<DebitAccount1> getByDebitAccount1(Class<DebitAccount1> entity, long id){
-//        Session session;
-//        DebitAccount1 debitAccount = null;
-//        Transaction transaction = null;
-//        session = getSession();
-//        try {
-//            transaction = session.beginTransaction();
-//            debitAccount = session.get(entity, id);
-//        }catch (Exception e){
-//            log.error(e);
-//            transaction.rollback();
-//        }finally {
-//            session.close();
-//        }
-//        return Optional.of(debitAccount);
-//    }
 
 }

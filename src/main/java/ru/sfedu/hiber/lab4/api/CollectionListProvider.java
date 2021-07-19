@@ -6,12 +6,14 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import ru.sfedu.hiber.Constants;
-import ru.sfedu.hiber.lab4.models.Outfit;
+import ru.sfedu.hiber.lab4.models.Outfit3;
 import ru.sfedu.hiber.lab4.models.Outfit1;
 import ru.sfedu.hiber.lab4.models.Outfit2;
 import ru.sfedu.hiber.utils.HibernateUtil;
 
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
@@ -107,22 +109,47 @@ public class CollectionListProvider implements IProvider{
         return true;
     }
 
+    @Override
+    public void initDb() throws IOException {
+        deleteAll();
+
+        Outfit1 outfit = new Outfit1();
+        outfit.setId(1L);
+        outfit.setName("Kira");
+        List<String> instruments = new ArrayList<>();
+        instruments.add("instrument90");
+        outfit.setInstruments(instruments);
+        save(Arrays.asList(outfit));
+
+        Outfit1 newOutfit = new Outfit1();
+        newOutfit.setId(2L);
+        newOutfit.setName("Alex");
+        List<String> newInstruments = new ArrayList<>();
+        newInstruments.add("instrument9");
+        newOutfit.setInstruments(newInstruments);
+        save(Arrays.asList(newOutfit));
+    }
+
+    @Override
+    public void deleteAll() {
+        Constants.ENTITIES_LAB4_LIST.forEach(entity ->{
+            Session session = getSession();
+            Transaction transaction = session.beginTransaction();
+            String query = String.format(Constants.DELETE_ENTITY, entity);
+            session.createSQLQuery(query).executeUpdate();
+            transaction.commit();
+            session.close();
+        });
+    }
+
 
     public Session getSession(){
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         return sessionFactory.openSession();
     }
 
-
-
-
-
-
-
-
-
     @Override
-    public Optional<Outfit> update(Class entity, long id, String name) {
+    public Optional<Outfit3> update(Class entity, long id, String name) {
         return Optional.empty();
     }
 

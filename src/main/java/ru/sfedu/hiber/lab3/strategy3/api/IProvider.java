@@ -5,6 +5,7 @@ import ru.sfedu.hiber.lab3.strategy2.model.DebitAccount1;
 import ru.sfedu.hiber.lab3.strategy3.model.CreditAccount2;
 import ru.sfedu.hiber.lab3.strategy3.model.DebitAccount2;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.Optional;
 
@@ -20,4 +21,8 @@ public interface IProvider {
     List<Long> save(CreditAccount2 creditAccount, DebitAccount2 debitAccount);
 
     <T> Optional<T> getByTypeAccount(long id);
+
+    void initDb() throws IOException;
+
+    void deleteAll();
 }
